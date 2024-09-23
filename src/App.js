@@ -1,3 +1,5 @@
+import React from "react";
+
 // import { useEffect, useState } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -6,6 +8,7 @@ import "./App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import OtherWork from "./pages/OtherWork";
+import Project from "./pages/Project";
 import Projects from "./pages/Projects";
 
 function App() {
@@ -30,6 +33,10 @@ function App() {
       // about page
       path: "/about",
       element: <About />,
+    },
+    {
+      path: "/project/:id",
+      element: <Project />,
     },
   ]);
 

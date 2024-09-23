@@ -161,6 +161,29 @@ body {
   color: #e1a1b5;
 }
 
+.ProjectDiv {
+  border: 3px solid black;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.ProjectDiv--image {
+  flex-basis: 30%;
+  min-height: 200px;
+}
+
+.ProjectDiv--image img {
+  height: auto;
+  width: 100%;
+}
+
+.ProjectDiv--text {
+  flex-basis: 70%;
+  flex-direction: column;
+}
+
 @media (max-width: 768px) {
   .PageWrapper {
     margin: 0 auto;

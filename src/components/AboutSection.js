@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="PageWrapper">
+    <main className="PageWrapper">
       <div className="AboutDiv">
         <div className="AboutText">
           <h1>About</h1>
@@ -35,7 +35,7 @@ function AboutSection() {
           </a>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

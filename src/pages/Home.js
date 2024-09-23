@@ -6,9 +6,9 @@ function Home() {
   return (
     <>
       <Header />
-      <div className="PageWrapper">
+      <main className="PageWrapper">
         <SallyIntro />
-      </div>
+      </main>
     </>
   );
 }
