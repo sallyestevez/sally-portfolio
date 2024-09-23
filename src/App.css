@@ -1,38 +1,233 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Quicksand:wght@300..700&family=Ranchers&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+html {
+  margin: 0 auto;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background: linear-gradient(300deg, #b5aad3, #f6e5ea, #acccc5);
+  background-color: #f6e5ea;
+  background-size: 180% 180%;
+  animation: gradient-animation 48s ease infinite;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.PageWrapper {
+  margin: 0 auto;
+  max-width: 120vw;
+  padding: 8px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  margin: 20px 0px;
+  position: relative;
+}
+
+.logo {
+}
+
+.menu-icon {
+  display: none;
+}
+
+.home {
+  display: none;
+}
+
+.nav-elements {
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8e7dba;
+  text-decoration: none;
+}
+
+.nav-elements ul a:hover {
+  color: #99c1b9;
+}
+
+.nav-elements ul a.active {
+  color: #e1a1b5;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #e1a1b5;
+  content: "";
+  bottom: -2px;
+}
+
+.SallyTitleCSS {
+  display: flex;
+  justify-content: center;
+}
+
+.SallyTitleText {
+  max-width: 850px;
+  text-align: center;
+  color: #b5aad3;
+  font-family: "Ranchers", sans-serif;
+  letter-spacing: 2.5px;
+  margin: 8px 16px;
+  font-size: 44px;
+}
+
+.IntroSpacing1 {
+  padding: 24px;
+}
+
+.IntroSpacing2 {
+  padding: 16px;
+}
+
+.rotatingImageDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.rotatingImageDiv img {
+  height: 200px;
+  animation: spin 10s linear infinite;
+}
+
+.AboutDiv,
+.ContactDiv {
+  color: #b5aad3;
+  width: 800px;
+}
+
+@media (max-width: 768px) {
+  .PageWrapper {
+    margin: 0 auto;
+    max-width: 120vw;
+    padding: 8px;
+  }
+
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .SallyTitleCSS {
+    display: flex;
+    justify-content: center;
+  }
+
+  .SallyTitleText {
+    max-width: 650px;
+    text-align: center;
+    color: #b5aad3;
+    font-family: "Ranchers", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .PageWrapper {
+    margin: 0 auto;
+    max-width: 120vw;
+    padding: 8px;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .home {
+    display: flex;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: rgb(246, 229, 234, 50%);
+    backdrop-filter: blur(10px);
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+    padding-left: 24px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+
+  .rotatingImageDiv img {
+    height: 150px;
+    animation: spin 10s linear infinite;
+  }
+
+  .SallyTitleText {
+    max-width: 340px;
   }
 }
