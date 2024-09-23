@@ -142,10 +142,29 @@ body {
   animation: spin 10s linear infinite;
 }
 
-.AboutDiv,
-.ContactDiv {
-  color: #b5aad3;
-  width: 800px;
+.AboutDiv {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.AboutText {
+  max-width: 850px;
+  color: #8e7dba;
+  margin: 8px 16px;
+  font-size: 24px;
+}
+
+.AboutText a {
+  text-decoration: none;
+  color: #8e7dba;
+}
+
+.AboutText a:hover {
+  text-decoration: underline;
+  color: #e1a1b5;
 }
 
 @media (max-width: 768px) {
@@ -171,6 +190,14 @@ body {
     font-family: "Ranchers", sans-serif;
     letter-spacing: 2.5px;
     font-size: 20px;
+  }
+
+  .AboutDiv {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
   }
 }
 
