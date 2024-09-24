@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectCard( {blurb, id, imageAlt, imageSrc, title, type}) {
+function ProjectCard({ blurb, id, imageAlt, imageSrc, title, type }) {
   return (
     <div className="ProjectDiv">
       <div className="ProjectDiv--image">

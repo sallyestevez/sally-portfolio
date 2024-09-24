@@ -9,16 +9,16 @@ function Projects() {
       <main className="PageWrapper">
         <h1 className="projectHeader">Projects</h1>
         {ProjectData.map((project, i) => (
-          <ProjectCard 
+          <ProjectCard
             key={i}
-            blurb={project.blurb} 
-            date={project.publishedDate} 
+            blurb={project.blurb}
+            date={project.publishedDate}
             id={project.id}
-            imageAlt={project.image.alt} 
-            imageSrc={project.image.url} 
+            imageAlt={project.image.alt}
+            imageSrc={project.image.url}
             title={project.title}
-        />
-      ))}
+          />
+        ))}
       </main>
     </>
   );
