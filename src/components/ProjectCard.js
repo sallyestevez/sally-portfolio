@@ -1,6 +1,14 @@
 import React from "react";
 
-function ProjectCard({ blurb, id, imageAlt, imageSrc, title, type }) {
+function ProjectCard({
+  blurb,
+  completed,
+  id,
+  imageAlt,
+  imageSrc,
+  title,
+  type,
+}) {
   return (
     <div className="ProjectDiv">
       <div className="ProjectDiv--image">
@@ -8,10 +16,12 @@ function ProjectCard({ blurb, id, imageAlt, imageSrc, title, type }) {
       </div>
       <div className="ProjectDiv--text">
         <h2 className="title">{title}</h2>
-        <p className="title">{type}</p>
+        <p className="type">{type}</p>
+        <p className="completed">{completed}</p>
         <p className="blurb">{blurb}</p>
         <p className="link">
-          <a href={`/project/${id}`}>Read More</a>
+          <a href={`/project/${id}`}>Learn More</a>{" "}
+          <a href={`/project/${id}`}>Visit Site</a>
         </p>
       </div>
     </div>

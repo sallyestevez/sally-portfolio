@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import OtherWork from "./pages/OtherWork";
 import Project from "./pages/Project";
 import Projects from "./pages/Projects";
+import EclipseSoundscapes from "./pages/EclipseSoundscapes";
 
 function App() {
   // goes to page based on file path
@@ -37,6 +38,14 @@ function App() {
     {
       path: "/project/:id",
       element: <Project />,
+    },
+    {
+      path: "/project/:id",
+      element: <EclipseSoundscapes />,
+    },
+    {
+      path: "/project/:id",
+      element: <EclipseSoundscapes />,
     },
   ]);
 

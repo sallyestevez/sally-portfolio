@@ -1,4 +1,9 @@
 import EclipseSoundscapes from "./images/EclipseSoundscapes.png";
+import RetailHorrorStories from "./images/RetailHorrorStories.png";
+import KirbysCorner from "./images/KirbysCorner.png";
+import MiiverseRevival from "./images/MiiverseRevival.png";
+import Discord from "./images/Discord.png";
+import VisitMira from "./images/VisitMira.png";
 
 var projects = [
   {
@@ -14,7 +19,7 @@ var projects = [
       },
     ],
     image: {
-      url: { EclipseSoundscapes },
+      url: EclipseSoundscapes,
       alt: "Eclipse Soundscapes screenshot",
     },
   },
@@ -35,7 +40,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../RetailHorrorStories.png",
+      url: RetailHorrorStories,
       alt: "Retail Horror Stories screenshot",
     },
   },
@@ -60,7 +65,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../KirbysCorner.png",
+      url: KirbysCorner,
       alt: "Kirby's Corner screenshot",
     },
   },
@@ -86,7 +91,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../EclipseSoundscapes.png",
+      url: EclipseSoundscapes,
       alt: "Eclipse Soundscapes screenshot",
     },
   },
@@ -111,7 +116,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../MiiverseRevival.png",
+      url: MiiverseRevival,
       alt: "Miiverse Revival screenshot",
     },
   },
@@ -136,7 +141,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../DiscordFileCompressor.png",
+      url: Discord,
       alt: "Discord File Compressor",
     },
   },
@@ -157,7 +162,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../VisitMira.png",
+      url: VisitMira,
       alt: "Visit Mira screenshot",
     },
   },

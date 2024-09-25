@@ -161,22 +161,26 @@ body {
   text-decoration: underline;
 }
 
+.projectHeader {
+  padding-bottom: 16px;
+}
+
 .ProjectDiv {
   border: 3px solid black;
   display: flex;
-  gap: 30px;
-  margin-bottom: 50px;
-  padding: 25px;
+  gap: 32px;
+  margin-bottom: 16px;
+  padding: 24px;
 }
 
 .ProjectDiv--image {
   flex-basis: 30%;
-  min-height: 200px;
+  /* min-height: 200px; */
 }
 
 .ProjectDiv--image img {
   height: auto;
-  width: 100%;
+  width: 200px;
 }
 
 .ProjectDiv--text {
@@ -184,21 +188,32 @@ body {
   flex-direction: column;
 }
 
+.link p {
+  gap: 16px;
+}
+
+.link a {
+  color: black;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: #e1a1b5;
+  text-decoration: underline;
+}
+
 .ProjectsSection {
-  /* align-items: baseline;
   display: flex;
-  flex-flow: column wrap;
   justify-content: center;
+  margin-bottom: 0;
+  gap: 16px;
+}
+
+.Project {
   margin: 30px;
-  width: 500px; */
-  display: flex;
-  width: 336px;
-  height: 300px;
-  /* flex-direction: column; */
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  flex-flow: column wrap;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
 }
 
 @media (max-width: 768px) {
@@ -232,6 +247,21 @@ body {
     margin: auto;
     padding: 10px;
     width: 90%;
+  }
+
+  .ProjectsSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-bottom: 0; */
+    /* gap: 16px; */
+  }
+
+  .Project {
+    margin: 30px;
+    margin: 0;
+    padding: 0;
+    width: auto;
   }
 }
 
