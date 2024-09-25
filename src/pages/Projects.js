@@ -8,17 +8,19 @@ function Projects() {
       <Header />
       <main className="PageWrapper">
         <h1 className="projectHeader">Projects</h1>
-        {ProjectData.map((project, i) => (
-          <ProjectCard
-            key={i}
-            blurb={project.blurb}
-            date={project.publishedDate}
-            id={project.id}
-            imageAlt={project.image.alt}
-            imageSrc={project.image.url}
-            title={project.title}
-          />
-        ))}
+        <div className="ProjectsSection">
+          {ProjectData.map((project, i) => (
+            <ProjectCard
+              key={i}
+              blurb={project.blurb}
+              date={project.publishedDate}
+              id={project.id}
+              imageAlt={project.image.alt}
+              imageSrc={project.image.url}
+              title={project.title}
+            />
+          ))}
+        </div>
       </main>
     </>
   );
