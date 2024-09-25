@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { NavLink } from "react-router-dom";
-import icon from "./icon.png";
-import { ReactComponent as Hamburger } from "./hamburger-menu.svg";
+import icon from "./images/icon.png";
+import { ReactComponent as Hamburger } from "./images/hamburger-menu.svg";
 
 // code used as reference: https://www.codevertiser.com/reactjs-responsive-navbar/
 function Header() {

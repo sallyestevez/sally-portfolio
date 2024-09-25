@@ -1,3 +1,5 @@
+import EclipseSoundscapes from "./images/EclipseSoundscapes.png";
+
 var projects = [
   {
     id: "ktown4u-redesign",
@@ -12,7 +14,7 @@ var projects = [
       },
     ],
     image: {
-      url: "../EclipseSoundscapes.png",
+      url: { EclipseSoundscapes },
       alt: "Eclipse Soundscapes screenshot",
     },
   },

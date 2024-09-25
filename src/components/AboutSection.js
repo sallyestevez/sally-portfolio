@@ -20,9 +20,8 @@ function AboutSection() {
           </p>
           <p>
             Feel free to chat with me about anything ranging from my hobbies
-            (video games! reading! knitting!{" "}
+            (video games! reading! knitting!
             <a href="https://rateyourmusic.com/~memelectraheart" target="blank">
-              {" "}
               music!
             </a>
             ) to professional opportunities. :)

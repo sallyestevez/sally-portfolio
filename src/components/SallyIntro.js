@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import explore from "./explore.png";
+import explore from "./images/explore.png";
 
 function SallyIntro() {
   return (
