@@ -15,9 +15,13 @@ function SallyIntro() {
       </div>
       <div className="IntroSpacing1"></div>
       <div class="rotatingImageDiv">
-        <div class="rotatingImage">
+        <div class="">
           <NavLink to="/projects">
-            <img src={explore} alt="rotating explore pic"></img>
+            <img
+              class="rotatingImage"
+              src={explore}
+              alt="rotating explore pic"
+            ></img>
           </NavLink>
         </div>
       </div>

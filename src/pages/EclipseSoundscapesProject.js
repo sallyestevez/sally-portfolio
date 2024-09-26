@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import EclipseSoundscapesContent from "../components/EclipseSoundscapesContent";
 
-function EclipseSoundscapes() {
+function EclipseSoundscapesProject() {
   return (
     <>
       <main className="pageWrapper">
@@ -13,4 +13,4 @@ function EclipseSoundscapes() {
   );
 }
 
-export default EclipseSoundscapes;
+export default EclipseSoundscapesProject;

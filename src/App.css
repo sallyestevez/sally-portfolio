@@ -131,74 +131,142 @@ body {
   justify-content: center;
 }
 
-.rotatingImageDiv img {
+.rotatingImage img {
   animation: spin 10s linear infinite;
   height: 200px;
 }
 
-.AboutDiv {
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.projectHeader h1 {
+  font-family: "Ranchers", sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  margin-bottom: 16px;
+}
+
+/*.ProjectsSection {
   display: flex;
-  justify-content: center;
-  margin: auto;
-  padding: 10px;
-  width: 75%;
-}
-
-.AboutText {
-  color: #8e7dba;
-  font-size: 24px;
-  margin: 8px 16px;
-  max-width: 850px;
-}
-
-.AboutText a {
-  color: #8e7dba;
-  text-decoration: none;
-}
-
-.AboutText a:hover {
-  color: #e1a1b5;
-  text-decoration: underline;
-}
-
-.projectHeader {
-  padding-bottom: 16px;
-}
-
-.ProjectsSection {
-  display: flex;
-  gap: 16px;
-  height: auto;
-  justify-content: center;
-  margin-bottom: 0;
-  width: auto;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
 .Project {
-  display: flex;
-  flex-direction: column;
-  /* height: auto; */
-  justify-content: center;
-  margin: 0;
-  /* padding: 0; */
-  width: 1000px;
-}
-
-.ProjectDiv {
-  align-items: center;
-  border: 3px solid black;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
   margin-bottom: 16px;
-  padding: 24px;
-  /* height: auto; */
+  padding: 16px;
 }
 
-/* what does flex-basis do? */
-/* .ProjectDiv--image {
-  flex-basis: 30%;
+.ProjectImage {
+  display: flex;
+  justify-content: center;
+}
+
+.ProjectImage img {
+  height: 350px;
+}
+
+.ProjectText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ProjectTextLeft {
+  width: 400px;
+}
+
+.ProjectTitle {
+  font-family: "Ranchers", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-bottom: 8px;
+}
+
+.ProjectDate,
+.ProjectCategory {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.ProjectTextRight {
+  width: 500px;
+}
+
+.ProjectSummary {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding-top: 8px;
+  padding-bottom: 8px;
 } */
+
+.ProjectsSection {
+  width: 900px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProjectTextRight {
+  width: 500px;
+}
+
+.ProjectText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ProjectTitle {
+  font-family: "Ranchers", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.ProjectDate,
+.ProjectCategory {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.ProjectSummary {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 200;
+  padding-top: 0;
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+.ProjectImage img {
+  height: 450px;
+  border: 0.5px solid #1f271b;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.ProjectImage img:hover {
+  box-shadow: 10px 10px #232323;
+  transform: translateY(-5px);
+}
 
 /* NOTE: MAKE ALL IMAGES THE SAME SIZE (HEIGHT + WIDTH) 
 OR CREATE GIFS OF THE PAGES */
@@ -330,7 +398,7 @@ OR CREATE GIFS OF THE PAGES */
     margin-top: 22px;
   }
 
-  .rotatingImageDiv img {
+  .rotatingImage img {
     animation: spin 10s linear infinite;
     height: 150px;
   }

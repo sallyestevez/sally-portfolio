@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 import OtherWork from "./pages/OtherWork";
 import Project from "./pages/Project";
 import Projects from "./pages/Projects";
-import EclipseSoundscapes from "./pages/EclipseSoundscapes";
+import EclipseSoundscapesProject from "./pages/EclipseSoundscapesProject";
 
 function App() {
   // goes to page based on file path
@@ -40,12 +40,8 @@ function App() {
       element: <Project />,
     },
     {
-      path: "/project/:id",
-      element: <EclipseSoundscapes />,
-    },
-    {
-      path: "/project/:id",
-      element: <EclipseSoundscapes />,
+      path: "/project/eclipse-soundscapes",
+      element: <EclipseSoundscapesProject />,
     },
   ]);
 
