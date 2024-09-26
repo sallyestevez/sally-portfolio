@@ -165,27 +165,55 @@ body {
   padding-bottom: 16px;
 }
 
-.ProjectDiv {
-  border: 3px solid black;
+.ProjectsSection {
   display: flex;
-  gap: 32px;
-  margin-bottom: 16px;
-  padding: 24px;
+  gap: 16px;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 0;
+  width: auto;
 }
 
-.ProjectDiv--image {
-  flex-basis: 30%;
-  /* min-height: 200px; */
+.Project {
+  display: flex;
+  flex-direction: column;
+  /* height: auto; */
+  justify-content: center;
+  margin: 0;
+  /* padding: 0; */
+  width: 1000px;
 }
+
+.ProjectDiv {
+  align-items: center;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 24px;
+  /* height: auto; */
+}
+
+/* what does flex-basis do? */
+/* .ProjectDiv--image {
+  flex-basis: 30%;
+} */
+
+/* NOTE: MAKE ALL IMAGES THE SAME SIZE (HEIGHT + WIDTH) 
+OR CREATE GIFS OF THE PAGES */
 
 .ProjectDiv--image img {
   height: auto;
-  width: 200px;
+  width: 300px;
 }
 
 .ProjectDiv--text {
-  flex-basis: 70%;
+  display: flex;
   flex-direction: column;
+  height: auto;
+  /* padding: 16px; */
+  /* width: 200px */
 }
 
 .link p {
@@ -194,26 +222,15 @@ body {
 
 .link a {
   color: black;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
   text-decoration: none;
 }
 
 .link a:hover {
   color: #e1a1b5;
   text-decoration: underline;
-}
-
-.ProjectsSection {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0;
-  gap: 16px;
-}
-
-.Project {
-  margin: 30px;
-  margin: 0;
-  padding: 0;
-  width: 1000px;
 }
 
 @media (max-width: 768px) {
@@ -261,7 +278,7 @@ body {
     margin: 30px;
     margin: 0;
     padding: 0;
-    width: auto;
+    width: 350px;
   }
 }
 
