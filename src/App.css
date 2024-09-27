@@ -145,74 +145,14 @@ body {
   }
 }
 
-.projectHeader h1 {
+.PageTitle {
   font-family: "Ranchers", sans-serif;
-  font-size: 2.5em;
+  font-size: 48px;
   font-weight: bold;
   letter-spacing: 2.5px;
   margin-bottom: 16px;
+  color: #8e7dba;
 }
-
-/*.ProjectsSection {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-}
-
-.Project {
-  margin-bottom: 16px;
-  padding: 16px;
-}
-
-.ProjectImage {
-  display: flex;
-  justify-content: center;
-}
-
-.ProjectImage img {
-  height: 350px;
-}
-
-.ProjectText {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.ProjectTextLeft {
-  width: 400px;
-}
-
-.ProjectTitle {
-  font-family: "Ranchers", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  padding-bottom: 8px;
-}
-
-.ProjectDate,
-.ProjectCategory {
-  font-family: "Hind Siliguri", sans-serif;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 500;
-}
-
-.ProjectTextRight {
-  width: 500px;
-}
-
-.ProjectSummary {
-  font-family: "Hind Siliguri", sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.2em;
-  padding-top: 8px;
-  padding-bottom: 8px;
-} */
 
 .ProjectsSection {
   width: 900px;
@@ -223,9 +163,26 @@ body {
   margin-right: auto;
 }
 
-.ProjectTextRight {
-  width: 500px;
+.Project {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 0.5px solid #88d960;
 }
+
+.ProjectImage {
+  padding-bottom: 8px;
+}
+
+.ProjectImage img {
+  height: 450px;
+  width: auto;
+  border: 0.5px solid #88d960;
+}
+
+/* .ProjectImage img:hover {
+  box-shadow: 10px 10px #232323;
+  transform: translateY(-5px);
+} */
 
 .ProjectText {
   display: flex;
@@ -233,55 +190,58 @@ body {
   justify-content: space-between;
 }
 
+.ProjectTextRight {
+  width: 500px;
+}
+
 .ProjectTitle {
   font-family: "Ranchers", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
-  font-size: 2.5em;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  padding-bottom: 8px;
 }
 
 .ProjectDate,
 .ProjectCategory {
   font-family: "Hind Siliguri", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: italic;
   font-size: 1.2em;
 }
 
 .ProjectSummary {
   font-family: "Hind Siliguri", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   padding-top: 0;
   font-size: 2em;
   line-height: 1.2;
 }
 
-.ProjectImage img {
-  height: 450px;
-  border: 0.5px solid #1f271b;
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
-.ProjectImage img:hover {
-  box-shadow: 10px 10px #232323;
-  transform: translateY(-5px);
-}
-
 /* NOTE: MAKE ALL IMAGES THE SAME SIZE (HEIGHT + WIDTH) 
 OR CREATE GIFS OF THE PAGES */
 
-.ProjectDiv--image img {
-  height: auto;
-  width: 300px;
-}
-
-.ProjectDiv--text {
+.AboutDiv {
   display: flex;
-  flex-direction: column;
-  height: auto;
-  /* padding: 16px; */
-  /* width: 200px */
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+}
+.AboutText {
+  color: #8e7dba;
+  font-size: 24px;
+  margin: 8px 16px;
+  max-width: 850px;
+}
+.AboutText a {
+  color: #8e7dba;
+  text-decoration: none;
+}
+.AboutText a:hover {
+  color: #e1a1b5;
+  text-decoration: underline;
 }
 
 .link p {

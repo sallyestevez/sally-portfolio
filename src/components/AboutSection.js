@@ -5,7 +5,7 @@ function AboutSection() {
     <main className="PageWrapper">
       <div className="AboutDiv">
         <div className="AboutText">
-          <h1>About</h1>
+          <h1 className="PageTitle">About</h1>
           <p>Hey, I'm Sally!</p>
           <p>I'm a product designer and front-end developer based in NYC.</p>
           <p>
