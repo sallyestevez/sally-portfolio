@@ -157,10 +157,16 @@ body {
 .ProjectsSection {
   width: 900px;
   height: auto;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
+}
+
+.ProjectWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 
 .Project {
@@ -180,7 +186,6 @@ body {
 }
 
 .ProjectImage img:hover {
-
 }
 
 /* .ProjectImage img:hover {
@@ -190,41 +195,33 @@ body {
 
 .ProjectText {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-}
-
-.ProjectTextRight {
-  width: 500px;
 }
 
 .ProjectTitle {
   font-family: "Ranchers", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 40px;
+  font-size: 36px;
   letter-spacing: 1.5px;
   padding-bottom: 8px;
-}
-
-.ProjectDate,
-.ProjectCategory {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 1.2em;
 }
 
 .ProjectSummary {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 400;
   padding-top: 0;
-  font-size: 2em;
+  font-size: 28px;
   line-height: 1.2;
 }
 
-/* NOTE: MAKE ALL IMAGES THE SAME SIZE (HEIGHT + WIDTH) 
-OR CREATE GIFS OF THE PAGES */
+.ProjectDateCategory {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 20px;
+}
 
 .AboutDiv {
   display: flex;
@@ -299,18 +296,24 @@ OR CREATE GIFS OF THE PAGES */
   }
 
   .ProjectsSection {
+    width: 600px;
+    height: auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    /* margin-bottom: 0; */
-    /* gap: 16px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ProjectWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
   }
 
   .Project {
-    /* margin: 30px; */
-    margin: 0;
-    padding: 0;
-    width: 350px;
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 0.5px solid #88d960;
   }
 }
 
