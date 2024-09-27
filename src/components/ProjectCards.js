@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 // import ProjectData from "../components/ProjectData";
 
 // Ktown4u Project
+import Ktown4uRedesign from "./images/Ktown4uRedesign.png";
 
 // Retail Horror Stories Project
 import RetailHorrorStories from "./images/RetailHorrorStories.png";
@@ -35,8 +36,8 @@ function ProjectCards() {
           <div className="ProjectImage">
           <NavLink to="/project/ktown4u-redesign">
               <img
-                src={EclipseSoundscapes}
-                alt="Kirby's Corner screenshot"
+                src={Ktown4uRedesign}
+                alt="Ktown4u screenshot"
               ></img>
             </NavLink>
           </div>

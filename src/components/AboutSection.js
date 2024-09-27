@@ -20,14 +20,10 @@ function AboutSection() {
           </p>
           <p>
             Feel free to chat with me about anything ranging from my hobbies
-            (video games! reading! knitting!
-            <a href="https://rateyourmusic.com/~memelectraheart" target="blank">
-              music!
-            </a>
-            ) to professional opportunities. :)
+            (<a href="https://rateyourmusic.com/~memelectraheart" target="blank">music!</a> video games! reading! knitting!) to professional opportunities. :)
           </p>
           <br></br>
-          <h1>Contact</h1>
+          <h1 className="PageTitle">Contact</h1>
           <a href="mailto:sme418@nyu.edu">
             <p>sme418@nyu.edu</p>
           </a>
