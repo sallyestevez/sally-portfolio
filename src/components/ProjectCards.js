@@ -28,9 +28,8 @@ import VisitMira from "./images/VisitMira.png";
 // MAKE ALL IMAGES THE SAME SIZE & CREATE GIFS OF THE SCREENSHOTS
 function ProjectCards() {
   return (
-    <main className="PageWrapper">
+    <main>
       <div className="ProjectsSection" id="projects">
-        <h1 className="PageTitle">Projects</h1>
         <div className="ProjectWrapper">
           {/* Ktown4u Redesign */}
           <div className="Project">
@@ -40,7 +39,9 @@ function ProjectCards() {
               </NavLink>
             </div>
             <div className="ProjectText">
-              <div className="ProjectTitle">Ktown4u Web Redesign</div>
+              <NavLink to="/project/ktown4u-redesign">
+                <div className="ProjectTitle">Ktown4u Web Redesign</div>
+              </NavLink>
               <div className="ProjectSummary">
                 Improving web users' shopping experiences
               </div>
@@ -61,9 +62,11 @@ function ProjectCards() {
               </NavLink>
             </div>
             <div className="ProjectText">
-              <div className="ProjectTitle">
-                Retail Horror Stories: Black Friday Edition
-              </div>
+              <NavLink to="/project/retail-horror-stories">
+                <div className="ProjectTitle">
+                  Retail Horror Stories: Black Friday Edition
+                </div>
+              </NavLink>
               <div className="ProjectSummary">
                 A "Choose Your Own Adventure" game inspired by real retail
                 workers' experiences
@@ -75,101 +78,120 @@ function ProjectCards() {
           </div>
         </div>
 
-        {/* Kirby's Corner */}
-        <div className="Project">
-          <div className="ProjectImage">
-            <NavLink to="/project/kirbys-corner">
-              <img src={KirbysCorner} alt="Kirby's Corner screenshot"></img>
-            </NavLink>
-          </div>
-          <div className="ProjectText">
-            <div className="ProjectTitle">Kirby's Corner</div>
-            <div className="ProjectSummary">
-              An interactive fanpage dedicated to the Kirby universe
+        <div className="ProjectWrapper">
+          {/* Kirby's Corner */}
+          <div className="Project">
+            <div className="ProjectImage">
+              <NavLink to="/project/kirbys-corner">
+                <img src={KirbysCorner} alt="Kirby's Corner screenshot"></img>
+              </NavLink>
             </div>
-            <div className="ProjectDateCategory">
-              <p>Spring 2023 | Web Development</p>
+            <div className="ProjectText">
+              <NavLink to="/project/kirbys-corner">
+                <div className="ProjectTitle">Kirby's Corner</div>
+              </NavLink>
+              <div className="ProjectSummary">
+                An interactive fanpage dedicated to the Kirby universe
+              </div>
+              <div className="ProjectDateCategory">
+                <p>Spring 2023 | Web Development</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Eclipse Soundscapes */}
+          <div className="Project">
+            <div className="ProjectImage">
+              <NavLink to="/project/eclipse-soundscapes">
+                <img
+                  src={EclipseSoundscapes}
+                  alt="Eclipse Soundscapes screenshot"
+                ></img>
+              </NavLink>
+            </div>
+            <div className="ProjectText">
+              <NavLink to="/project/eclipse-soundscapes">
+                <div className="ProjectTitle">Eclipse Soundscapes</div>
+              </NavLink>
+              <div className="ProjectSummary">
+                Improving the accessibility of a field researcher training page
+                for older adults
+              </div>
+              <div className="ProjectDateCategory">
+                Fall 2022 | UX Design, UI Design
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Eclipse Soundscapes */}
-        <div className="Project">
-          <div className="ProjectImage">
-            <NavLink to="/project/eclipse-soundscapes">
-              <img
-                src={EclipseSoundscapes}
-                alt="Eclipse Soundscapes screenshot"
-              ></img>
-            </NavLink>
-          </div>
-          <div className="ProjectText">
-            <div className="ProjectTitle">Eclipse Soundscapes</div>
-            <div className="ProjectSummary">
-              Enhancing the accessibility of a field researcher training page
-              for older adults
+        <div className="ProjectWrapper">
+          {/* Miiverse Revival */}
+          <div className="Project">
+            <div className="ProjectImage">
+              <NavLink to="/project/miiverse-revival">
+                <img
+                  src={MiiverseRevival}
+                  alt="Miiverse Revival screenshot"
+                ></img>
+              </NavLink>
             </div>
-            <div className="ProjectDateCategory">
-              Fall 2022 | UX Design, UI Design
+            <div className="ProjectText">
+              <NavLink to="/project/miiverse-revival">
+                <div className="ProjectTitle">Miiverse Revival</div>
+              </NavLink>
+              <div className="ProjectSummary">
+                A "revival" of the now-defunct Nintendo social media site called
+                Miiverse
+              </div>
+              <div className="ProjectDateCategory">
+                <p>Fall 2022 | Web Development</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Discord File Compressor */}
+          <div className="Project">
+            <div className="ProjectImage">
+              <NavLink to="/project/discord-file-compressor">
+                <img
+                  src={Discord}
+                  alt="Discord File Compressor screenshot"
+                ></img>
+              </NavLink>
+            </div>
+            <div className="ProjectText">
+              <NavLink to="/project/discord-file-compressor">
+                <div className="ProjectTitle">Discord File Compressor</div>
+              </NavLink>
+              <div className="ProjectSummary">
+                An in-app compression feature for larger files sent through
+                Discord
+              </div>
+              <div className="ProjectDateCategory">
+                <p>Fall 2022 | UX Design, UI Design</p>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Miiverse Revival */}
-        <div className="Project">
-          <div className="ProjectImage">
-            <NavLink to="/project/miiverse-revival">
-              <img
-                src={MiiverseRevival}
-                alt="Miiverse Revival screenshot"
-              ></img>
-            </NavLink>
-          </div>
-          <div className="ProjectText">
-            <div className="ProjectTitle">Miiverse Revival</div>
-            <div className="ProjectSummary">
-              A "revival" of the now-defunct Nintendo social media site called
-              Miiverse
+        <div className="ProjectWrapper">
+          {/* Visit Mira */}
+          <div className="Project">
+            <div className="ProjectImage">
+              <NavLink to="/project/visit-mira">
+                <img src={VisitMira} alt="Visit Mira screenshot"></img>
+              </NavLink>
             </div>
-            <div className="ProjectDateCategory">
-              <p>Fall 2022 | Web Development</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Discord File Compressor */}
-        <div className="Project">
-          <div className="ProjectImage">
-            <NavLink to="/project/discord-file-compressor">
-              <img src={Discord} alt="Discord File Compressor screenshot"></img>
-            </NavLink>
-          </div>
-          <div className="ProjectText">
-            <div className="ProjectTitle">Discord File Compressor</div>
-            <div className="ProjectSummary">
-              An in-app compression feature for larger files sent through
-              Discord
-            </div>
-            <div className="ProjectDateCategory">
-              <p>Fall 2022 | UX Design, UI Design</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Visit Mira */}
-        <div className="Project">
-          <div className="ProjectImage">
-            <NavLink to="/project/visit-mira">
-              <img src={VisitMira} alt="Visit Mira screenshot"></img>
-            </NavLink>
-          </div>
-          <div className="ProjectText">
-            <div className="ProjectTitle">Visit Mira</div>
-            <div className="ProjectSummary">
-              We're stuck on a different planet - by choice
-            </div>
-            <div className="ProjectDateCategory">
-              <p>Fall 2021 | Web Development</p>
+            <div className="ProjectText">
+              <NavLink to="/project/visit-mira">
+                <div className="ProjectTitle">Visit Mira</div>
+              </NavLink>
+              <div className="ProjectSummary">
+                We're stuck on a different planet - by choice
+              </div>
+              <div className="ProjectDateCategory">
+                <p>Fall 2021 | Web Development</p>
+              </div>
             </div>
           </div>
         </div>
