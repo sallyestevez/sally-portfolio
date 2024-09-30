@@ -11,6 +11,8 @@ html {
   min-height: 100vh;
   padding-left: 50px;
   padding-right: 50px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 body {
@@ -146,33 +148,38 @@ body {
 }
 
 .PageTitle {
+  color: #8e7dba;
   font-family: "Ranchers", sans-serif;
   font-size: 48px;
   font-weight: bold;
   letter-spacing: 2.5px;
-  margin-bottom: 16px;
-  color: #8e7dba;
+  margin-bottom: 24px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
 }
 
 .ProjectsSection {
-  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
   height: auto;
-  /* display: flex; */
-  /* flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
+  width: 950px;
 }
 
-.ProjectWrapper {
+/* .ProjectWrapper {
   display: flex;
   flex-direction: row;
   gap: 16px;
-}
+} */
 
 .Project {
-  margin-bottom: 16px;
-  padding: 16px;
   border: 0.5px solid #88d960;
+  padding: 16px;
+  width: 450px;
 }
 
 .ProjectImage {
@@ -180,9 +187,8 @@ body {
 }
 
 .ProjectImage img {
-  /* height: 450px; */
-  width: 100%;
   border: 0.5px solid #88d960;
+  width: 100%;
 }
 
 .ProjectImage img:hover {
@@ -199,28 +205,38 @@ body {
   justify-content: space-between;
 }
 
+.ProjectText a {
+  color: #8e7dba;
+  text-decoration: none;
+}
+
+.ProjectText a:hover {
+  color: #e1a1b5;
+  text-decoration: underline;
+}
+
 .ProjectTitle {
   font-family: "Ranchers", sans-serif;
-  font-weight: 600;
   font-style: normal;
   font-size: 36px;
+  font-weight: 600;
   letter-spacing: 1.5px;
   padding-bottom: 8px;
 }
 
 .ProjectSummary {
   font-family: "Hind Siliguri", sans-serif;
-  font-weight: 400;
-  padding-top: 0;
   font-size: 28px;
+  font-weight: 400;
   line-height: 1.2;
+  padding-top: 0;
 }
 
 .ProjectDateCategory {
   font-family: "Hind Siliguri", sans-serif;
-  font-weight: 200;
   font-style: italic;
   font-size: 20px;
+  font-weight: 200;
 }
 
 .AboutDiv {
@@ -230,16 +246,19 @@ body {
   padding: 10px;
   width: 75%;
 }
+
 .AboutText {
   color: #8e7dba;
   font-size: 24px;
   margin: 8px 16px;
-  max-width: 850px;
+  width: 100%;
 }
+
 .AboutText a {
   color: #8e7dba;
   text-decoration: none;
 }
+
 .AboutText a:hover {
   color: #e1a1b5;
   text-decoration: underline;
@@ -260,6 +279,17 @@ body {
 .link a:hover {
   color: #e1a1b5;
   text-decoration: underline;
+}
+
+.FooterDiv {
+  color: #8e7dba;
+  display: flex;
+  font-family: "Ranchers", sans-serif;
+  justify-content: center;
+  letter-spacing: 2.5px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -304,16 +334,20 @@ body {
     margin-right: auto;
   }
 
-  .ProjectWrapper {
+  /* .ProjectWrapper {
     display: flex;
     flex-direction: row;
     gap: 16px;
-  }
+  } */
 
   .Project {
     margin-bottom: 16px;
     padding: 16px;
     border: 0.5px solid #88d960;
+  }
+
+  .AboutText {
+    width: 100%;
   }
 }
 
@@ -372,5 +406,27 @@ body {
 
   .SallyTitleText {
     max-width: 340px;
+  }
+
+  .ProjectsSection {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+  }
+
+  .Project {
+    width: 325px;
+  }
+
+  /* .ProjectImage img {
+    border: 0.5px solid #88d960;
+    width: 100%;
+  } */
+
+  .AboutText {
+    width: 100%;
   }
 }

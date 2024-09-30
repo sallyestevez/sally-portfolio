@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import ProjectCard from "../components/ProjectCard";
 import ProjectData from "../components/ProjectData";
+import Footer from "../components/Footer";
 
 // CHECK OTHER PORTFOLIOS TO SEE HOW THEY DISPLAY THEIR PROJECTS
 // TRY TO MAKE ALL PROJECT DIVS THE SAME HEIGHT
@@ -14,11 +15,10 @@ function Projects() {
     <>
       <Header />
       <div className="PageWrapper">
-        <div className="row">
-          <h1 className="PageTitle">Projects</h1>
-          <ProjectCard item={item} />
-        </div>
+        <h1 className="PageTitle">Projects</h1>
+        <ProjectCard item={item} />
       </div>
+      <Footer />
     </>
   );
 }

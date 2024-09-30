@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 function ProjectCard({ item }) {
   return (
@@ -19,7 +18,7 @@ function ProjectCard({ item }) {
                 </a>
                 <div className="ProjectSummary">{Val.summary}</div>
                 <div className="ProjectDateCategory">
-                  <p>${Val.category}</p>
+                  <p>{Val.category}</p>
                 </div>
               </div>
             </div>

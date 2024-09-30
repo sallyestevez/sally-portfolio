@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Styling & Components
 import "./App.css";
-import About from "./pages/About";
+import AboutPage from "./pages/AboutPage";
 import Home from "./pages/Home";
 import OtherWork from "./pages/OtherWork";
 import Project from "./pages/Project";
@@ -33,7 +33,7 @@ function App() {
     {
       // about page
       path: "/about",
-      element: <About />,
+      element: <AboutPage />,
     },
     {
       path: "/project/:id",
