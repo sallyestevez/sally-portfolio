@@ -156,7 +156,10 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
 }
 
 .ProjectsSection {
@@ -291,6 +294,16 @@ body {
   width: 100%;
 }
 
+@media (max-width: 1080px) {
+  .ProjectsSection {
+    width: 850px;
+  }
+
+  .Project {
+    width: 400px;
+  }
+}
+
 @media (max-width: 768px) {
   .PageWrapper {
     margin: 0 auto;
@@ -334,6 +347,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
