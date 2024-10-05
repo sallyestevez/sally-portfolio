@@ -39,7 +39,8 @@ body {
 
 .PageWrapper {
   margin: 0 auto;
-  max-width: 120vw;
+  /* max-width: 120vw; */
+  width: auto;
   padding: 8px;
 }
 
@@ -154,6 +155,7 @@ body {
   font-weight: bold;
   letter-spacing: 2.5px;
   display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 16px;
@@ -165,8 +167,9 @@ body {
 .ProjectsSection {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 24px;
   height: auto;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   width: 950px;
@@ -330,6 +333,18 @@ body {
   width: 100%;
 }
 
+@media (min-width: 1660px) {
+  .ProjectsSection {
+    width: 1600px;
+    justify-content: space-around;
+    padding: 0px;
+  }
+
+  .Project {
+    width: 750px;
+  }
+}
+
 @media (max-width: 1080px) {
   .ProjectsSection {
     width: 850px;
@@ -340,7 +355,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 959px) {
   .PageWrapper {
     margin: 0 auto;
     max-width: 120vw;
@@ -366,7 +381,8 @@ body {
   }
 
   .PageTitle {
-    padding: 8px 8px;
+    padding: 8px;
+    padding-bottom: 16px;
     width: 100%;
   }
 
@@ -379,13 +395,13 @@ body {
   }
 
   .ProjectsSection {
-    width: 600px;
+    width: auto;
     height: auto;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    gap: 16px;
   }
 
   /* .ProjectWrapper {
@@ -398,11 +414,31 @@ body {
     margin-bottom: 16px;
     padding: 16px;
     border: 0.5px solid #88d960;
+    width: auto;
   }
 
   .AboutText {
     width: 100%;
   }
+}
+
+@media (max-width: 700px) {
+  /* .ProjectsSection {
+    width: 550px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 16px;
+  } */
+
+  /* .Project {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 0.5px solid #88d960;
+    width: auto;
+  } */
 }
 
 @media (max-width: 600px) {
@@ -468,11 +504,11 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: auto;
   }
 
   .Project {
-    width: 325px;
+    width: auto;
   }
 
   /* .ProjectImage img {
