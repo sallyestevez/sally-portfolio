@@ -18,7 +18,9 @@ function ProjectCard({ item }) {
                 </a>
                 <div className="ProjectSummary">{Val.summary}</div>
                 <div className="ProjectDateCategory">
-                  <p>{Val.category}</p>
+                  <p>
+                    {Val.date} | {Val.category}
+                  </p>
                 </div>
               </div>
             </div>

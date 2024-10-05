@@ -6,7 +6,7 @@ import Discord from "./images/Discord.png";
 import VisitMira from "./images/VisitMira.png";
 import Ktown4uRedesign from "./images/Ktown4uRedesign.png";
 
-var projects = [
+var ProjectData = [
   {
     id: "ktown4u-redesign",
     title: "Ktown4u Web Redesign",
@@ -14,7 +14,7 @@ var projects = [
     alt: "Ktown4u redesign screenshot",
     summary: "Improving users' shopping experiences",
     date: "Summer 2024 - Present",
-    category: "Summer 2024 - Present | UX Design, UI Design",
+    category: "UX Design, UI Design",
   },
   {
     id: "retail-horror-stories",
@@ -23,7 +23,7 @@ var projects = [
     alt: "Retail Horror Stories screenshot",
     summary: `A "Choose Your Own Adventure" game inspired by real retail workers' experiences`,
     date: "Spring 2023",
-    category: "Spring 2023 | Web Development, Game Development",
+    category: "Web Development, Game Development",
   },
   {
     id: "kirbys-corner",
@@ -32,7 +32,7 @@ var projects = [
     alt: "Kirby's Corner homepage screenshot",
     summary: "An interactive fanpage dedicated to the Kirby universe",
     date: "Spring 2023",
-    category: "Spring 2023 | Web Development",
+    category: "Web Development",
   },
   {
     id: "eclipse-soundscapes",
@@ -42,7 +42,7 @@ var projects = [
     summary:
       "Improving the accessibility of a field researcher training page for older adults",
     date: "Fall 2022",
-    category: "Fall 2022 | UX Design, UI Design",
+    category: "UX Design, UI Design",
   },
   {
     id: "miiverse-revival",
@@ -51,7 +51,7 @@ var projects = [
     alt: "Miiverse Revival Activity Feed screenshot",
     summary: `A "revival" of the now-defunct Nintendo social media site called Miiverse`,
     date: "Fall 2022",
-    category: "Fall 2022 | Web Development",
+    category: "Web Development",
   },
   {
     id: "discord-file-compressor",
@@ -61,7 +61,7 @@ var projects = [
     summary:
       "An in-app compression feature for larger files sent through Discord",
     date: "Fall 2022",
-    category: "Fall 2022 | UX Design, UI Design",
+    category: "UX Design, UI Design",
   },
   {
     id: "visit-mira",
@@ -70,7 +70,7 @@ var projects = [
     alt: "Visit Mira homepage screenshot",
     summary: "We're stuck on a different planet - by choice",
     date: "Fall 2021",
-    category: "Fall 2021 | Web Development",
+    category: "Web Development",
   },
   // {
   //   id: "",
@@ -95,4 +95,4 @@ var projects = [
   // },
 ];
 
-export default projects;
+export default ProjectData;

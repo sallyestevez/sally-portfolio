@@ -172,6 +172,29 @@ body {
   width: 950px;
 }
 
+.ButtonsDiv {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px;
+}
+
+.FilterButton {
+  border-radius: 2px;
+  background-color: #8e7dba;
+  border: transparent;
+  font-size: 16px;
+  font-weight: 600px;
+  padding: 8px;
+}
+
+.FilterButton:hover {
+  background-color: #b5aad3;
+}
+
+.FilterButton:focus {
+  outline: 1px dotted #8e7dba;
+}
+
 /* .ProjectWrapper {
   display: flex;
   flex-direction: row;
