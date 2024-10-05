@@ -8,10 +8,7 @@ function AboutPage() {
     <>
       <Header />
       <div className="PageWrapper">
-        {/* edit pagetitle class         */}
-        <h1 className="PageTitle">About</h1>
         <AboutSection />
-        <h1 className="PageTitle">Contact</h1>
         <Contact />
         <Footer />
       </div>
