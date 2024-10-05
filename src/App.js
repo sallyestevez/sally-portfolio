@@ -11,6 +11,7 @@ import OtherWork from "./pages/OtherWork";
 import Project from "./pages/Project";
 import Projects from "./pages/Projects";
 import EclipseSoundscapesProject from "./pages/EclipseSoundscapesProject";
+import Ktown4uRedesignProject from "./pages/Ktown4uRedesign";
 
 function App() {
   // goes to page based on file path
@@ -38,6 +39,10 @@ function App() {
     {
       path: "/project/:id",
       element: <Project />,
+    },
+    {
+      path: "/project/ktown4u-redesign",
+      element: <Ktown4uRedesignProject />,
     },
     {
       path: "/project/eclipse-soundscapes",

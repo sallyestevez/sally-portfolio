@@ -4,9 +4,6 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectData from "../components/ProjectData";
 import Footer from "../components/Footer";
 
-// CHECK OTHER PORTFOLIOS TO SEE HOW THEY DISPLAY THEIR PROJECTS
-// TRY TO MAKE ALL PROJECT DIVS THE SAME HEIGHT
-// RESPONSIVE WEB PAGES
 // USE SAME FORMAT FOR 'OTHER WORK' PAGE
 
 function Projects() {

@@ -16,7 +16,7 @@ function Project() {
           <header className="project--header">
             <div className="project-header-text">
               <h1 className="PageTitle">{projectData.title}</h1>
-              <h2 className="projectBlurb">{projectData.blurb}</h2>
+              <h2 className="projectBlurb">{projectData.summary}</h2>
             </div>
           </header>
         </div>

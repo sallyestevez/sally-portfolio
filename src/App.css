@@ -20,6 +20,7 @@ body {
   background: linear-gradient(300deg, #b5aad3, #f6e5ea, #acccc5);
   background-color: #f6e5ea;
   background-size: 180% 180%;
+  color: #2a233d;
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 500;
   height: 100%;
@@ -175,35 +176,6 @@ body {
   width: 950px;
 }
 
-.ButtonsDiv {
-  display: flex;
-  justify-content: flex-start;
-  padding: 16px;
-}
-
-.FilterButton {
-  border-radius: 2px;
-  background-color: #8e7dba;
-  border: transparent;
-  font-size: 16px;
-  font-weight: 600px;
-  padding: 8px;
-}
-
-.FilterButton:hover {
-  background-color: #b5aad3;
-}
-
-.FilterButton:focus {
-  outline: 1px dotted #8e7dba;
-}
-
-/* .ProjectWrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-} */
-
 .Project {
   border: 0.5px solid #88d960;
   padding: 16px;
@@ -215,8 +187,9 @@ body {
 }
 
 .ProjectImage img {
-  border: 0.5px solid #88d960;
   width: 100%;
+  border: 0.5px solid #88d960;
+  border-radius: 4px;
 }
 
 .ProjectImage img:hover {
@@ -265,6 +238,29 @@ body {
   font-style: italic;
   font-size: 20px;
   font-weight: 200;
+}
+
+.ProjectHeader {
+  padding: 16px;
+  text-align: center;
+}
+
+.ProjectHeaderText h1 {
+  padding-bottom: 0;
+}
+
+.ProjectContent {
+  text-align: center;
+}
+
+.ProjectContent h3 {
+  padding-bottom: 8px;
+}
+
+.ProjectImage--ProjectPage img {
+  border: 0.5px solid #88d960;
+  border-radius: 4px;
+  width: 500px;
 }
 
 .AboutDiv {

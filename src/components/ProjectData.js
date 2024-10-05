@@ -24,6 +24,7 @@ var ProjectData = [
     summary: `A "Choose Your Own Adventure" game inspired by real retail workers' experiences`,
     date: "Spring 2023",
     category: "Web Development, Game Development",
+    link: "https://sallyestevez.github.io/kirbys-corner/",
   },
   {
     id: "kirbys-corner",
@@ -33,6 +34,7 @@ var ProjectData = [
     summary: "An interactive fanpage dedicated to the Kirby universe",
     date: "Spring 2023",
     category: "Web Development",
+    link: "https://sallyestevez.github.io/kirbys-corner/",
   },
   {
     id: "eclipse-soundscapes",
@@ -52,6 +54,7 @@ var ProjectData = [
     summary: `A "revival" of the now-defunct Nintendo social media site called Miiverse`,
     date: "Fall 2022",
     category: "Web Development",
+    link: "https://bespoke-seahorse-15f2e4.netlify.app/",
   },
   {
     id: "discord-file-compressor",
@@ -71,6 +74,7 @@ var ProjectData = [
     summary: "We're stuck on a different planet - by choice",
     date: "Fall 2021",
     category: "Web Development",
+    link: "https://sallyestevez.github.io/JSLibrary/",
   },
   // {
   //   id: "",
