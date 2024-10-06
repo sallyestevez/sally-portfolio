@@ -1,18 +1,9 @@
 import React from "react";
-// import { useParams } from "react-router";
-import ProjectData from "../components/ProjectData";
-import Header from "../components/Header";
-// import Footer
+import ProjectData from "../ProjectData";
 
-function Ktown4uRedesignProject() {
-  //   const { id } = useParams();
-
-  //   const projectData = ProjectData.find((project) => project.id === id);
+function Ktown4uRedesignContent() {
 
   return (
-    <>
-      <main className="pageWrapper">
-        <Header />
         <div>
           <header className="ProjectHeader">
             <div className="ProjectHeaderText">
@@ -38,9 +29,7 @@ function Ktown4uRedesignProject() {
           </div>
           </section>
         </div>
-      </main>
-    </>
   );
 }
 
-export default Ktown4uRedesignProject;
+export default Ktown4uRedesignContent;

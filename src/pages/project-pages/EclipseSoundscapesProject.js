@@ -1,14 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
-import EclipseSoundscapesContent from "../components/EclipseSoundscapesContent";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import EclipseSoundscapesContent from "../../components/project-content/EclipseSoundscapesContent";
 
 function EclipseSoundscapesProject() {
   return (
     <>
+      <Header />
       <main className="pageWrapper">
-        <Header />
         <EclipseSoundscapesContent />
       </main>
+      <Footer />
     </>
   );
 }

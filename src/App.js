@@ -10,8 +10,9 @@ import Home from "./pages/Home";
 import OtherWork from "./pages/OtherWork";
 import Project from "./pages/Project";
 import Projects from "./pages/Projects";
-import EclipseSoundscapesProject from "./pages/EclipseSoundscapesProject";
-import Ktown4uRedesignProject from "./pages/Ktown4uRedesign";
+import EclipseSoundscapesProject from "./pages/project-pages/EclipseSoundscapesProject";
+import Ktown4uRedesignProject from "./pages/project-pages/Ktown4uRedesignProject";
+import DiscordProject from "./pages/project-pages/DiscordProject";
 
 function App() {
   // goes to page based on file path
@@ -47,6 +48,10 @@ function App() {
     {
       path: "/project/eclipse-soundscapes",
       element: <EclipseSoundscapesProject />,
+    },
+    {
+      path: "/project/discord-file-compressor",
+      element: <DiscordProject />,
     },
   ]);
 
