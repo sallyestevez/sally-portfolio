@@ -27,7 +27,17 @@ function DiscordContent() {
         </div>
         <div className="ProjectResearchPlan">
             <h3>Research Plan</h3>
-            
+            {/* competitive analysis */}
+            {/* user interviews */}
+            {/* user classification */}
+            {/* quotes from users */}
+        </div>
+        <div className="ProjectResearchPlan">
+            <h3>Research Plan</h3>
+            {/* competitive analysis */}
+            {/* user interviews */}
+            {/* user classification */}
+            {/* quotes from users */}
         </div>
         <h3>Full case study coming soon!</h3>
         {/* <div className="ProjectImage--ProjectPage">
