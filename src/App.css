@@ -177,7 +177,9 @@ body {
 }
 
 .Project {
-  border: 0.5px solid #88d960;
+  background-color: rgba(246, 229, 234, 50%);
+  border: 2.5px groove #99C1B9;
+  border-radius: 4px;
   padding: 16px;
   width: 450px;
 }
@@ -188,7 +190,7 @@ body {
 
 .ProjectImage img {
   width: 100%;
-  border: 0.5px solid #88d960;
+  border: 1px groove #ACCCC5;
   border-radius: 4px;
 }
 
@@ -258,9 +260,14 @@ body {
 }
 
 .ProjectImage--ProjectPage img {
-  border: 0.5px solid #88d960;
+  border: 1px groove #ACCCC5;
   border-radius: 4px;
   width: 500px;
+}
+
+.FigmaPrototype {
+  width: 1000px;
+  height: 800px;
 }
 
 .AboutDiv {
@@ -339,6 +346,11 @@ body {
   .Project {
     width: 750px;
   }
+
+  .FigmaPrototype {
+    width: 1200px;
+    height: 1000px;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -348,6 +360,11 @@ body {
 
   .Project {
     width: 400px;
+  }
+
+  .FigmaPrototype {
+    width: 800px;
+    height: 450px;
   }
 }
 
@@ -400,41 +417,41 @@ body {
     gap: 16px;
   }
 
-  /* .ProjectWrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-  } */
-
   .Project {
     margin-bottom: 16px;
     padding: 16px;
-    border: 0.5px solid #88d960;
     width: auto;
   }
 
   .AboutText {
     width: 100%;
   }
+
+  /* .FigmaPrototype {
+    width: 800px;
+    height: 450px;
+  } */
 }
 
-@media (max-width: 700px) {
-  /* .ProjectsSection {
-    width: 550px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 16px;
-  } */
+@media (max-width: 1024px) {
+  .FigmaPrototype {
+    width: 850px;
+    height: 850px;
+  }
+}
 
-  /* .Project {
-    margin-bottom: 16px;
-    padding: 16px;
-    border: 0.5px solid #88d960;
-    width: auto;
-  } */
+@media (max-width: 912px) {
+  .FigmaPrototype {
+    width: 700px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .FigmaPrototype {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -507,12 +524,12 @@ body {
     width: auto;
   }
 
-  /* .ProjectImage img {
-    border: 0.5px solid #88d960;
-    width: 100%;
-  } */
-
   .AboutText {
     width: 100%;
+  }
+
+  .FigmaPrototype {
+    width: auto;
+    height: 450px;
   }
 }
