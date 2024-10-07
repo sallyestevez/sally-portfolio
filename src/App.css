@@ -178,7 +178,7 @@ body {
 
 .Project {
   background-color: rgba(246, 229, 234, 50%);
-  border: 2.5px groove #99C1B9;
+  border: 2.5px groove #99c1b9;
   border-radius: 4px;
   padding: 16px;
   width: 450px;
@@ -190,7 +190,7 @@ body {
 
 .ProjectImage img {
   width: 100%;
-  border: 1px groove #ACCCC5;
+  border: 1px groove #acccc5;
   border-radius: 4px;
 }
 
@@ -245,14 +245,26 @@ body {
 .ProjectHeader {
   padding: 16px;
   text-align: center;
+  margin: auto;
+}
+
+.ProjectHeaderText {
+  padding-bottom: 8px;
+  width: 75%;
+  margin: auto;
 }
 
 .ProjectHeaderText h1 {
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
+}
+
+.ProjectHeaderText h2 {
 }
 
 .ProjectContent {
-  text-align: center;
+  /* padding: 100px; */
+  margin: auto;
+  width: 75%;
 }
 
 .ProjectContent h3 {
@@ -260,9 +272,9 @@ body {
 }
 
 .ProjectImage--ProjectPage img {
-  border: 1px groove #ACCCC5;
+  border: 1px groove #acccc5;
   border-radius: 4px;
-  width: 500px;
+  width: 600px;
 }
 
 .FigmaPrototype {

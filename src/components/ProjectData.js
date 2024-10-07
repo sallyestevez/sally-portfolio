@@ -64,7 +64,7 @@ var ProjectData = [
     summary:
       "An in-app compression feature for larger files sent through Discord",
     date: "Fall 2022",
-    category: "UX Design, UI Design",
+    category: "UX Design",
   },
   {
     id: "visit-mira",
