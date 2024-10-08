@@ -254,31 +254,58 @@ body {
   margin: auto;
 }
 
-.ProjectHeaderText h1 {
-  /* padding-bottom: 0; */
-}
-
-.ProjectHeaderText h2 {
-}
-
 .ProjectContent {
-  /* padding: 100px; */
   margin: auto;
-  width: 75%;
+  width: 50%;
 }
 
-.ProjectContent h3 {
+.ProjectPageSubtitle {
+  color: #8e7dba;
+  font-family: "Ranchers", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.5px;
   padding-bottom: 8px;
 }
 
 .ProjectImage--ProjectPage img {
   border: 1px groove #acccc5;
   border-radius: 4px;
-  width: 600px;
+  width: 700px;
+}
+
+.ProjectDiv {
+  padding-bottom: 16px;
+}
+
+.ProjectDiv h2 {
+  color: #4A615C;
+  font-family: "Hind Siliguri", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ProjectDiv p {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.quote {
+  padding-bottom: 8px;
+}
+
+.FigmaPrototypeDiv {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  padding-bottom: 16px;
 }
 
 .FigmaPrototype {
-  width: 1000px;
+  width: 800px;
   height: 800px;
 }
 
@@ -359,6 +386,16 @@ body {
     width: 750px;
   }
 
+  .ProjectContent {
+    margin: auto;
+    width: 50%;
+  }
+
+  .FigmaPrototypeDiv {
+    display: flex;
+    justify-content: center;
+  }
+
   .FigmaPrototype {
     width: 1200px;
     height: 1000px;
@@ -374,10 +411,21 @@ body {
     width: 400px;
   }
 
+  .ProjectImage--ProjectPage img {
+    width: 90%;
+  }
+
+  .ProjectContent {
+    margin: auto;
+    width: 75%;
+  }
+
   .FigmaPrototype {
     width: 800px;
     height: 450px;
   }
+
+  
 }
 
 @media (max-width: 959px) {
@@ -438,11 +486,6 @@ body {
   .AboutText {
     width: 100%;
   }
-
-  /* .FigmaPrototype {
-    width: 800px;
-    height: 450px;
-  } */
 }
 
 @media (max-width: 1024px) {
