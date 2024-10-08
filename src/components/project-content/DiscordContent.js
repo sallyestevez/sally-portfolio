@@ -100,6 +100,8 @@ function DiscordContent() {
               point, and Facebook Messenger faces a lack of privacy as user messages are scanned.
             </p>
             <h2>Takeaways</h2>
+            <p>People use Discord for the same reasons - communicating with friends</p>
+            <p>Users have similar issues with Discord. They are unhappy with the upload limit and often have to resort to workarounds.</p>
             <p>Unlike its competitors, Discord does not require a subscription to access most features. Message history is always
               available, and users can easily find old messages with search options.
             </p>
