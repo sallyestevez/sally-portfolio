@@ -31,6 +31,16 @@ function DiscordContent() {
             </p>
             <p><strong>Tools:</strong> Figma, Figjam</p>
           </div>
+          <div className="ProjectDiv ProjectScenario">
+          <div className="ProjectPageSubtitle">Scenario</div>
+          <h2>Picture this: you're a high school student who found a funny video online. You download the video because you 
+            want to share it wish your friends on Discord. Unfortunately, when you try to send the video, Discord tells you it's
+            too large. The maximum upload size is 8MB, but Discord tells you that you can bypass this limit by subscribing to Nitro.
+            This is out of the question because you don't have a job and can't afford the $10 a month for Nitro. You still want to
+            share the video, so you choose to use an external app to compress it, which is more work for you. Something that was only
+            supposed to take a few seconds now takes longer than that.
+          </h2>
+          </div>
           <div className="ProjectDiv ProjectOverview">
             <div className="ProjectPageSubtitle">Overview</div>
             <h2>What is Discord?</h2>
