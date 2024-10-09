@@ -9,12 +9,12 @@ function ProjectCard({ item }) {
           return (
             <div className="Project">
               <div className="ProjectImage">
-              <Link to={`/project/${Val.id}`} target="_blank">
+              <Link to={`/project/${Val.id}`}>
                   <img src={Val.img} alt={`${Val.title} screenshot`} />
               </Link>
               </div>
               <div className="ProjectText">
-              <Link to={`/project/${Val.id}`} target="_blank">
+              <Link to={`/project/${Val.id}`}>
                   <div className="ProjectTitle">{Val.title}</div>
                 </Link>
                 <div className="ProjectSummary">{Val.summary}</div>
