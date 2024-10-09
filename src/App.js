@@ -17,6 +17,7 @@ import RetailHorrorStoriesProject from "./pages/project-pages/RetailHorrorStorie
 import KirbysCornerProject from "./pages/project-pages/KirbysCornerProject";
 import MiiverseRevivalProject from "./pages/project-pages/MiiverseRevivalProject";
 import VisitMiraProject from "./pages/project-pages/VisitMiraProject";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   // goes to page based on file path
@@ -80,6 +81,7 @@ function App() {
 
   return (
     <div className="App">
+      <ScrollToTop />
       <RouterProvider router={router} />
     </div>
   );
