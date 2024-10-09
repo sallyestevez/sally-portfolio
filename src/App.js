@@ -8,7 +8,7 @@ import "./App.css";
 import AboutPage from "./pages/AboutPage";
 import Home from "./pages/Home";
 import OtherWork from "./pages/OtherWork";
-import Project from "./pages/Project";
+// import Project from "./pages/Project";
 import Projects from "./pages/Projects";
 import EclipseSoundscapesProject from "./pages/project-pages/EclipseSoundscapesProject";
 import Ktown4uRedesignProject from "./pages/project-pages/Ktown4uRedesignProject";

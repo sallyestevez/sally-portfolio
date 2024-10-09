@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ProjectCard({ item }) {
   return (
@@ -8,14 +9,14 @@ function ProjectCard({ item }) {
           return (
             <div className="Project">
               <div className="ProjectImage">
-                <a href={`/project/${Val.id}`}>
+              <Link to={`/project/${Val.id}`}>
                   <img src={Val.img} alt={`${Val.title} screenshot`} />
-                </a>
+              </Link>
               </div>
               <div className="ProjectText">
-                <a href={`/project/${Val.id}`}>
+              <Link to={`/project/${Val.id}`}>
                   <div className="ProjectTitle">{Val.title}</div>
-                </a>
+                </Link>
                 <div className="ProjectSummary">{Val.summary}</div>
                 <div className="ProjectDateCategory">
                   <p>
