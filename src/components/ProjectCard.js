@@ -9,7 +9,7 @@ function ProjectCard({ item }) {
           return (
             <div className="Project">
               <div className="ProjectImage">
-              <Link to={`/project/${Val.id}`}>
+              <Link to={`/project/${Val.id}`} onClick={() => window.scrollTo(0,0)}>
                   <img src={Val.img} alt={`${Val.title} screenshot`} />
               </Link>
               </div>
