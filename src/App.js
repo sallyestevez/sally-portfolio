@@ -81,7 +81,8 @@ function App() {
 
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <ScrollToTop />
+      {/* <RouterProvider router={router} /> */}
     </div>
   );
 }
