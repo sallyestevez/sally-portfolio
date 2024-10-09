@@ -6,19 +6,23 @@ function VisitMiraContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{ProjectData[2].title}</h1>
-          <div className="ProjectSummary">{ProjectData[2].summary}</div>
+          <h1 className="PageTitle">{ProjectData[6].title}</h1>
+          <div className="ProjectSummary">{ProjectData[6].summary}</div>
           <div className="ProjectDateCategory">
-            {ProjectData[2].date} | {ProjectData[2].category}
+            {ProjectData[6].date} | {ProjectData[6].category}
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-        <a href={`${ProjectData[2].link}`} className="link"><img
-            src={ProjectData[2].img}
-            alt={`${ProjectData[2].title} screenshot`}
-          /></a>
+          <a href={`${ProjectData[6].link}`} className="link">
+            <img
+              src={ProjectData[6].img}
+              alt={`${ProjectData[6].title} screenshot`}
+            />
+          </a>
           <br></br>
-          <a href={`${ProjectData[2].link}`}><div className="ProjectLink">Visit the site!</div></a>
+          <a href={`${ProjectData[6].link}`}>
+            <div className="ProjectLink">Visit the site!</div>
+          </a>
         </div>
       </header>
       <section>
@@ -26,11 +30,19 @@ function VisitMiraContent() {
           <div className="ProjectDiv ProjectDetails">
             <div className="ProjectPageSubtitle">More Information</div>
             <p>
-            The player takes the role of a Walmart employee navigating different retail scenarios and making choices that impact the storyline.</p>
-            <p>The game was made with HTML, CSS, and JavaScript.</p> 
-            <p>I also added background music to enhance the gaming experience.</p>
+              This is a "travel website" for the fictional planet Mira from the
+              video game Xenoblade Chronicles X.
+            </p>
+            <p>
+              There is a separate page for each in-game region (for a total of
+              5) and a home page.
+            </p>
+            <p>
+              The website was created using HTML, CSS, and JavaScript. It also
+              uses the Fancybox JavaScript library.
+            </p>
           </div>
-          </div>
+        </div>
       </section>
     </div>
   );

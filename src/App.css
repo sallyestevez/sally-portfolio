@@ -282,13 +282,13 @@ body {
   width: 700px;
 }
 
-.ProjectImage--ProjectPage a{
+.ProjectImage--ProjectPage a {
   color: #8e7dba;
   text-decoration: none;
 }
 
 .ProjectImage--ProjectPage a:hover {
-  color: #4A615C;
+  color: #4a615c;
   text-decoration: underline;
 }
 
@@ -304,7 +304,7 @@ body {
 }
 
 .ProjectDiv h2 {
-  color: #4A615C;
+  color: #4a615c;
   font-family: "Hind Siliguri", sans-serif;
   font-style: italic;
   font-size: 20px;
@@ -315,6 +315,16 @@ body {
 .ProjectDiv p {
   font-size: 18px;
   padding-bottom: 8px;
+}
+
+.CaseStudyText {
+  color: #4a615c;
+  font-family: "Hind Siliguri", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 .quote {
@@ -330,8 +340,8 @@ body {
 }
 
 .FigmaPrototype {
-  width: 800px;
-  height: 800px;
+  width: 900px;
+  height: 600px;
 }
 
 .AboutDiv {
@@ -449,8 +459,6 @@ body {
     width: 800px;
     height: 450px;
   }
-
-  
 }
 
 @media (max-width: 959px) {

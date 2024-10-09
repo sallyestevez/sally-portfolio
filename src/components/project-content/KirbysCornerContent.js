@@ -13,12 +13,16 @@ function KirbysCornerContent() {
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-        <a href={`${ProjectData[2].link}`} className="link"><img
-            src={ProjectData[2].img}
-            alt={`${ProjectData[2].title} screenshot`}
-          /></a>
+          <a href={`${ProjectData[2].link}`} className="link">
+            <img
+              src={ProjectData[2].img}
+              alt={`${ProjectData[2].title} screenshot`}
+            />
+          </a>
           <br></br>
-          <a href={`${ProjectData[2].link}`}><div className="ProjectLink">Visit the site!</div></a>
+          <a href={`${ProjectData[2].link}`}>
+            <div className="ProjectLink">Visit the site!</div>
+          </a>
         </div>
       </header>
       <section>
@@ -26,11 +30,21 @@ function KirbysCornerContent() {
           <div className="ProjectDiv ProjectDetails">
             <div className="ProjectPageSubtitle">More Information</div>
             <p>
-            The player takes the role of a Walmart employee navigating different retail scenarios and making choices that impact the storyline.</p>
-            <p>The game was made with HTML, CSS, and JavaScript.</p> 
-            <p>I also added background music to enhance the gaming experience.</p>
+              The site features detailed information (written by me!) about
+              games, characters, and lore, presented through a visually
+              appealing and user-friendly interface.
+            </p>
+            <p>The website was created using HTML, CSS, and JavaScript.</p>
+            <p>
+              To add on to the site's interactivity, I included a music player
+              and a quiz.
+            </p>
+            <p>
+              This was my Senior Project! I was in charge of everything related
+              to the project, from its conception to launch.
+            </p>
           </div>
-          </div>
+        </div>
       </section>
     </div>
   );

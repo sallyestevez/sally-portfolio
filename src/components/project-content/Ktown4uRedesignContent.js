@@ -12,7 +12,27 @@ function Ktown4uRedesignContent() {
       </header>
       <section>
         <div className="ProjectContent">
-          <h3>Full case study coming soon!</h3>
+          <div className="ProjectDiv ProjectDetails">
+            <div className="ProjectPageSubtitle">More Information</div>
+            <p>
+              I am currently working on a comprehensive overhaul of the Ktown4u
+              website to enhance the user experience, visual appeal, and
+              functionality.
+            </p>
+            <p>
+              By conducting research and usability testing, I identified key
+              pain points and gathered insights to inform the redesign.
+            </p>
+            <p>
+              I'm developing wireframes, prototypes, and high-fidelity mockups
+              using Figma, focusing on improving navigation and information
+              architecture.
+            </p>
+            <p>
+              I am not affiliated with Ktown4u. This redesign is just for fun!
+            </p>
+          </div>
+          <h2 className="CaseStudyText">Full case study coming soon!</h2>
           {/* <div className="ProjectImage--ProjectPage">
               <img
                 src={ProjectData[0].img}
