@@ -24,7 +24,7 @@ function App() {
     {
       // home page
       path: "/",
-      element: <Home />,
+      element: <Home/>,
     },
     {
       // projects page
