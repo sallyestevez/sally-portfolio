@@ -14,7 +14,7 @@ function ProjectCard({ item }) {
               </Link>
               </div>
               <div className="ProjectText">
-              <Link to={`/project/${Val.id}`}>
+              <Link to={`/project/${Val.id}`} onClick={() => window.scrollTo(0,0)}>
                   <div className="ProjectTitle">{Val.title}</div>
                 </Link>
                 <div className="ProjectSummary">{Val.summary}</div>
