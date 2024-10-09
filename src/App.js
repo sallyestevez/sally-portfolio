@@ -13,6 +13,10 @@ import Projects from "./pages/Projects";
 import EclipseSoundscapesProject from "./pages/project-pages/EclipseSoundscapesProject";
 import Ktown4uRedesignProject from "./pages/project-pages/Ktown4uRedesignProject";
 import DiscordProject from "./pages/project-pages/DiscordProject";
+import RetailHorrorStoriesProject from "./pages/project-pages/RetailHorrorStoriesProject";
+import KirbysCornerProject from "./pages/project-pages/KirbysCornerProject";
+import MiiverseRevivalProject from "./pages/project-pages/MiiverseRevivalProject";
+import VisitMiraProject from "./pages/project-pages/VisitMiraProject";
 
 function App() {
   // goes to page based on file path
@@ -52,6 +56,22 @@ function App() {
     {
       path: "/project/discord-file-compressor",
       element: <DiscordProject />,
+    },
+    {
+      path: "/project/retail-horror-stories",
+      element: <RetailHorrorStoriesProject />,
+    },
+    {
+      path: "/project/kirbys-corner",
+      element: <KirbysCornerProject />,
+    },
+    {
+      path: "/project/miiverse-revival",
+      element: <MiiverseRevivalProject />,
+    },
+    {
+      path: "/project/visit-mira",
+      element: <VisitMiraProject />,
     },
   ]);
 

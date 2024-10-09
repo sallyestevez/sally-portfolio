@@ -269,10 +269,34 @@ body {
   padding-bottom: 8px;
 }
 
+.ProjectImage--ProjectPage {
+  margin: auto;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;
+}
+
 .ProjectImage--ProjectPage img {
   border: 1px groove #acccc5;
   border-radius: 4px;
   width: 700px;
+}
+
+.ProjectImage--ProjectPage a{
+  color: #8e7dba;
+  text-decoration: none;
+}
+
+.ProjectImage--ProjectPage a:hover {
+  color: #4A615C;
+  text-decoration: underline;
+}
+
+.ProjectLink {
+  font-family: "Ranchers", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
 .ProjectDiv {
@@ -285,6 +309,7 @@ body {
   font-style: italic;
   font-size: 20px;
   font-weight: 400;
+  padding-top: 8px;
 }
 
 .ProjectDiv p {
