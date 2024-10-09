@@ -42,10 +42,6 @@ function App() {
       element: <AboutPage />,
     },
     {
-      path: "/project/:id",
-      element: <Project />,
-    },
-    {
       path: "/project/ktown4u-redesign",
       element: <Ktown4uRedesignProject />,
     },
