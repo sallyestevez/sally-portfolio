@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import icon from "./images/icon.png";
 import { ReactComponent as Hamburger } from "./images/hamburger-menu.svg";
 
@@ -16,9 +16,9 @@ function Header() {
       <nav className="navbar">
         <div className="container">
           <div className="logo">
-            <NavLink to="/">
+            <Link to="/">
               <img src={icon} alt="logo icon" width="50" height="50"></img>
-            </NavLink>
+            </Link>
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
             <Hamburger />
@@ -26,16 +26,16 @@ function Header() {
           <div className={`nav-elements  ${showNavbar && "active"}`}>
             <ul>
               <li className="home">
-                <NavLink to="/">Home</NavLink>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <Link to="/projects">Projects</Link>
               </li>
               {/* <li>
-                <NavLink to="/other_work">Other Work</NavLink>
+                <Link to="/other_work">Other Work</Link>
               </li> */}
               <li>
-                <NavLink to="/about">About</NavLink>
+                <Link to="/about">About</Link>
               </li>
             </ul>
           </div>
