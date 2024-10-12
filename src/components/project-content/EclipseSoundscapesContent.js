@@ -14,9 +14,10 @@ function EclipseSoundscapesContent() {
         <div className="ProjectContent">
           <div className="ProjectDiv ProjectDetails">
             <div className="ProjectPageSubtitle">Project Details</div>
-            <p>Role: UX Researcher & Designer</p>
-            <p>Duration: November - December 2022 (6 weeks)</p>
-            <p>Tools: Figma, Figjam</p>
+            <p><strong>Role:</strong> UX Researcher & Designer</p>
+            <p><strong>Duration:</strong> November - December 2022 (6 weeks)</p>
+            <p><strong>Client:</strong> NASA ARISA Lab</p>
+            <p><strong>Tools:</strong> Figma, Figjam</p>
           </div>
           <div className="ProjectDiv ProjectInformation">
             <div className="ProjectPageSubtitle">More Information</div>
@@ -39,61 +40,115 @@ function EclipseSoundscapesContent() {
             </p>
           </div>
           <h2 className="CaseStudyText">Full case study coming soon!</h2>
+        
+            <div className="ProjectDiv ProjectOverview">
+            <div className="ProjectPageSubtitle">Eclipse Soundscapes</div>
+            <h2>Supported by NASA's Space Science Education Consortium (NSSEC)</h2>
+            <p>
+              The Eclipse Soundscapes Project delivers an accessible multi-sensory 
+              experience that allows everyone, including people who are visually 
+              impared and others who were unable to see the eclipse with their own eyes, 
+              to experience the event.
+            </p>
+          </div>
+          <div className="ProjectDiv ProjectProblem">
+            <div className="ProjectPageSubtitle">Problem Statement</div>
+            <h2>
+              The current field researcher training page is not accessible to older audiences (55+).
+            </h2>
+          </div>
+          <div className="ProjectDiv ProjectResearchPlan">
+            <div className="ProjectPageSubtitle">User Research & Synthesis</div>
+            <h2>User Interviews</h2>
+            <p>
+              We interviewed 12 users, aged 55+, and asked them a total of 20
+              questions, including:
+            </p>
+            <p>What is your preferred method of browsing the internet?</p>
+            <p>Is having an option to have text read aloud beneficial to you?</p>
+            <p>
+              What is your first impression of the website?
+            </p>
+            <p>
+              How do you feel about the navigation on the website?
+            </p>
+            <p>
+              Do any other websites come to mind where you really liked the layout of them? Why did you like it?
+            </p>
+            <h2>User Responses</h2>
+            <p className="quote">
+              "Too many words / information"
+            </p>
+            <p className="quote">
+              "Looks too dark"
+            </p>
+            <p className="quote">
+              "I like the big print/text on the website"
+            </p>
+            <p className="quote">
+              "Add more color"
+            </p>
+            <p className="quote">
+              "Hard to get to top of page"
+            </p>
+            <p className="quote">
+              "Navigation is too jumpy. Can't tell what comes before or after"
+            </p>
+            <p className="quote">
+              "Text is too wide. It's like reading a newspaper."
+            </p>
+            <h2>User Classification</h2>
+            <p>
+              <strong>10 out of 12</strong> users prefer visual learning over text based
+            </p>
+            <p>
+              <strong>12 out of 12</strong> users would benefit from text-to-speech
+            </p>
+            <p>
+              <strong>7 out of 12</strong> users prefer a lighter color scheme of blue or white
+            </p>
+            <p>
+              <strong>7 out of 12</strong> users believe navigating the website takes too much time
+            </p>
+            <p>
+              <strong>6 out of 12</strong> want to see more audio/visual content (images, videos, audio)
+            </p>
+            <p>
+              <strong>6 out of 12</strong> believe the website can be organized better
+            </p>
 
-          {/* <div className="ProjectDiv ProjectOverview">
-            <div className="ProjectPageSubtitle">Overview</div> */}
-          {/* what is Discord? */}
-          {/* What is the problem? */}
-          {/* </div>
-          <div className="ProjectProcess">
-            <h3>Process</h3> */}
-          {/* Identify the Problem */}
-          {/* Research and Analysis */}
-          {/* Wireframing & Ideation */}
-          {/* Visualization & Iteration */}
-          {/* Prototyping & User Testing */}
-          {/* </div>
-          <div className="ProjectResearchPlan">
-            <h3>Research Plan</h3> */}
-          {/* competitive analysis */}
-          {/* user interviews */}
-          {/* user classification */}
-          {/* quotes from users */}
-          {/* </div>
-          <div className="ProjectResearchSynthesis">
-            <h3>Research Synthesis</h3> */}
-          {/* user journey */}
-          {/* takeaways */}
-          {/* </div>
-          <div className="ProjectStoryboarding">
-            <h3>Storyboarding</h3> */}
-          {/* storyboarding */}
-          {/* top solutions */}
-          {/* </div>
-          <div className="ProjectLoFi">
-            <h3>Low-Fidelity Concepts</h3> */}
-          {/* wireframing */}
-          {/* lo-fi prototype */}
-          {/* </div>
-          <div className="ProjectUserTesting">
-            <h3>User Testing</h3> */}
-          {/* user testing */}
-          {/* gathering feedback */}
-          {/* </div>
-          <div className="ProjectHiFi">
-            <h3>Refinement & Final Designs</h3> */}
-          {/* final prototype */}
-          {/* </div>
-          <div className="ProjectTakeaways">
-            <h3>Takeaways</h3> */}
-          {/* final prototype */}
-          {/* </div> */}
-          {/* <div className="ProjectImage--ProjectPage">
-          <img
-            src={ProjectData[0].img}
-            alt={`${ProjectData[0].title} screenshot`}
-          />
-        </div> */}
+            <h2>User Persona</h2>
+            <p><strong>Name: </strong>George Patterson</p>
+            <p><strong>Age: </strong>70</p>
+            <p>
+              He's interested in space but is not good with technology. He needs glasses. He'd like to do a 
+              science project with his grandkids.
+            </p>
+          </div>
+          {/* <div className="ProjectDiv ProjectLoFi">
+            <div className="ProjectPageSubtitle">Low-Fidelity Concepts</div>
+            <h2>Wireframes</h2>
+            <p>
+              The sketches were created with a returning Android user in mind.
+              If a file is too large, users receive a warning and can choose
+              whether or not they'd like to compress the file.
+            </p>
+            <h2>Color Choice</h2>
+            <p>
+              I decided to work with the Discord desktop app, but the general
+              idea remained the same.
+            </p>
+            <h2>Side Bar</h2>
+            <p>Side bar</p>
+            <h2>Back to Top</h2>
+          </div> */}
+          <div className="ProjectDiv ProjectHiFi">
+            <div className="ProjectPageSubtitle">
+              Final Prototype
+            </div>
+            <p>Based on our research and drawn conclusions, we were able to come up with our high fidelity prototype.
+            </p>
+          </div>
           <div className="FigmaPrototypeDiv">
             <iframe
               className="FigmaPrototype"
@@ -101,6 +156,30 @@ function EclipseSoundscapesContent() {
               src="https://embed.figma.com/proto/CbqocIqoua2b9Xoc1GEVxK/Eclipse-Soundscapes?page-id=0%3A1&node-id=144-1643&node-type=canvas&viewport=597%2C108%2C0.05&scaling=scale-down&content-scaling=fixed&starting-point-node-id=144%3A1643&embed-host=share"
               allowfullscreen
             ></iframe>
+          </div>
+          <div className="ProjectDiv ProjectTakeaways">
+            <div className="ProjectPageSubtitle">Future Plans / Next Steps</div>
+            <h2>1. User Testing</h2>
+            <p>Gain user feedback on prototypes.</p>
+            <h2>2. Revision</h2>
+            <p>Revise prototype based on feedback.</p>
+            <h2>3. Mobile Redesign</h2>
+            <p>Optimize prototype for mobile.</p>
+            <h2>4. Implementing</h2>
+            <p>Update official site with the revisions.</p>
+            <div className="ProjectPageSubtitle">Suggested Client Plan of Action</div>
+            <h2>Now</h2>
+            <p>Make navigation accessible on all parts of the page</p>
+            <p>Add a buffer zone for text</p>
+            <h2>Next</h2>
+            <p>Add a light mode</p>
+            <p>Make image sizes consistent</p>
+            <p>Break up large sections of text</p>
+            <h2>Later</h2>
+            <p>Record and add video guides/walkthroughs</p>
+            <p>Include more visuals</p>
+            <p>Add text to speech</p>
+            <p>Add different language options</p>
           </div>
         </div>
       </section>

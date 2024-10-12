@@ -169,7 +169,6 @@ function DiscordContent() {
                 alt="Discord User Journey screenshot"
               />
             </div>
-
             <h2>Competitive Analysis</h2>
             <p>
               Discord's main competitors are Slack, Facebook Messenger, and
