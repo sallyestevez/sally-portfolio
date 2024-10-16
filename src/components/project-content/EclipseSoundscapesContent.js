@@ -15,6 +15,7 @@ function EclipseSoundscapesContent() {
           <div className="ProjectDiv ProjectDetails">
             <div className="ProjectPageSubtitle">Project Details</div>
             <p><strong>Role:</strong> UX Researcher & Designer</p>
+            <p><strong>Team:</strong> Myself, Rhiannon Super, Yufei Lin, Stephen Shadrach</p>
             <p><strong>Duration:</strong> November - December 2022 (6 weeks)</p>
             <p><strong>Client:</strong> NASA ARISA Lab</p>
             <p><strong>Tools:</strong> Figma, Figjam</p>
@@ -57,14 +58,18 @@ function EclipseSoundscapesContent() {
               The current field researcher training page is not accessible to older audiences (55+).
             </h2>
           </div>
+          <div className="ProjectDiv ProjectObservations">
+            <div className="ProjectPageSubtitle">Initial Observations</div>
+            <h2></h2>
+          </div>
           <div className="ProjectDiv ProjectResearchPlan">
             <div className="ProjectPageSubtitle">User Research & Synthesis</div>
             <h2>User Interviews</h2>
             <p>
-              We interviewed 12 users, aged 55+, and asked them a total of 20
-              questions, including:
+              We conducted a total of 12 interviews with users aged 55+. Those interviews were broken down into two parts:
             </p>
-            <p>What is your preferred method of browsing the internet?</p>
+            <p><strong>Part 1:</strong> 20 questions to learn about their overall experiences and website preferences, including</p>
+            <em><p>What is your preferred method of browsing the internet?</p>
             <p>Is having an option to have text read aloud beneficial to you?</p>
             <p>
               What is your first impression of the website?
@@ -74,7 +79,8 @@ function EclipseSoundscapesContent() {
             </p>
             <p>
               Do any other websites come to mind where you really liked the layout of them? Why did you like it?
-            </p>
+            </p></em>
+            <p><strong>Part 2:</strong> Usability testing of the current design to observe how they navigate the website</p>
             <h2>User Responses</h2>
             <p className="quote">
               "Too many words / information"
@@ -116,7 +122,6 @@ function EclipseSoundscapesContent() {
             <p>
               <strong>6 out of 12</strong> believe the website can be organized better
             </p>
-
             <h2>User Persona</h2>
             <p><strong>Name: </strong>George Patterson</p>
             <p><strong>Age: </strong>70</p>
@@ -125,23 +130,20 @@ function EclipseSoundscapesContent() {
               science project with his grandkids.
             </p>
           </div>
-          {/* <div className="ProjectDiv ProjectLoFi">
+          <div className="ProjectDiv ProjectLoFi">
             <div className="ProjectPageSubtitle">Low-Fidelity Concepts</div>
             <h2>Wireframes</h2>
             <p>
-              The sketches were created with a returning Android user in mind.
-              If a file is too large, users receive a warning and can choose
-              whether or not they'd like to compress the file.
+              Based on what we learned from the user interviews and user testing, we were now ready to start 
+              creating our wireframes. We split up sections of the page and each worked on a section.
             </p>
-            <h2>Color Choice</h2>
-            <p>
-              I decided to work with the Discord desktop app, but the general
-              idea remained the same.
-            </p>
+            <h2>Solutions</h2>
+            <p>We were able to establish our top solutions for our redesign, which are:</p>
+            <p>Color Palette</p>
             <h2>Side Bar</h2>
             <p>Side bar</p>
             <h2>Back to Top</h2>
-          </div> */}
+          </div>
           <div className="ProjectDiv ProjectHiFi">
             <div className="ProjectPageSubtitle">
               Final Prototype
