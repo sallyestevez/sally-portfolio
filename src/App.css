@@ -294,9 +294,20 @@ body {
 
 .ProjectLink {
   font-family: "Ranchers", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.ProjectHiFi a {
+  color: #8e7dba;
+  text-decoration: none;
+}
+
+.ProjectHiFi a:hover {
+  color: #4a615c;
+  text-decoration: underline;
 }
 
 .ProjectDiv {
