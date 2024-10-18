@@ -89,6 +89,14 @@ function KirbysCornerContent() {
               (Haltmann, Star Dream, and Susie).</p>
             <p>I shared it with my peers, gathered their feedback, and made changes to the layout, font 
               sizes, and color scheme to make sure it felt more "Kirby."</p>
+              <div className="FigmaPrototypeDiv">
+            <iframe
+              className="FigmaPrototype"
+              title="Kirby's Corner"
+              src="https://embed.figma.com/proto/xdC7pckDtYpw9fQzAEpWpo/Prototype?page-id=0%3A1&node-id=14-39&node-type=canvas&viewport=341%2C245%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=14%3A39&embed-host=share"
+              allowfullscreen
+            ></iframe>
+          </div>
               <h2>Prototype 2:</h2>
             <p>I began coding the website using the Figma prototype as my guide, also making a few design edits. 
               I built the home page, character pages (Kirby, Haltmann, and Star Dream), a 'games' page, a 
