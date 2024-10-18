@@ -12,7 +12,7 @@ function Projects() {
     <>
       <Header />
       <div className="PageWrapper">
-        <h1 className="PageTitle">Projects</h1>
+        <h1 className="PageTitle PageHeader">Projects</h1>
         <ProjectCard item={item} />
       </div>
       <Footer />

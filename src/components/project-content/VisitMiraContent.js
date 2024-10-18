@@ -7,6 +7,7 @@ function VisitMiraContent() {
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
           <h1 className="PageTitle">{ProjectData[6].title}</h1>
+          <div className="ProjectDateCategory">Inspired by Xenoblade Chronicles X</div>
           <div className="ProjectSummary">{ProjectData[6].summary}</div>
           <div className="ProjectDateCategory">
             {ProjectData[6].date} | {ProjectData[6].category}
@@ -28,19 +29,27 @@ function VisitMiraContent() {
       <section>
         <div className="ProjectContent">
           <div className="ProjectDiv ProjectDetails">
-            <div className="ProjectPageSubtitle">More Information</div>
+            <div className="ProjectPageSubtitle">Have you ever wanted to be stuck on a different planet?</div>
+            <h2 className="quote">If so, today's your lucky day, because we're finally introducing Visit Mira!</h2>
             <p>
-              This is a "travel website" for the fictional planet Mira from the
-              video game Xenoblade Chronicles X.
+              VisitMira.com is the latest travel website for the fictional planet of Mira from Xenoblade Chronicles 
+              X! Get ready to explore a planet brimming with excitement, stunning landscapes, and danger (!!!), perfect 
+              for those who want something new!
             </p>
+            <h2>What You'll Discover</h2>
+            <p>✷ <strong>Five Unique Regions: </strong>From the lush jungles of Noctilum to the volcanoes of Cauldros, each 
+            region has its own charm and secrets!</p>
+            <p>✷ <strong>Interactive Experience: </strong>Navigate through the site to learn about each location.</p>
+            <p>✷ <strong>✨Stunning Visuals✨: </strong>Breathtaking images of Mira's diverse landscapes, all presented 
+            with the help of the Fancybox library.</p>
+
+            <h2>Tech Stack</h2>
             <p>
-              There is a separate page for each in-game region (for a total of
-              5) and a home page.
+            HTML, CSS, JavaScript
             </p>
-            <p>
-              The website was created using HTML, CSS, and JavaScript. It also
-              uses the Fancybox JavaScript library.
-            </p>
+
+            <h2>Special Features</h2>
+            <p>Fancybox integration for high-quality images, immersive pages for each of Mira's unique regions</p>
           </div>
         </div>
       </section>

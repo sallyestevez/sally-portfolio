@@ -93,60 +93,44 @@ function EclipseSoundscapesContent() {
               with users agged 55+. The interviews were broken down into two parts:</p>
             <p><strong>Part 1:</strong> A series 20 questions designed to gather insights into their overall 
             experiences and website preferences, such as</p>
-            <em><p>What is your preferred method of browsing the internet?</p>
-            <p>Is having an option to have text read aloud beneficial to you?</p>
-            <p>
-              What is your first impression of the website?
+            <em><p>✷ What is your preferred method of browsing the internet?</p>
+            <p>✷ Is having an option to have text read aloud beneficial to you?</p>
+            <p>✷ What is your first impression of the website?
             </p>
-            <p>
-              How do you feel about the navigation on the website?
+            <p>✷ How do you feel about the navigation on the website?
             </p>
-            <p>
-              Do any other websites come to mind where you really liked the layout of them? Why did you like it?
+            <p>✷ Do any other websites come to mind where you really liked the layout of them? Why did you like it?
             </p></em>
             <p><strong>Part 2:</strong> Usability testing of the current design to observe how participants navigated 
             the website</p>
             <h2>User Responses</h2>
-            <p className="quote">
-              "There are too many words and information"
+            <p className="quote">✷ "There are too many words and information"
             </p>
-            <p className="quote">
-              "The website looks too dark"
+            <p className="quote">✷ "The website looks too dark"
             </p>
-            <p className="quote">
-              "I like the big print/text on the website"
+            <p className="quote">✷ "I like the big print/text on the website"
             </p>
-            <p className="quote">
-              "Add more color"
+            <p className="quote">✷ "Add more color"
             </p>
-            <p className="quote">
-              "It's hard to get to top of page"
+            <p className="quote">✷ "It's hard to get to top of page"
             </p>
-            <p className="quote">
-              "Navigation is too jumpy. I can't tell what comes before or after"
+            <p className="quote">✷ "Navigation is too jumpy. I can't tell what comes before or after"
             </p>
-            <p className="quote">
-              "The text is too wide. It's like reading a newspaper"
+            <p className="quote">✷ "The text is too wide. It's like reading a newspaper"
             </p>
             <h2>User Classification</h2>
             <p>From the interviews, we categorized user preferences as follows:</p>
-            <p>✷ 
-              <strong>10 out of 12</strong> users prefer visual learning over text based
+            <p>✷ <strong>10 out of 12</strong> users prefer visual learning over text based
             </p>
-            <p>✷ 
-              <strong>12 out of 12</strong> users would benefit from text-to-speech
+            <p>✷ <strong>12 out of 12</strong> users would benefit from text-to-speech
             </p>
-            <p>✷ 
-              <strong>7 out of 12</strong> users prefer a lighter color scheme of blue or white
+            <p>✷ <strong>7 out of 12</strong> users prefer a lighter color scheme of blue or white
             </p>
-            <p>✷ 
-              <strong>7 out of 12</strong> users believe navigating the website takes too much time
+            <p>✷ <strong>7 out of 12</strong> users believe navigating the website takes too much time
             </p>
-            <p>✷ 
-              <strong>6 out of 12</strong> want to see more audio/visual content (images, videos, audio)
+            <p>✷ <strong>6 out of 12</strong> want to see more audio/visual content (images, videos, audio)
             </p>
-            <p>✷ 
-              <strong>6 out of 12</strong> believe the website can be organized better
+            <p>✷ <strong>6 out of 12</strong> believe the website can be organized better
             </p>
             <h2>User Persona</h2>
             <p>We developed a user persona that represents our target demographic and its needs.</p>
