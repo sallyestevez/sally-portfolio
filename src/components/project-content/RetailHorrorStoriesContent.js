@@ -28,7 +28,7 @@ function RetailHorrorStoriesContent() {
       <section>
         <div className="ProjectContent">
           <div className="ProjectDiv ProjectDetails">
-            <div className="ProjectPageSubtitle">More Information</div>
+            <div className="ProjectPageSubtitle">Overview</div>
             <p>
               The player takes the role of a Walmart employee navigating
               different retail scenarios and making choices that impact the

@@ -13,7 +13,7 @@ function Ktown4uRedesignContent() {
       <section>
         <div className="ProjectContent">
           <div className="ProjectDiv ProjectDetails">
-            <div className="ProjectPageSubtitle">More Information</div>
+            <div className="ProjectPageSubtitle">Overview</div>
             <p>
               I am currently working on a comprehensive overhaul of the Ktown4u
               website to enhance the user experience, visual appeal, and
@@ -32,13 +32,9 @@ function Ktown4uRedesignContent() {
               I am not affiliated with Ktown4u. This redesign is just for fun!
             </p>
           </div>
-          <h2 className="CaseStudyText">Full case study coming soon!</h2>
-          {/* <div className="ProjectImage--ProjectPage">
-              <img
-                src={ProjectData[0].img}
-                alt={`${ProjectData[0].title} screenshot`}
-              />
-            </div> */}
+          <h2 className="CaseStudyText">
+            Full case study coming soon! A working prototype can be seen below.
+          </h2>
           <div className="FigmaPrototypeDiv">
             <iframe
               className="FigmaPrototype"
