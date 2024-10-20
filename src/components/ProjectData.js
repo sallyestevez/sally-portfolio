@@ -1,10 +1,10 @@
-import EclipseSoundscapes from "./images/EclipseSoundscapes.png";
-import RetailHorrorStories from "./images/RetailHorrorStories.png";
-import KirbysCorner from "./images/KirbysCorner.png";
-import MiiverseRevival from "./images/MiiverseRevival.png";
-import Discord from "./images/Discord.png";
-import VisitMira from "./images/VisitMira.png";
-import Ktown4uRedesign from "./images/Ktown4uRedesign.png";
+import EclipseSoundscapes from "./images/EclipseSoundscapes/EclipseSoundscapes.png";
+import RetailHorrorStories from "./images/RetailHorrorStories/RetailHorrorStories.png";
+import KirbysCorner from "./images/KirbysCorner/KirbysCorner.png";
+import MiiverseRevival from "./images/MiiverseRevival/MiiverseRevival.png";
+import Discord from "./images/Discord/Discord.png";
+import VisitMira from "./images/VisitMira/VisitMira.png";
+import Ktown4uRedesign from "./images/Ktown4uRedesign/Ktown4uRedesign.png";
 
 var ProjectData = [
   {

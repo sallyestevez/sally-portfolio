@@ -303,12 +303,12 @@ body {
   text-align: center;
 }
 
-.ProjectHiFi a {
+.ProjectHiFi a, .ProjectInspirations a {
   color: #8e7dba;
   text-decoration: none;
 }
 
-.ProjectHiFi a:hover {
+.ProjectHiFi a:hover, .ProjectInspirations a:hover {
   color: #4a615c;
   text-decoration: underline;
 }
@@ -343,6 +343,17 @@ body {
 
 .quote {
   padding-bottom: 8px;
+}
+
+.ProjectImages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.ProjectImages img {
+  width: 50%;
 }
 
 .FigmaPrototypeDiv {

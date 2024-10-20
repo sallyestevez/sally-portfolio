@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectData from "../ProjectData";
-import DiscordCompetitiveAnalysis from "../images/DiscordCompetitiveAnalysis.png";
-import DiscordLoFi1 from "../images/DiscordLoFi1.png";
-import DiscordLoFi2 from "../images/DiscordLoFi2.png";
-import DiscordLoFi3 from "../images/DiscordLoFi3.png";
-import DiscordLoFi4 from "../images/DiscordLoFi4.png";
-import DiscordUserJourney from "../images/DiscordUserJourney.png";
-import DiscordWireframes from "../images/DiscordWireframes.jpg";
+import DiscordCompetitiveAnalysis from "../images/Discord/DiscordCompetitiveAnalysis.png";
+import DiscordLoFi1 from "../images/Discord/DiscordLoFi1.png";
+import DiscordLoFi2 from "../images/Discord/DiscordLoFi2.png";
+import DiscordLoFi3 from "../images/Discord/DiscordLoFi3.png";
+import DiscordLoFi4 from "../images/Discord/DiscordLoFi4.png";
+import DiscordUserJourney from "../images/Discord/DiscordUserJourney.png";
+import DiscordWireframes from "../images/Discord/DiscordWireframes.jpg";
 
 function DiscordContent() {
   return (

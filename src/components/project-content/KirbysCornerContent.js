@@ -42,7 +42,7 @@ function KirbysCornerContent() {
               <em>
                 As a dedicated Kirby fan, I created an interactive wiki to share
                 my knowledge of the series with fellow Kirby fans. This project
-                was my senior capstone, and I was in charge of everything, from
+                was my senior project, and I was in charge of everything, from
                 concept to coding!
               </em>
             </p>
