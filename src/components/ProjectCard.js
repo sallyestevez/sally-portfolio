@@ -9,12 +9,18 @@ function ProjectCard({ item }) {
           return (
             <div className="Project">
               <div className="ProjectImage">
-              <Link to={`/project/${Val.id}`} onClick={() => window.scrollTo(0,0)}>
+                <Link
+                  to={`/project/${Val.id}`}
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   <img src={Val.img} alt={`${Val.title} screenshot`} />
-              </Link>
+                </Link>
               </div>
               <div className="ProjectText">
-              <Link to={`/project/${Val.id}`} onClick={() => window.scrollTo(0,0)}>
+                <Link
+                  to={`/project/${Val.id}`}
+                  onClick={() => window.scrollTo(0, 0)}
+                >
                   <div className="ProjectTitle">{Val.title}</div>
                 </Link>
                 <div className="ProjectSummary">{Val.summary}</div>

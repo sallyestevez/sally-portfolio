@@ -197,13 +197,10 @@ body {
   border-radius: 4px;
 }
 
-/* .ProjectImage img:hover {
-} */
-
-/* .ProjectImage img:hover {
-  box-shadow: 10px 10px #232323;
-  transform: translateY(-5px);
-} */
+.ProjectImage img:hover {
+  border: 2px groove #e1a1b5;
+  filter: brightness(0.75);
+}
 
 .ProjectText {
   display: flex;
@@ -303,12 +300,14 @@ body {
   text-align: center;
 }
 
-.ProjectHiFi a, .ProjectInspirations a {
+.ProjectHiFi a,
+.ProjectInspirations a {
   color: #8e7dba;
   text-decoration: none;
 }
 
-.ProjectHiFi a:hover, .ProjectInspirations a:hover {
+.ProjectHiFi a:hover,
+.ProjectInspirations a:hover {
   color: #4a615c;
   text-decoration: underline;
 }
@@ -347,8 +346,8 @@ body {
 
 .ProjectImages {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
 }
 
@@ -356,10 +355,32 @@ body {
   width: 50%;
 }
 
+.ProjectVideo {
+  padding-top: 56.25%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.ProjectVideo iframe {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.ProjectVideoSubtitle {
+  font-weight: bold;
+  text-align: center;
+}
+
 .FigmaPrototypeDiv {
-  margin: auto;
   display: flex;
   justify-content: center;
+  margin: auto;
   padding-bottom: 16px;
   width: 75%;
 }
@@ -378,10 +399,13 @@ body {
 }
 
 .AboutText {
-  /* color: #8e7dba; */
   font-size: 24px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   width: 100%;
+}
+
+.AboutText p {
+  margin-bottom: 8px;
 }
 
 .AboutText a {

@@ -113,6 +113,16 @@ function EclipseSoundscapesContent() {
               on separate lines; looks better on mobile; can't view Field
               Researcher page in Spanish
             </p>
+            <div className="ProjectVideo">
+              <iframe
+                src="https://drive.google.com/file/d/1K0Gpy3EaLvQe0nAWvPz-xbtgcJZkhoV3/preview"
+                allow="autoplay"
+                title="Eclipse Soundscapes Video"
+              ></iframe>
+            </div>
+            <p className="ProjectVideoSubtitle">
+              A video walkthrough of the current field researcher training page.
+            </p>
           </div>
           <div className="ProjectDiv ProjectResearchPlan">
             <div className="ProjectPageSubtitle">User Research & Synthesis</div>
