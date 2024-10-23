@@ -56,10 +56,10 @@ function RetailHorrorStoriesContent() {
           <div className="ProjectDiv ProjectOverview">
             <div className="ProjectPageSubtitle">Narrative Design</div>
             <p>
-              I created a narrative that draws inspiration from real-life Black
-              Friday horror stories, some of which came from Reddit threads. The
-              scenarios and choices within the game highlight both the absurdity
-              and intensity of retail work on Black Friday.
+            I created a narrative that draws inspiration from real-life Black Friday 
+            horror stories, some of which came from Reddit threads. The scenarios 
+            and choices within the game highlights the intensity of retail work on 
+            Black Friday.
             </p>
           </div>
           <div className="ProjectDiv ProjectInspirations">
@@ -110,10 +110,9 @@ function RetailHorrorStoriesContent() {
           <div className="ProjectDiv ProjectProcess">
             <div className="ProjectPageSubtitle">Game Development Process</div>
             <p>
-              I began by writing out the story's branching paths and alternative
-              endings on paper. I mapped out the different scenarios and paths,
-              each leading to different outcomes and giving players a variety of
-              unique endings to discover.
+            I began by writing out the story's branching paths and alternative 
+            endings on paper. The different scenarios and paths each led to 
+            different outcomes and unique endings for players to discover.
             </p>
             <div className="ProjectDiv ProjectImages">
               <a href={CYOAWriting1} target="_blank" rel="noreferrer">
@@ -136,16 +135,14 @@ function RetailHorrorStoriesContent() {
               </a>
             </div>
             <p>
-              After making some adjustments to the plot, I moved on to the
-              coding phase, implementing each story branch, choice, and outcome
-              as planned. I incorporated player choices as interactive buttons,
-              allowing users to navigate the story directly by selecting their
-              preferred path.
+            After making some adjustments to the plot, I moved on to the coding phase, 
+            implementing each story branch, choice, and outcome as planned. The player 
+            choices were incorporated as interactive buttons, which allows users to 
+            navigate the story by selecting their preferred path.
             </p>
             <p>
-              To enhance the gaming experience, I incorporated music from
-              Persona 4, since a superstore like Walmart is a key element in
-              both the game and Persona 4!
+            To enhance the gaming experience, I incorporated music from Persona 4, since 
+            a superstore like Walmart is a key element in both my game and Persona 4!
             </p>
           </div>
         </div>

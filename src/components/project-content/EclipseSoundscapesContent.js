@@ -1,5 +1,14 @@
 import React from "react";
 import ProjectData from "../ProjectData";
+import OriginalPalette from "../images/EclipseSoundscapes/OriginalPalette.png"
+import LightModePalette from "../images/EclipseSoundscapes/LightModePalette.png"
+import DarkModePalette from "../images/EclipseSoundscapes/DarkModePalette.png"
+import BackToTopOriginal from "../images/EclipseSoundscapes/BackToTopOriginal.png"
+import BackToTopFinal from "../images/EclipseSoundscapes/BackToTopFinal.png"
+import EclipseSoundscapesWireframes from "../images/EclipseSoundscapes/EclipseSoundscapesWireframes.png"
+import SideBarFinal from "../images/EclipseSoundscapes/SideBarFinal.png"
+import SideBarNew from "../images/EclipseSoundscapes/SideBarNew.png"
+import SideBarOriginal from "../images/EclipseSoundscapes/SideBarOriginal.png"
 
 function EclipseSoundscapesContent() {
   return (
@@ -34,7 +43,7 @@ function EclipseSoundscapesContent() {
               <strong>Tools:</strong> Figma, Figjam
             </p>
           </div>
-          <div className="ProjectDiv ProjectInformation">
+          {/* <div className="ProjectDiv ProjectInformation">
             <div className="ProjectPageSubtitle">More Information</div>
             <p>
               For this project, my team and I focused on enhancing the
@@ -54,10 +63,10 @@ function EclipseSoundscapesContent() {
               Figma.
             </p>
           </div>
-          <h2 className="CaseStudyText">Full case study coming soon!</h2>
+          <h2 className="CaseStudyText">Full case study coming soon!</h2> */}
 
           <div className="ProjectDiv ProjectOverview">
-            <div className="ProjectPageSubtitle">Eclipse Soundscapes</div>
+            <div className="ProjectPageSubtitle">Eclipse Soundscapes Overview</div>
             <h2>
               Supported by NASA's Space Science Education Consortium (NSSEC)
             </h2>
@@ -221,20 +230,84 @@ function EclipseSoundscapesContent() {
               testing, we created low-fidelity wireframes, dividing sections of
               the page for collaborative design and feedback.
             </p>
+            <div className="ProjectDiv ProjectImages">
+              <a href={EclipseSoundscapesWireframes} target="_blank" rel="noreferrer">
+                <img
+                  src={EclipseSoundscapesWireframes}
+                  alt={`Eclipse Soundscapes Wireframes`}
+                />
+              </a>
+            </div>
             <h2>Design Solutions</h2>
             <p>Our redesign solutions included:</p>
             <p>
-              Color Palette - implementing a lighter, more inviting color scheme
+            ✴ <strong>Color Palette -</strong> implementing a lighter, more inviting color scheme
             </p>
-            <p>Sidebar Navigation - Enhancing accessibility and usability</p>
-            <p>Back to Top Button - Facilitating easier navigation</p>
+            <div className="ProjectImages">
+              <a href={OriginalPalette} target="_blank" rel="noreferrer">
+                <img
+                  src={OriginalPalette}
+                  alt={`Original Color Palette`}
+                />
+              </a>
+              <a href={DarkModePalette} target="_blank" rel="noreferrer">
+                <img
+                  src={DarkModePalette}
+                  alt={`Dark Mode Color Palette`}
+                />
+              </a>
+              <a href={LightModePalette} target="_blank" rel="noreferrer">
+                <img
+                  src={LightModePalette}
+                  alt={`Light Mode Color Palette`}
+                />
+              </a>
+            </div>
+            <p>✴ <strong>Sidebar Navigation -</strong> Enhancing accessibility and usability</p>
+            <div className="ProjectImages">
+            <a href={SideBarOriginal} target="_blank" rel="noreferrer">
+                <img
+                  src={SideBarOriginal}
+                  alt={`Original Side Bar`}
+                />
+              </a>
+              <a href={SideBarNew} target="_blank" rel="noreferrer">
+                <img
+                  src={SideBarNew}
+                  alt={`New Side Bar Design`}
+                />
+              </a>
+              <a href={SideBarFinal} target="_blank" rel="noreferrer">
+                <img
+                  src={SideBarFinal}
+                  alt={`Final Side Bar Design`}
+                />
+              </a>
+            </div>
+            <p>✴ <strong>Back to Top Button -</strong> Facilitating easier navigation</p>
+            <div className="ProjectImages">
+            <a href={BackToTopOriginal} target="_blank" rel="noreferrer">
+                <img
+                  src={BackToTopOriginal}
+                  alt={`Original Back to Top Button`}
+                />
+              </a>
+              <a href={BackToTopFinal} target="_blank" rel="noreferrer">
+                <img
+                  src={BackToTopFinal}
+                  alt={`Final Back to Top Button`}
+                />
+              </a>
+            </div>
           </div>
           <div className="ProjectDiv ProjectHiFi">
             <div className="ProjectPageSubtitle">Final Prototype</div>
             <p>
               Utilizing our research findings, we developed a high-fidelity
               prototype that incorporates user feedback and design improvements,
-              enhancing overall usability for the target audience.
+              enhancing overall usability for the target audience. We optimized 
+              navigation, typography, and contrast ratios to create a user-friendly 
+              interface that complies with WCAG guidelines.
             </p>
           </div>
           <div className="FigmaPrototypeDiv">

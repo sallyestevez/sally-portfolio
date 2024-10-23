@@ -41,9 +41,9 @@ function KirbysCornerContent() {
             <p>
               <em>
                 As a dedicated Kirby fan, I created an interactive wiki to share
-                my knowledge of the series with fellow Kirby fans. This project
-                was my senior project, and I was in charge of everything, from
-                concept to coding!
+                my knowledge of the series with fellow Kirby fans. This was my 
+                senior project and I was in charge of everything, from concept to 
+                coding!
               </em>
             </p>
           </div>
@@ -56,9 +56,9 @@ function KirbysCornerContent() {
               lore, all presented through a user-friendly and charming design.
             </p>
             <p>
-              The website was created using HTML, CSS, and JavaScript. I used
-              Notion for project management. I used Figma to create my
-              wireframes and initial prototype.
+              The website was created using HTML, CSS, and JavaScript on Visual 
+              Studio Code. I used Notion for project management. I used Figma to 
+              create my wireframes and initial prototype.
             </p>
           </div>
           <div className="ProjectDiv ProjectScope">
@@ -92,9 +92,10 @@ function KirbysCornerContent() {
           <div className="ProjectDiv ProjectResearch">
             <div className="ProjectPageSubtitle">Research</div>
             <p>
-              Early on, I picked the Kirby games and characters I wanted to
-              focus on. I started with three games and three key characters from
-              each, with the thought that I could add on to this list later on.
+              After determining the scope, I picked the Kirby games and characters 
+              I wanted to focus on. I started with three games and three key 
+              characters from each, with the thought that I could add on to this 
+              list later on.
             </p>
             <p>
               I focused on one game, and its characters, at a time. After
@@ -112,7 +113,7 @@ function KirbysCornerContent() {
               Dream, and Susie).
             </p>
             <p>
-              I shared it with my peers, gathered their feedback, and made
+              I shared it with my peers and gathered their feedback. I made
               changes to the layout, font sizes, and color scheme to make sure
               it felt more "Kirby."
             </p>
@@ -128,8 +129,8 @@ function KirbysCornerContent() {
             <p>
               I began coding the website using the Figma prototype as my guide,
               also making a few design edits. I built the home page, character
-              pages (Kirby, Haltmann, and Star Dream), a 'games' page, a
-              'characters' page, and pages for three games.{" "}
+              pages (Kirby, Haltmann, and Star Dream), a 'Games' page, a
+              'Characters' page, and pages for three games.
             </p>
             <p>
               After another round of peer feedback, the main suggestion was to
@@ -154,7 +155,7 @@ function KirbysCornerContent() {
             <p>All of the information was then added to the website.</p>
             <p>
               Unfortunately, I ran out of time to fully dive into my third game,
-              Star Allies. But no worries! Since the game has dozens of playable
+              Star Allies, but no worries! Since the game has dozens of playable
               characters, I came up with the next best thing: a carousel to
               showcase all of them! It was the perfect way to feature something
               for Kirby Star Allies.

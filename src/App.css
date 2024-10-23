@@ -282,6 +282,11 @@ body {
   width: 700px;
 }
 
+.ProjectImage--ProjectPage img:hover {
+  border: 2px groove #e1a1b5;
+  border-radius: 4px;
+}
+
 .ProjectImage--ProjectPage a {
   color: #8e7dba;
   text-decoration: none;
@@ -352,7 +357,12 @@ body {
 }
 
 .ProjectImages img {
-  width: 50%;
+  border-radius: 4px;
+  width: 75%;
+}
+
+.ProjectImages img:hover {
+  filter: brightness(0.75);
 }
 
 .ProjectVideo {
@@ -382,12 +392,14 @@ body {
   justify-content: center;
   margin: auto;
   padding-bottom: 16px;
-  width: 75%;
+  width: auto;
 }
 
 .FigmaPrototype {
+  border: 4px groove #acccc5;
+  border-radius: 4px;
   height: 600px;
-  width: 900px;
+  width: 600px;
 }
 
 .AboutDiv {
@@ -478,11 +490,12 @@ body {
   .FigmaPrototypeDiv {
     display: flex;
     justify-content: center;
+    width: auto;
   }
 
   .FigmaPrototype {
     height: 800px;
-    width: 1200px;
+    width: 800px;
   }
 }
 
@@ -571,7 +584,7 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .FigmaPrototype {
+    .FigmaPrototype {
     height: 850px;
     width: 850px;
   }
