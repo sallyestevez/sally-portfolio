@@ -91,7 +91,7 @@ function DiscordContent() {
               interviews with five Discord users. I asked a total of 16
               questions, including:
             </p>
-            <p>✴ Why do you use Discord?</p>
+            <em><p>✴ Why do you use Discord?</p>
             <p>✴ Are you subscribed to Nitro?</p>
             <p>
             ✴ What do you like and dislike about Discord file sharing and why?
@@ -102,7 +102,7 @@ function DiscordContent() {
             <p>
             ✴ Do you know of any other messaging apps with similar file-sharing
               functionalities?
-            </p>
+            </p></em>
             <h2>User Responses</h2>
             <p>Here are some of their responses:</p>
             <p>

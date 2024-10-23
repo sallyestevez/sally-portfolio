@@ -402,6 +402,10 @@ body {
   width: 600px;
 }
 
+.ActionPlan {
+  padding-top: 8px;
+}
+
 .AboutDiv {
   display: flex;
   justify-content: center;

@@ -137,11 +137,11 @@ function EclipseSoundscapesContent() {
             <div className="ProjectPageSubtitle">User Research & Synthesis</div>
             <p>
               To understand the needs of our target demographic, we conducted a
-              total of 12 in-depth interviews with users agged 55+. The
-              interviews were broken down into two parts:
+              total of 12 in-depth interviews with users aged 55+. The interviews 
+              were broken down into two parts:
             </p>
             <p>
-              <strong>Part 1:</strong> A series 20 questions designed to gather
+              <strong>Part 1: </strong>20 questions designed to gather
               insights into their overall experiences and website preferences,
               such as
             </p>
@@ -158,8 +158,8 @@ function EclipseSoundscapesContent() {
               </p>
             </em>
             <p>
-              <strong>Part 2:</strong> Usability testing of the current design
-              to observe how participants navigated the website
+              <strong>Part 2: </strong>Usability testing of the current design
+              to observe how participants navigate the website
             </p>
             <h2>User Responses</h2>
             <p className="quote">
@@ -184,11 +184,11 @@ function EclipseSoundscapesContent() {
             </p>
             <p>
               ✴ <strong>10 out of 12</strong> users prefer visual learning over
-              text based
+              text-based learning
             </p>
             <p>
               ✴ <strong>12 out of 12</strong> users would benefit from
-              text-to-speech
+              text-to-speech functionality
             </p>
             <p>
               ✴ <strong>7 out of 12</strong> users prefer a lighter color scheme
@@ -241,7 +241,8 @@ function EclipseSoundscapesContent() {
             <h2>Design Solutions</h2>
             <p>Our redesign solutions included:</p>
             <p>
-            ✴ <strong>Color Palette -</strong> implementing a lighter, more inviting color scheme
+            ✴ <strong>New Color Palettes -</strong> Implementing a lighter, more 
+            inviting color scheme, as well as a dark mode
             </p>
             <div className="ProjectImages">
               <a href={OriginalPalette} target="_blank" rel="noreferrer">
@@ -263,7 +264,7 @@ function EclipseSoundscapesContent() {
                 />
               </a>
             </div>
-            <p>✴ <strong>Sidebar Navigation -</strong> Enhancing accessibility and usability</p>
+            <p>✴ <strong>Sidebar Navigation -</strong> Enhancing accessibility and usability</p>
             <div className="ProjectImages">
             <a href={SideBarOriginal} target="_blank" rel="noreferrer">
                 <img
@@ -284,7 +285,8 @@ function EclipseSoundscapesContent() {
                 />
               </a>
             </div>
-            <p>✴ <strong>Back to Top Button -</strong> Facilitating easier navigation</p>
+            <p>✴ <strong>Back to Top & Dark Mode Buttons -</strong> Facilitating 
+            easier navigation</p>
             <div className="ProjectImages">
             <a href={BackToTopOriginal} target="_blank" rel="noreferrer">
                 <img
@@ -303,11 +305,11 @@ function EclipseSoundscapesContent() {
           <div className="ProjectDiv ProjectHiFi">
             <div className="ProjectPageSubtitle">Final Prototype</div>
             <p>
-              Utilizing our research findings, we developed a high-fidelity
-              prototype that incorporates user feedback and design improvements,
-              enhancing overall usability for the target audience. We optimized 
-              navigation, typography, and contrast ratios to create a user-friendly 
-              interface that complies with WCAG guidelines.
+            Using our research findings, we developed a high-fidelity prototype that 
+            incorporates user feedback and design improvements. The final prototype 
+            features a user-friendly interface that enhances overall usability for 
+            the target audience by optimizing navigation, typography, and contrast 
+            ratios in compliance with WCAG guidelines.
             </p>
           </div>
           <div className="FigmaPrototypeDiv">
@@ -320,19 +322,15 @@ function EclipseSoundscapesContent() {
           </div>
           <div className="ProjectDiv ProjectTakeaways">
             <div className="ProjectPageSubtitle">Future Plans / Next Steps</div>
-            <p>
-              To ensure the redesign effectively meets user needs, we have
-              outlined the following steps for moving forward:
-            </p>
-            <h2>1. User Testing</h2>
-            <p>Gain user feedback on prototypes.</p>
-            <h2>2. Revision</h2>
-            <p>Revise prototype based on feedback.</p>
-            <h2>3. Mobile Redesign</h2>
-            <p>Optimize prototype for mobile.</p>
-            <h2>4. Implementing</h2>
-            <p>Update official site with the revisions.</p>
-            <div className="ProjectPageSubtitle">
+            <h2>
+            To ensure the redesign effectively meets user needs, we have outlined the 
+            steps needed to move forward:
+            </h2>
+            <p><strong>1. User Testing - </strong>Gain user feedback on prototypes</p>
+            <p><strong>2. Revision - </strong>Revise prototype based on feedback</p>
+            <p><strong>3. Mobile Redesign - </strong>Optimize prototype for mobile</p>
+            <p><strong>4. Implementing - </strong>Update official site with the revisions</p>
+            <div className="ProjectPageSubtitle ActionPlan">
               Suggested Client Plan of Action
             </div>
             <p>

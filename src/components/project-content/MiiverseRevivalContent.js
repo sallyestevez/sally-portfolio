@@ -31,9 +31,7 @@ function MiiverseRevivalContent() {
             <div className="ProjectPageSubtitle">More Information</div>
             <p>
               My goal was to recreate the feel of the original site by
-              replicating Miiverse's aesthetic and general functionality,
-              ensuring that users could immerse themselves in a near-identical
-              experience.
+              replicating Miiverse's aesthetic and general functionality.
             </p>
             <p>
               Users can sign up/create accounts and post content, which appears
@@ -41,16 +39,16 @@ function MiiverseRevivalContent() {
             </p>
             <h2>Key Features:</h2>
             <p>
-              ✴ <strong>Account Creation: </strong>Users can register and
-              personalize their profiles with their name and email address.
+              ✴ <strong>Account Creation: </strong>Users can register with their email address 
+              and personalize their profiles with their name.
             </p>
             <p>
-              ✴ <strong>Post Customization: </strong>Users can add a "feeling"
-              to their posts, like in the original Miiverse experience.
+              ✴ <strong>Post Customization: </strong>Users can add a "feeling" (ex. happy, 
+              sad, tired, etc.) to their posts, like in the original Miiverse experience.
             </p>
             <p>
               ✴ <strong>Activity Feed: </strong>A real-time feed displaying
-              user-generated posts in a familiar Miiverse style.
+              user-generated posts.
             </p>
             <p>
               ✴ <strong>Post Interaction: </strong>Users can interact with posts
