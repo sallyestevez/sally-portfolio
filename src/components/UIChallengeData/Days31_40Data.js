@@ -10,7 +10,7 @@ import Day39 from "./images/100DaysofUI/Days21-40/Day39.svg";
 import Day40 from "./images/100DaysofUI/Days21-40/Day40.svg";
 
 var Days31_40Data = [
-  // Days 31-40 file link:
+  // Days 31-40 file link: https://www.figma.com/design/SqUtzyt9D6P9Ij15E6bsMd/100-Days-of-UI-(Days-31---40)?m=auto&t=1QE3XbR2qx1D7Jcd-1
 
   {
     id: "day31",
