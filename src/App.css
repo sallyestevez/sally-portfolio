@@ -251,7 +251,8 @@ body {
 .ProjectHeaderText {
   margin: auto;
   padding-bottom: 8px;
-  width: 75%;
+  width: 100%;
+  text-align: center;
 }
 
 .ProjectContent {
@@ -416,7 +417,6 @@ body {
 
 .AboutText {
   font-size: 24px;
-  /* margin-bottom: 8px; */
   width: 100%;
 }
 
@@ -475,6 +475,98 @@ body {
   width: 100%;
 }
 
+.UIPage h1{
+  padding-bottom: 0px;
+}
+
+.UIDropdown {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+details {
+  width: 880px;
+  display: flex;
+  justify-content: center;
+}
+
+summary {
+  color: #4a615c;
+  font-family: "Ranchers", sans-serif;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.UIPromptsSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  height: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.UIPromptsSection a {
+  color: black;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.UIPromptsSection a:hover {
+  color: #e1a1b5;
+  text-decoration: underline;
+}
+
+.UIProject {
+  background-color: rgba(246, 229, 234, 50%);
+  border: 2.5px groove #99c1b9;
+  border-radius: 4px;
+  padding: 16px;
+  width: 400px;
+}
+
+.UI_IMAGE {
+  text-align: center;
+}
+
+.UI_IMAGE img {
+  height: 256px;
+  width: 360px;
+}
+
+.UIProjectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.PromptTitle {
+  color: #8e7dba;
+  font-family: "Ranchers", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-bottom: 8px;
+}
+
+.PrototypeLink {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+}
+
 @media (min-width: 1660px) {
   .ProjectsSection {
     justify-content: space-around;
@@ -500,6 +592,23 @@ body {
   .FigmaPrototype {
     height: 800px;
     width: 800px;
+  }
+
+  .UIDropdown {
+    width: 1540px;
+  }
+  
+  details {
+    width: 1540px;
+  }
+
+  .UIProject {
+    width: 756px;
+  }
+
+  .UI_IMAGE img {
+    height: 512px;
+    width: 720px;
   }
 }
 
@@ -527,6 +636,13 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+    .FigmaPrototype {
+    height: 850px;
+    width: 850px;
+  }
+}
+
 @media (max-width: 959px) {
   .PageWrapper {
     margin: 0 auto;
@@ -550,12 +666,6 @@ body {
     letter-spacing: 2.5px;
     max-width: 720px;
     text-align: center;
-  }
-
-  .PageTitle {
-    padding: 8px;
-    padding-bottom: 16px;
-    width: 100%;
   }
 
   .AboutDiv {
@@ -585,12 +695,22 @@ body {
   .AboutText {
     width: 100%;
   }
-}
 
-@media (max-width: 1024px) {
-    .FigmaPrototype {
-    height: 850px;
-    width: 850px;
+  .UIDropdown {
+    width: 800px;
+  }
+  
+  details {
+    width: 800px;
+  }
+
+  .UIProject {
+    width: 756px;
+  }
+
+  .UI_IMAGE img {
+    height: 512px;
+    width: 720px;
   }
 }
 
@@ -605,6 +725,23 @@ body {
   .FigmaPrototype {
     height: 600px;
     width: 600px;
+  }
+
+  .UIDropdown {
+    width: 664px;
+  }
+  
+  details {
+    width: 664px;
+  }
+
+  .UIProject {
+    width: 600px;
+  }
+
+  .UI_IMAGE img {
+    height: 384px;
+    width: 540px;
   }
 }
 
@@ -686,4 +823,42 @@ body {
     height: 450px;
     width: auto;
   }
+
+  .UIDropdown {
+    width: 444px;
+  }
+  
+  details {
+    width: 444px;
+  }
+
+  .UIProject {
+    width: 400px;
+  }
+
+  .UI_IMAGE img {
+    height: 256px;
+    width: 360px;
+  }
 }
+
+@media (max-width: 480px){
+  .UIDropdown {
+    width: 300px;
+  }
+  
+  details {
+    width: 300px;
+  }
+
+  .UIProject {
+    width: 300px;
+  }
+
+  .UI_IMAGE img {
+    height: 192px;
+    width: 270px;
+  }
+}
+
+

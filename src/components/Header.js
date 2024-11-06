@@ -31,9 +31,9 @@ function Header() {
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
-              {/* <li>
+              <li>
                 <Link to="/other_work">Other Work</Link>
-              </li> */}
+              </li>
               <li>
                 <Link to="/about">About</Link>
               </li>

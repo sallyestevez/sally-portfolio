@@ -1,13 +1,13 @@
-import Day91 from "./images/100DaysofUI/Days81-100/Day91.svg";
-import Day92 from "./images/100DaysofUI/Days81-100/Day92.svg";
-import Day93 from "./images/100DaysofUI/Days81-100/Day93.svg";
-import Day94 from "./images/100DaysofUI/Days81-100/Day94.svg";
-import Day95 from "./images/100DaysofUI/Days81-100/Day95.svg";
-import Day96 from "./images/100DaysofUI/Days81-100/Day96.svg";
-import Day97 from "./images/100DaysofUI/Days81-100/Day97.svg";
-import Day98 from "./images/100DaysofUI/Days81-100/Day98.svg";
-import Day99 from "./images/100DaysofUI/Days81-100/Day99.svg";
-import Day100 from "./images/100DaysofUI/Days81-100/Day100.svg";
+import Day91 from "../images/100DaysofUI/Days81-100/Day91.svg";
+import Day92 from "../images/100DaysofUI/Days81-100/Day92.svg";
+import Day93 from "../images/100DaysofUI/Days81-100/Day93.svg";
+import Day94 from "../images/100DaysofUI/Days81-100/Day94.svg";
+import Day95 from "../images/100DaysofUI/Days81-100/Day95.svg";
+import Day96 from "../images/100DaysofUI/Days81-100/Day96.svg";
+import Day97 from "../images/100DaysofUI/Days81-100/Day97.svg";
+import Day98 from "../images/100DaysofUI/Days81-100/Day98.svg";
+import Day99 from "../images/100DaysofUI/Days81-100/Day99.svg";
+import Day100 from "../images/100DaysofUI/Days81-100/Day100.svg";
 
 var Days91_100Data = [
   // Days 91-100 file link: https://www.figma.com/design/9AKmzAJGU33sXjYMbrh09b/100-Days-of-UI-(Days-91---100)?m=auto&t=1QE3XbR2qx1D7Jcd-1
