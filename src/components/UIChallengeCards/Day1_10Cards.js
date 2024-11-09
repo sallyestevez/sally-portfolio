@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import Days1_10Data from "../UIChallengeData/Days1_10Data";
 
 // USE SAME FORMAT FOR 'OTHER WORK' PAGE

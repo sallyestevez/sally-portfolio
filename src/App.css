@@ -62,11 +62,7 @@ body {
   position: relative;
 }
 
-.menu-icon {
-  display: none;
-}
-
-.home {
+.menu-icon, .home {
   display: none;
 }
 
@@ -251,8 +247,8 @@ body {
 .ProjectHeaderText {
   margin: auto;
   padding-bottom: 8px;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .ProjectContent {
@@ -475,7 +471,7 @@ body {
   width: 100%;
 }
 
-.UIPage h1{
+.UIPage h1 {
   padding-bottom: 0px;
 }
 
@@ -483,19 +479,21 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 880px;
   margin-left: auto;
   margin-right: auto;
+  width: 880px;
 }
 
 details {
-  width: 880px;
   display: flex;
   justify-content: center;
+  padding-bottom: 8px;
+  width: 880px;
 }
 
 summary {
   color: #4a615c;
+  cursor: pointer;
   font-family: "Ranchers", sans-serif;
   font-size: 24px;
   letter-spacing: 1.5px;
@@ -567,6 +565,16 @@ summary {
   font-weight: 300;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (min-width: 1660px) {
   .ProjectsSection {
     justify-content: space-around;
@@ -594,11 +602,7 @@ summary {
     width: 800px;
   }
 
-  .UIDropdown {
-    width: 1540px;
-  }
-  
-  details {
+  .UIDropdown, details {
     width: 1540px;
   }
 
@@ -696,11 +700,7 @@ summary {
     width: 100%;
   }
 
-  .UIDropdown {
-    width: 800px;
-  }
-  
-  details {
+  .UIDropdown, details {
     width: 800px;
   }
 
@@ -727,11 +727,7 @@ summary {
     width: 600px;
   }
 
-  .UIDropdown {
-    width: 664px;
-  }
-  
-  details {
+  .UIDropdown, details {
     width: 664px;
   }
 
@@ -824,11 +820,7 @@ summary {
     width: auto;
   }
 
-  .UIDropdown {
-    width: 444px;
-  }
-  
-  details {
+  .UIDropdown, details {
     width: 444px;
   }
 
@@ -843,15 +835,7 @@ summary {
 }
 
 @media (max-width: 480px){
-  .UIDropdown {
-    width: 300px;
-  }
-  
-  details {
-    width: 300px;
-  }
-
-  .UIProject {
+  .UIDropdown, details, .UIProject {
     width: 300px;
   }
 
