@@ -1,9 +1,9 @@
-import DaysofUICollage from "./images/100DaysofUI/100DaysofUICollage.png"
-import WeatherSounds from "./images/WeatherSounds/WeatherSounds.png"
-import AudioVisualizer from "./images/AudioVisualizer/AudioVisualizer.png"
-import CosmicHarmonies from "./images/CosmicHarmonies/CosmicHarmonies.png"
-import SunandLOONA from "./images/SunandLOONA/SunMoon.png"
-import RedVelvetCollage from "./images/RedVelvetTypography/RedVelvetCollage.png"
+import DaysofUICollage from "./images/100DaysofUI/100DaysofUICollage.png";
+import WeatherSounds from "./images/WeatherSounds/WeatherSounds.png";
+import AudioVisualizer from "./images/AudioVisualizer/AudioVisualizer.png";
+import CosmicHarmonies from "./images/CosmicHarmonies/CosmicHarmonies.png";
+import SunandLOONA from "./images/SunandLOONA/SunMoon.png";
+import RedVelvetCollage from "./images/RedVelvetTypography/RedVelvetCollage.png";
 
 var OtherWorkData = [
   {
@@ -13,7 +13,7 @@ var OtherWorkData = [
     alt: "100 Days of UI screenshot",
     summary: "A 100-day UI design challenge",
     date: "Fall 2023 - Summer 2024",
-    category: "UI Design, UX Design"
+    category: "UI Design, UX Design",
   },
   {
     id: "red-velvet-typography",
@@ -48,7 +48,7 @@ var OtherWorkData = [
     alt: "WeatherSounds Max MSP project screenshot",
     summary: "Dynamic soundscapes based on city weather forecasts",
     date: "Spring 2023",
-    category: "Creative Coding"
+    category: "Creative Coding",
   },
   {
     id: "audio-visualizer",
@@ -57,7 +57,7 @@ var OtherWorkData = [
     alt: "Audio Visualizer Max MSP project screenshot",
     summary: "Audio-visual experiences in Max MSP",
     date: "Spring 2023",
-    category: "Creative Coding"
+    category: "Creative Coding",
   },
   {
     id: "sun-and-LOONA",
@@ -66,7 +66,7 @@ var OtherWorkData = [
     alt: "Sun and LOONA screenshot",
     summary: "Astronomy data + song recommendations based on the hour!",
     date: "Fall 2022",
-    category: "Web Development"
+    category: "Web Development",
   },
   // {
   //   id: "",

@@ -14,7 +14,7 @@ var Days1_10Data = [
   {
     id: "day1",
     title: "Day 1: Sign Up",
-    img: Day1,
+    img: "https://previews.dropbox.com/p/thumb/ACe6_6JHTUfkyRNLZeUE357MokAsH14CVimxFhJE_tBUNzz7TZy_V3yjTJG8E6CmyST6dTPrfDe5OJtl-eszMHAVM0Lx9zofNjNGzBdQYlkkYcsNre2RVMQfNbBxBUsN0B2djGmJTD74SYRxa5jj65mEiyMLpLUwqvmBPD6Ou7CtDZxvFuR-Sug7JZjzthApQ2HX2hVB6jBfYgT1f5AbY97xz71WK3PiS2MZR29RAfs1a7DQ-pROhj6TRqOyDbCmsVD6icoYclVtCBFXEWLGoT_HHZo7Q_CjQLqXk_txPxUFlesW2uK6aphhtZORuIORkqw/p.png",
     prototype:
       "https://www.figma.com/proto/FjMHbNmOi5ed3BpDhKsBI0/100-Days-of-UI-(Days-1---10)?node-id=186-219&t=voidVvmDjZpGrOEx-1",
   },

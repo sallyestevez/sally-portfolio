@@ -62,7 +62,8 @@ body {
   position: relative;
 }
 
-.menu-icon, .home {
+.menu-icon,
+.home {
   display: none;
 }
 
@@ -602,7 +603,8 @@ summary {
     width: 800px;
   }
 
-  .UIDropdown, details {
+  .UIDropdown,
+  details {
     width: 1540px;
   }
 
@@ -641,7 +643,7 @@ summary {
 }
 
 @media (max-width: 1024px) {
-    .FigmaPrototype {
+  .FigmaPrototype {
     height: 850px;
     width: 850px;
   }
@@ -700,7 +702,8 @@ summary {
     width: 100%;
   }
 
-  .UIDropdown, details {
+  .UIDropdown,
+  details {
     width: 800px;
   }
 
@@ -727,7 +730,8 @@ summary {
     width: 600px;
   }
 
-  .UIDropdown, details {
+  .UIDropdown,
+  details {
     width: 664px;
   }
 
@@ -820,7 +824,8 @@ summary {
     width: auto;
   }
 
-  .UIDropdown, details {
+  .UIDropdown,
+  details {
     width: 444px;
   }
 
@@ -834,8 +839,10 @@ summary {
   }
 }
 
-@media (max-width: 480px){
-  .UIDropdown, details, .UIProject {
+@media (max-width: 480px) {
+  .UIDropdown,
+  details,
+  .UIProject {
     width: 300px;
   }
 
@@ -844,5 +851,3 @@ summary {
     width: 270px;
   }
 }
-
-

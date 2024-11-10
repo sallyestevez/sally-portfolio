@@ -24,61 +24,54 @@ function App() {
     {
       // home page
       path: "/",
-      element: (
-      <Home/>
-      ),
+      element: <Home />,
     },
     {
       // projects page
       path: "/projects",
-      element: (<Projects />
-      ),
+      element: <Projects />,
     },
     {
       // other work page
       path: "/other_work",
-      element: (<OtherWork />
-      ),
+      element: <OtherWork />,
     },
     {
       // about page
       path: "/about",
-      element: (<AboutPage />
-      ),
+      element: <AboutPage />,
     },
     {
       path: "/project/ktown4u-redesign",
-      element: (<Ktown4uRedesignProject />
-
-      ),
+      element: <Ktown4uRedesignProject />,
     },
     {
       path: "/project/eclipse-soundscapes",
-      element: (<EclipseSoundscapesProject />),
+      element: <EclipseSoundscapesProject />,
     },
     {
       path: "/project/discord-file-compressor",
-      element: (<DiscordProject />),
+      element: <DiscordProject />,
     },
     {
       path: "/project/retail-horror-stories",
-      element: (<RetailHorrorStoriesProject />),
+      element: <RetailHorrorStoriesProject />,
     },
     {
       path: "/project/kirbys-corner",
-      element: (<KirbysCornerProject />),
+      element: <KirbysCornerProject />,
     },
     {
       path: "/project/miiverse-revival",
-      element: (<MiiverseRevivalProject />),
+      element: <MiiverseRevivalProject />,
     },
     {
       path: "/project/visit-mira",
-      element: (<VisitMiraProject />),
+      element: <VisitMiraProject />,
     },
     {
       path: "/other-work/100-days-of-ui",
-      element: (<UIProject />),
+      element: <UIProject />,
     },
   ]);
 

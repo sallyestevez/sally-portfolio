@@ -8,8 +8,8 @@ function SallyIntro() {
       <div className="SallyTitleCSS">
         <div className="SallyTitleText">
           <h1>
-            Sally Estevez is a UI/UX designer & front-end developer based in
-            NYC ✴
+            Sally Estevez is a UI/UX designer & front-end developer based in NYC
+            ✴
           </h1>
         </div>
       </div>
