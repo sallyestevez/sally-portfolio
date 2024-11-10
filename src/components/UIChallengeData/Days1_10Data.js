@@ -1,20 +1,20 @@
-import Day1 from "../images/100DaysofUI/Days1-20/Day1.svg";
-import Day2 from "../images/100DaysofUI/Days1-20/Day2.svg";
-import Day3 from "../images/100DaysofUI/Days1-20/Day3.svg";
-import Day4 from "../images/100DaysofUI/Days1-20/Day4.svg";
-import Day5 from "../images/100DaysofUI/Days1-20/Day5.svg";
-import Day6 from "../images/100DaysofUI/Days1-20/Day6.svg";
-import Day7 from "../images/100DaysofUI/Days1-20/Day7.svg";
-import Day8 from "../images/100DaysofUI/Days1-20/Day8.svg";
-import Day9 from "../images/100DaysofUI/Days1-20/Day9.svg";
-import Day10 from "../images/100DaysofUI/Days1-20/Day10.svg";
+import Day1 from "../images/100DaysofUI/Days1-20/Day 1.png";
+import Day2 from "../images/100DaysofUI/Days1-20/Day 2.png";
+import Day3 from "../images/100DaysofUI/Days1-20/Day 3.png";
+import Day4 from "../images/100DaysofUI/Days1-20/Day 4.png";
+import Day5 from "../images/100DaysofUI/Days1-20/Day 5.png";
+import Day6 from "../images/100DaysofUI/Days1-20/Day 6.png";
+import Day7 from "../images/100DaysofUI/Days1-20/Day 7.png";
+import Day8 from "../images/100DaysofUI/Days1-20/Day 8.png";
+import Day9 from "../images/100DaysofUI/Days1-20/Day 9.png";
+import Day10 from "../images/100DaysofUI/Days1-20/Day 10.png";
 
 var Days1_10Data = [
   // Days 1-10 file link: https://www.figma.com/design/FjMHbNmOi5ed3BpDhKsBI0/100-Days-of-UI-(Days-1---10)?node-id=186-219&node-type=canvas
   {
     id: "day1",
     title: "Day 1: Sign Up",
-    img: "https://previews.dropbox.com/p/thumb/ACe6_6JHTUfkyRNLZeUE357MokAsH14CVimxFhJE_tBUNzz7TZy_V3yjTJG8E6CmyST6dTPrfDe5OJtl-eszMHAVM0Lx9zofNjNGzBdQYlkkYcsNre2RVMQfNbBxBUsN0B2djGmJTD74SYRxa5jj65mEiyMLpLUwqvmBPD6Ou7CtDZxvFuR-Sug7JZjzthApQ2HX2hVB6jBfYgT1f5AbY97xz71WK3PiS2MZR29RAfs1a7DQ-pROhj6TRqOyDbCmsVD6icoYclVtCBFXEWLGoT_HHZo7Q_CjQLqXk_txPxUFlesW2uK6aphhtZORuIORkqw/p.png",
+    img: Day1,
     prototype:
       "https://www.figma.com/proto/FjMHbNmOi5ed3BpDhKsBI0/100-Days-of-UI-(Days-1---10)?node-id=186-219&t=voidVvmDjZpGrOEx-1",
   },
