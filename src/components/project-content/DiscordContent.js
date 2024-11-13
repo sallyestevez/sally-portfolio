@@ -186,15 +186,15 @@ function DiscordContent() {
               solutions:
             </h2>
             <p>
-              Google Drive Integration: Allow users to send files from Drive
+            ✴ <strong>Google Drive Integration:</strong> Allow users to send files from Drive
               directly within Discord However, not everyone uses Google Drive.
             </p>
             <p>
-              Remove Nitro: Increase file size limits for all users but
+            ✴ <strong>Remove Nitro:</strong> Increase file size limits for all users but
               lose a source of revenue.
             </p>
             <p>
-              In-App Compression Tool: Implement a feature that enables users to
+            ✴ <strong>In-App Compression Tool:</strong> Implement a feature that enables users to
               compress large files before sending them.
             </p>
             <h2 className="quote">
@@ -265,15 +265,15 @@ function DiscordContent() {
               including:
             </h2>
             <p>
-              <strong>Final Size Specification: </strong>Users wanted clarity on
+            ✴ <strong>Final Size Specification: </strong>Users wanted clarity on
               the file size after compression.
             </p>
             <p>
-              <strong>Text Visibility: </strong>Some text was too small for
+            ✴ <strong>Text Visibility: </strong>Some text was too small for
               comfortable reading.
             </p>
             <p>
-              <strong>Onboarding Screens: </strong>Including tutorial screens would 
+            ✴ <strong>Onboarding Screens: </strong>Including tutorial screens would 
               help users learn about the new compression process.
             </p>
           </div>
@@ -300,14 +300,14 @@ function DiscordContent() {
           <div className="ProjectDiv ProjectTakeaways">
             <div className="ProjectPageSubtitle">Takeaways</div>
             <h2 className="quote">
-              Design is not a linear process! Constant iteration is needed!
+            ✴ Design is not a linear process! Constant iteration is needed!
             </h2>
             <h2 className="quote">
-              Companies should not forget about their non-subscribers. They
+            ✴ Companies should not forget about their non-subscribers. They
               represent a significant portion of their user base.
             </h2>
             <h2 className="quote">
-              Flexible file-sharing options can greatly enhance user experience
+            ✴ Flexible file-sharing options can greatly enhance user experience
               and satisfaction.
             </h2>
           </div>

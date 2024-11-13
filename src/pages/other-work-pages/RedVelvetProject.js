@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RedVelvetCards from "../../components/RedVelvetCard";
 import RedVelvetData from "../../components/RedVelvetData";
+import OtherWorkData from "../../components/OtherWorkData";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
@@ -12,7 +13,21 @@ function RedVelvetProject() {
     <>
       <Header />
       <div className="PageWrapper">
-        <h1 className="PageTitle PageHeader">Red Velvet Typography Challenge</h1>
+      <div className="ProjectHeaderText">
+          <h1 className="PageTitle UIPage">{OtherWorkData[1].title}</h1>
+          <div className="ProjectSummary UIPage">
+            {OtherWorkData[1].summary}
+          </div>
+          <div className="ProjectDateCategory UIPage">
+            {OtherWorkData[1].date} | {OtherWorkData[1].category}
+          </div>
+        </div>
+        <div className="ProjectImage--ProjectPage">
+          <img
+            src={OtherWorkData[1].img}
+            alt={`${OtherWorkData[1].title} collage`}
+          />
+        </div>
         <RedVelvetCards item={item} />
       </div>
       <Footer />

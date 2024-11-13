@@ -44,7 +44,7 @@ function MiiverseRevivalContent() {
             </p>
             <p>
               ✴ <strong>Post Customization: </strong>Users can add a "feeling" (ex. happy, 
-              sad, tired, etc.) to their posts, like in the original Miiverse experience.
+              sad, tired, etc.) to their posts, like in the original Miiverse.
             </p>
             <p>
               ✴ <strong>Activity Feed: </strong>A real-time feed displaying
