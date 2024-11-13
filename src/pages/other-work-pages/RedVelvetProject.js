@@ -28,6 +28,9 @@ function RedVelvetProject() {
             alt={`${OtherWorkData[1].title} collage`}
           />
         </div>
+        {/* INCLUDE BACKGROUND INFORMATION ABOUT PROJECT - CAN USE 
+        INFO FROM RESUME DESCRIPTION */}
+        {/* SAVE FILES ON LAPTOP TO FIX FORMATTING */}
         <RedVelvetCards item={item} />
       </div>
       <Footer />
