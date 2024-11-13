@@ -64,7 +64,7 @@ var OtherWorkData = [
     title: "Sun and LOONA",
     img: SunandLOONA,
     alt: "Sun and LOONA screenshot",
-    summary: "Astronomy data + song recommendations based on the hour!",
+    summary: "Astronomy data + LOONA song recommendations based on the hour!",
     date: "Fall 2022",
     category: "Web Development",
   },

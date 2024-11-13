@@ -12,7 +12,7 @@ function Day1_10Cards() {
           return (
             <div className="UIProject">
               <div className="UI_IMAGE">
-                <img src={Val.img} alt={`${Val.title} screenshot`}></img>
+                <img src={Val.img} alt={`${Val.title} mockup image`}></img>
               </div>
               <div className="UIProjectText">
                 <div className="PromptTitle">{Val.title}</div>
