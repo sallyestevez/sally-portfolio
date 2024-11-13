@@ -17,6 +17,7 @@ import KirbysCornerProject from "./pages/project-pages/KirbysCornerProject";
 import MiiverseRevivalProject from "./pages/project-pages/MiiverseRevivalProject";
 import VisitMiraProject from "./pages/project-pages/VisitMiraProject";
 import UIProject from "./pages/other-work-pages/UIProject";
+import RedVelvetProject from "./pages/other-work-pages/RedVelvetProject";
 
 function App() {
   // goes to page based on file path
@@ -72,6 +73,10 @@ function App() {
     {
       path: "/other-work/100-days-of-ui",
       element: <UIProject />,
+    },
+    {
+      path: "/other-work/red-velvet-typography",
+      element: <RedVelvetProject />,
     },
   ]);
 
