@@ -41,9 +41,9 @@ function KirbysCornerContent() {
             <p>
               <em>
                 As a dedicated Kirby fan, I created an interactive wiki to share
-                my knowledge of the series with fellow Kirby fans. This was my 
-                senior project and I was in charge of everything, from concept to 
-                coding!
+                my knowledge of the series with fellow Kirby fans. This was my
+                senior project and I was in charge of everything, from concept
+                to coding!
               </em>
             </p>
           </div>
@@ -56,8 +56,8 @@ function KirbysCornerContent() {
               lore, all presented through a user-friendly and charming design.
             </p>
             <p>
-              The website was created using HTML, CSS, and JavaScript on Visual 
-              Studio Code. I used Notion for project management. I used Figma to 
+              The website was created using HTML, CSS, and JavaScript on Visual
+              Studio Code. I used Notion for project management. I used Figma to
               create my wireframes and initial prototype.
             </p>
           </div>
@@ -92,10 +92,10 @@ function KirbysCornerContent() {
           <div className="ProjectDiv ProjectResearch">
             <div className="ProjectPageSubtitle">Research</div>
             <p>
-              After determining the scope, I picked the Kirby games and characters 
-              I wanted to focus on. I started with three games and three key 
-              characters from each, with the thought that I could add on to this 
-              list later on.
+              After determining the scope, I picked the Kirby games and
+              characters I wanted to focus on. I started with three games and
+              three key characters from each, with the thought that I could add
+              on to this list later on.
             </p>
             <p>
               I focused on one game, and its characters, at a time. After

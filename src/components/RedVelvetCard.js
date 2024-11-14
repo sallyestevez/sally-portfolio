@@ -16,8 +16,8 @@ function RedVelvetCards() {
                 <div className="PromptTitle">{Val.title}</div>
               </div>
               <div className="ProjectDateCategory UIPage">
-            {Val.summary} ({Val.date})
-          </div>
+                {Val.summary} ({Val.date})
+              </div>
             </div>
           );
         })}

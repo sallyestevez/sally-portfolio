@@ -1,14 +1,14 @@
 import React from "react";
 import ProjectData from "../ProjectData";
-import OriginalPalette from "../images/EclipseSoundscapes/OriginalPalette.png"
-import LightModePalette from "../images/EclipseSoundscapes/LightModePalette.png"
-import DarkModePalette from "../images/EclipseSoundscapes/DarkModePalette.png"
-import BackToTopOriginal from "../images/EclipseSoundscapes/BackToTopOriginal.png"
-import BackToTopFinal from "../images/EclipseSoundscapes/BackToTopFinal.png"
-import EclipseSoundscapesWireframes from "../images/EclipseSoundscapes/EclipseSoundscapesWireframes.png"
-import SideBarFinal from "../images/EclipseSoundscapes/SideBarFinal.png"
-import SideBarNew from "../images/EclipseSoundscapes/SideBarNew.png"
-import SideBarOriginal from "../images/EclipseSoundscapes/SideBarOriginal.png"
+import OriginalPalette from "../images/EclipseSoundscapes/OriginalPalette.png";
+import LightModePalette from "../images/EclipseSoundscapes/LightModePalette.png";
+import DarkModePalette from "../images/EclipseSoundscapes/DarkModePalette.png";
+import BackToTopOriginal from "../images/EclipseSoundscapes/BackToTopOriginal.png";
+import BackToTopFinal from "../images/EclipseSoundscapes/BackToTopFinal.png";
+import EclipseSoundscapesWireframes from "../images/EclipseSoundscapes/EclipseSoundscapesWireframes.png";
+import SideBarFinal from "../images/EclipseSoundscapes/SideBarFinal.png";
+import SideBarNew from "../images/EclipseSoundscapes/SideBarNew.png";
+import SideBarOriginal from "../images/EclipseSoundscapes/SideBarOriginal.png";
 
 function EclipseSoundscapesContent() {
   return (
@@ -66,7 +66,9 @@ function EclipseSoundscapesContent() {
           <h2 className="CaseStudyText">Full case study coming soon!</h2> */}
 
           <div className="ProjectDiv ProjectOverview">
-            <div className="ProjectPageSubtitle">Eclipse Soundscapes Overview</div>
+            <div className="ProjectPageSubtitle">
+              Eclipse Soundscapes Overview
+            </div>
             <h2>
               Supported by NASA's Space Science Education Consortium (NSSEC)
             </h2>
@@ -137,13 +139,12 @@ function EclipseSoundscapesContent() {
             <div className="ProjectPageSubtitle">User Research & Synthesis</div>
             <p>
               To understand the needs of our target demographic, we conducted a
-              total of 12 in-depth interviews with users aged 55+. The interviews 
-              were broken down into two parts:
+              total of 12 in-depth interviews with users aged 55+. The
+              interviews were broken down into two parts:
             </p>
             <p>
-              <strong>Part 1: </strong>20 questions designed to gather
-              insights into their overall experiences and website preferences,
-              such as
+              <strong>Part 1: </strong>20 questions designed to gather insights
+              into their overall experiences and website preferences, such as
             </p>
             <em>
               <p>✴ What is your preferred method of browsing the internet?</p>
@@ -231,7 +232,11 @@ function EclipseSoundscapesContent() {
               the page for collaborative design and feedback.
             </p>
             <div className="ProjectDiv ProjectImages">
-              <a href={EclipseSoundscapesWireframes} target="_blank" rel="noreferrer">
+              <a
+                href={EclipseSoundscapesWireframes}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={EclipseSoundscapesWireframes}
                   alt={`Eclipse Soundscapes Wireframes`}
@@ -241,75 +246,60 @@ function EclipseSoundscapesContent() {
             <h2>Design Solutions</h2>
             <p>Our redesign solutions included:</p>
             <p>
-            ✴ <strong>New Color Palettes -</strong> Implementing a lighter, more 
-            inviting color scheme, as well as a dark mode
+              ✴ <strong>New Color Palettes -</strong> Implementing a lighter,
+              more inviting color scheme, as well as a dark mode
             </p>
             <div className="ProjectImages">
               <a href={OriginalPalette} target="_blank" rel="noreferrer">
-                <img
-                  src={OriginalPalette}
-                  alt={`Original Color Palette`}
-                />
+                <img src={OriginalPalette} alt={`Original Color Palette`} />
               </a>
               <a href={DarkModePalette} target="_blank" rel="noreferrer">
-                <img
-                  src={DarkModePalette}
-                  alt={`Dark Mode Color Palette`}
-                />
+                <img src={DarkModePalette} alt={`Dark Mode Color Palette`} />
               </a>
               <a href={LightModePalette} target="_blank" rel="noreferrer">
-                <img
-                  src={LightModePalette}
-                  alt={`Light Mode Color Palette`}
-                />
+                <img src={LightModePalette} alt={`Light Mode Color Palette`} />
               </a>
             </div>
-            <p>✴ <strong>Sidebar Navigation -</strong> Enhancing accessibility and usability</p>
+            <p>
+              ✴ <strong>Sidebar Navigation -</strong> Enhancing accessibility
+              and usability
+            </p>
             <div className="ProjectImages">
-            <a href={SideBarOriginal} target="_blank" rel="noreferrer">
-                <img
-                  src={SideBarOriginal}
-                  alt={`Original Side Bar`}
-                />
+              <a href={SideBarOriginal} target="_blank" rel="noreferrer">
+                <img src={SideBarOriginal} alt={`Original Side Bar`} />
               </a>
               <a href={SideBarNew} target="_blank" rel="noreferrer">
-                <img
-                  src={SideBarNew}
-                  alt={`New Side Bar Design`}
-                />
+                <img src={SideBarNew} alt={`New Side Bar Design`} />
               </a>
               <a href={SideBarFinal} target="_blank" rel="noreferrer">
-                <img
-                  src={SideBarFinal}
-                  alt={`Final Side Bar Design`}
-                />
+                <img src={SideBarFinal} alt={`Final Side Bar Design`} />
               </a>
             </div>
-            <p>✴ <strong>Back to Top & Dark Mode Buttons -</strong> Facilitating 
-            easier navigation</p>
+            <p>
+              ✴ <strong>Back to Top & Dark Mode Buttons -</strong> Facilitating
+              easier navigation
+            </p>
             <div className="ProjectImages">
-            <a href={BackToTopOriginal} target="_blank" rel="noreferrer">
+              <a href={BackToTopOriginal} target="_blank" rel="noreferrer">
                 <img
                   src={BackToTopOriginal}
                   alt={`Original Back to Top Button`}
                 />
               </a>
               <a href={BackToTopFinal} target="_blank" rel="noreferrer">
-                <img
-                  src={BackToTopFinal}
-                  alt={`Final Back to Top Button`}
-                />
+                <img src={BackToTopFinal} alt={`Final Back to Top Button`} />
               </a>
             </div>
           </div>
           <div className="ProjectDiv ProjectHiFi">
             <div className="ProjectPageSubtitle">Final Prototype</div>
             <p>
-            Using our research findings, we developed a high-fidelity prototype that 
-            incorporates user feedback and design improvements. The final prototype 
-            features a user-friendly interface that enhances overall usability for 
-            the target audience by optimizing navigation, typography, and contrast 
-            ratios in compliance with WCAG guidelines.
+              Using our research findings, we developed a high-fidelity
+              prototype that incorporates user feedback and design improvements.
+              The final prototype features a user-friendly interface that
+              enhances overall usability for the target audience by optimizing
+              navigation, typography, and contrast ratios in compliance with
+              WCAG guidelines.
             </p>
           </div>
           <div className="FigmaPrototypeDiv">
@@ -323,13 +313,24 @@ function EclipseSoundscapesContent() {
           <div className="ProjectDiv ProjectTakeaways">
             <div className="ProjectPageSubtitle">Future Plans / Next Steps</div>
             <h2>
-            To ensure the redesign effectively meets user needs, we have outlined the 
-            steps needed to move forward:
+              To ensure the redesign effectively meets user needs, we have
+              outlined the steps needed to move forward:
             </h2>
-            <p><strong>1. User Testing - </strong>Gain user feedback on prototypes</p>
-            <p><strong>2. Revision - </strong>Revise prototype based on feedback</p>
-            <p><strong>3. Mobile Redesign - </strong>Optimize prototype for mobile</p>
-            <p><strong>4. Implementing - </strong>Update official site with the revisions</p>
+            <p>
+              <strong>1. User Testing - </strong>Gain user feedback on
+              prototypes
+            </p>
+            <p>
+              <strong>2. Revision - </strong>Revise prototype based on feedback
+            </p>
+            <p>
+              <strong>3. Mobile Redesign - </strong>Optimize prototype for
+              mobile
+            </p>
+            <p>
+              <strong>4. Implementing - </strong>Update official site with the
+              revisions
+            </p>
             <div className="ProjectPageSubtitle ActionPlan">
               Suggested Client Plan of Action
             </div>

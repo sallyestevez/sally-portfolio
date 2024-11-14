@@ -43,27 +43,28 @@ function DiscordContent() {
           <div className="ProjectDiv ProjectScenario">
             <div className="ProjectPageSubtitle">Scenario</div>
             <h2>
-            Picture this: you're a high school student who finds a funny video 
-            online and wants to share it with your friends on Discord. Excited, 
-            you download the video and try to send it, only to get a message 
-            saying the file is too large. Discord's maximum upload size is 8MB, 
-            but Discord tells you that you can bypass this limit by subscribing 
-            to Nitro. Unfortunately, $10 a month for a subscription is too much 
-            for you because you don't have a job. Still determined to send the 
-            video, you use an external app to compress it, adding extra steps 
-            and time. Something that was only supposed to take a few seconds 
-            now takes longer than that.
+              Picture this: you're a high school student who finds a funny video
+              online and wants to share it with your friends on Discord.
+              Excited, you download the video and try to send it, only to get a
+              message saying the file is too large. Discord's maximum upload
+              size is 8MB, but Discord tells you that you can bypass this limit
+              by subscribing to Nitro. Unfortunately, $10 a month for a
+              subscription is too much for you because you don't have a job.
+              Still determined to send the video, you use an external app to
+              compress it, adding extra steps and time. Something that was only
+              supposed to take a few seconds now takes longer than that.
             </h2>
           </div>
           <div className="ProjectDiv ProjectOverview">
             <div className="ProjectPageSubtitle">Overview</div>
             <p>
-            Discord is a social platform where friends and communities can connect 
-            through text, voice, and video chats. However, many users face 
-            frustrating limitations when it comes to sharing files, especially 
-            non-Nitro subscribers who are restricted to an 8 MB upload limit. 
-            This project aimed to explore how we can simplify and enhance the 
-            file-sharing experience without a Nitro subscription.
+              Discord is a social platform where friends and communities can
+              connect through text, voice, and video chats. However, many users
+              face frustrating limitations when it comes to sharing files,
+              especially non-Nitro subscribers who are restricted to an 8 MB
+              upload limit. This project aimed to explore how we can simplify
+              and enhance the file-sharing experience without a Nitro
+              subscription.
             </p>
           </div>
           {/* <div className="ProjectDiv ProjectProcess">
@@ -91,18 +92,21 @@ function DiscordContent() {
               interviews with five Discord users. I asked a total of 16
               questions, including:
             </p>
-            <em><p>✴ Why do you use Discord?</p>
-            <p>✴ Are you subscribed to Nitro?</p>
-            <p>
-            ✴ What do you like and dislike about Discord file sharing and why?
-            </p>
-            <p>
-            ✴ What do you do when a file you're trying to send is too large?
-            </p>
-            <p>
-            ✴ Do you know of any other messaging apps with similar file-sharing
-              functionalities?
-            </p></em>
+            <em>
+              <p>✴ Why do you use Discord?</p>
+              <p>✴ Are you subscribed to Nitro?</p>
+              <p>
+                ✴ What do you like and dislike about Discord file sharing and
+                why?
+              </p>
+              <p>
+                ✴ What do you do when a file you're trying to send is too large?
+              </p>
+              <p>
+                ✴ Do you know of any other messaging apps with similar
+                file-sharing functionalities?
+              </p>
+            </em>
             <h2>User Responses</h2>
             <p>Here are some of their responses:</p>
             <p>
@@ -123,7 +127,8 @@ function DiscordContent() {
               <strong>
                 I use websites to compress videos, an image editor to compress
                 images, and upload larger files to Google Drive
-              </strong>."
+              </strong>
+              ."
             </p>
             <p>
               ✴ "The hardest part about having to send large files is{" "}
@@ -147,11 +152,11 @@ function DiscordContent() {
 
             <h2>User Journey Mapping</h2>
             <p>
-              The typical user journey highlighted a common pain point: after 
-              selecting a file to send, users receive an error message due to 
-              the size restriction. This often leads them to leave Discord to 
-              find alternative solutions, such as using an external app to upload 
-              or compress the file, creating a frustrating experience.
+              The typical user journey highlighted a common pain point: after
+              selecting a file to send, users receive an error message due to
+              the size restriction. This often leads them to leave Discord to
+              find alternative solutions, such as using an external app to
+              upload or compress the file, creating a frustrating experience.
             </p>
             <div className="ProjectImage--ProjectPage">
               <img
@@ -161,16 +166,17 @@ function DiscordContent() {
             </div>
             <h2>Competitive Analysis</h2>
             <p>
-            Discord's main competitors are Slack, Facebook Messenger, and Skype. 
-            One of Slack's strengths is group collaboration. Facebook Messenger 
-            allows for cross-app communication, and Skype has a smart messaging 
-            feature. However, most of Slack's features are behind a paywall, 
-            Slack and Skype's chat history gets deleted after a certain point, 
-            and Facebook Messenger faces a lack of privacy as user messages are 
-            scanned. Unlike its competitors, Discord does not require a subscription 
-            to access most features. Message history is always available, and users 
-            can easily find old messages with search options. However, the 
-            limitations on file uploads can lead to user dissatisfaction.
+              Discord's main competitors are Slack, Facebook Messenger, and
+              Skype. One of Slack's strengths is group collaboration. Facebook
+              Messenger allows for cross-app communication, and Skype has a
+              smart messaging feature. However, most of Slack's features are
+              behind a paywall, Slack and Skype's chat history gets deleted
+              after a certain point, and Facebook Messenger faces a lack of
+              privacy as user messages are scanned. Unlike its competitors,
+              Discord does not require a subscription to access most features.
+              Message history is always available, and users can easily find old
+              messages with search options. However, the limitations on file
+              uploads can lead to user dissatisfaction.
             </p>
             <div className="ProjectImage--ProjectPage">
               <img
@@ -186,22 +192,23 @@ function DiscordContent() {
               solutions:
             </h2>
             <p>
-            ✴ <strong>Google Drive Integration:</strong> Allow users to send files from Drive
-              directly within Discord However, not everyone uses Google Drive.
+              ✴ <strong>Google Drive Integration:</strong> Allow users to send
+              files from Drive directly within Discord However, not everyone
+              uses Google Drive.
             </p>
             <p>
-            ✴ <strong>Remove Nitro:</strong> Increase file size limits for all users but
-              lose a source of revenue.
+              ✴ <strong>Remove Nitro:</strong> Increase file size limits for all
+              users but lose a source of revenue.
             </p>
             <p>
-            ✴ <strong>In-App Compression Tool:</strong> Implement a feature that enables users to
-              compress large files before sending them.
+              ✴ <strong>In-App Compression Tool:</strong> Implement a feature
+              that enables users to compress large files before sending them.
             </p>
             <h2 className="quote">
-            After considering these options, I decided to continue with the last 
-            solution. Offering a flexible file-sharing option would give 
-            non-subscribers an alternative while preserving the existing benefits 
-            for Nitro subscribers.
+              After considering these options, I decided to continue with the
+              last solution. Offering a flexible file-sharing option would give
+              non-subscribers an alternative while preserving the existing
+              benefits for Nitro subscribers.
             </h2>
           </div>
 
@@ -209,10 +216,10 @@ function DiscordContent() {
             <div className="ProjectPageSubtitle">Design Process</div>
             <h2>Wireframing</h2>
             <p>
-            I sketched low-fidelity wireframes, focusing on the user flow when 
-            encountering a file size error on the Android app. Users would receive 
-            a prompt to compress the file and choose the desired compression 
-            percentage.
+              I sketched low-fidelity wireframes, focusing on the user flow when
+              encountering a file size error on the Android app. Users would
+              receive a prompt to compress the file and choose the desired
+              compression percentage.
             </p>
             <div className="ProjectImage--ProjectPage">
               <img
@@ -227,8 +234,8 @@ function DiscordContent() {
             <p>
               <strong>File Size Warning: </strong>When users attempt to upload a
               file that exceeds the size limit, they receive a warning
-              notification. They are given two options: compress the
-              file or go back to select a different one.
+              notification. They are given two options: compress the file or go
+              back to select a different one.
             </p>
             <div className="ProjectImage--ProjectPage">
               <img src={DiscordLoFi1} alt="Discord LoFi Screenshot 1" />
@@ -249,10 +256,10 @@ function DiscordContent() {
               <img src={DiscordLoFi3} alt="Discord LoFi Screenshot 3" />
             </div>
             <p>
-              <strong>Progress Indicator: </strong>Once a user chooses to send their 
-              file, they are shown a progress bar that visually indicates the status 
-              of their file compression and upload. This feature keeps users informed 
-              throughout the process.
+              <strong>Progress Indicator: </strong>Once a user chooses to send
+              their file, they are shown a progress bar that visually indicates
+              the status of their file compression and upload. This feature
+              keeps users informed throughout the process.
             </p>
             <div className="ProjectImage--ProjectPage">
               <img src={DiscordLoFi4} alt="Discord LoFi Screenshot 4" />
@@ -265,26 +272,27 @@ function DiscordContent() {
               including:
             </h2>
             <p>
-            ✴ <strong>Final Size Specification: </strong>Users wanted clarity on
-              the file size after compression.
+              ✴ <strong>Final Size Specification: </strong>Users wanted clarity
+              on the file size after compression.
             </p>
             <p>
-            ✴ <strong>Text Visibility: </strong>Some text was too small for
+              ✴ <strong>Text Visibility: </strong>Some text was too small for
               comfortable reading.
             </p>
             <p>
-            ✴ <strong>Onboarding Screens: </strong>Including tutorial screens would 
-              help users learn about the new compression process.
+              ✴ <strong>Onboarding Screens: </strong>Including tutorial screens
+              would help users learn about the new compression process.
             </p>
           </div>
           <div className="ProjectDiv ProjectHiFi">
             <div className="ProjectPageSubtitle">Final Design and Outcomes</div>
             <h2>Final Prototype</h2>
             <p>
-            After incorporating the user feedback, I refined the prototype, enhancing 
-            usability and visual clarity. The final design makes file sharing smoother 
-            for Discord users, reducing frustration and encouraging engagement within 
-            the platform. The working prototype can be seen below.
+              After incorporating the user feedback, I refined the prototype,
+              enhancing usability and visual clarity. The final design makes
+              file sharing smoother for Discord users, reducing frustration and
+              encouraging engagement within the platform. The working prototype
+              can be seen below.
             </p>
           </div>
         </div>
@@ -300,15 +308,15 @@ function DiscordContent() {
           <div className="ProjectDiv ProjectTakeaways">
             <div className="ProjectPageSubtitle">Takeaways</div>
             <h2 className="quote">
-            ✴ Design is not a linear process! Constant iteration is needed!
+              ✴ Design is not a linear process! Constant iteration is needed!
             </h2>
             <h2 className="quote">
-            ✴ Companies should not forget about their non-subscribers. They
+              ✴ Companies should not forget about their non-subscribers. They
               represent a significant portion of their user base.
             </h2>
             <h2 className="quote">
-            ✴ Flexible file-sharing options can greatly enhance user experience
-              and satisfaction.
+              ✴ Flexible file-sharing options can greatly enhance user
+              experience and satisfaction.
             </h2>
           </div>
         </div>

@@ -13,7 +13,7 @@ function RedVelvetProject() {
     <>
       <Header />
       <div className="PageWrapper">
-      <div className="ProjectHeaderText">
+        <div className="ProjectHeaderText">
           <h1 className="PageTitle UIPage">{OtherWorkData[1].title}</h1>
           <div className="ProjectSummary UIPage">
             {OtherWorkData[1].summary}
@@ -39,4 +39,3 @@ function RedVelvetProject() {
 }
 
 export default RedVelvetProject;
-

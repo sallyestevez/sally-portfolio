@@ -47,8 +47,8 @@ function VisitMiraContent() {
             <h2>What You'll Discover</h2>
             <p>
               ✴ <strong>Five Unique Regions: </strong>From the lush jungles of
-              Noctilum to the scorching volcanoes of Cauldros, each region has its 
-              own charm and secrets!
+              Noctilum to the scorching volcanoes of Cauldros, each region has
+              its own charm and secrets!
             </p>
             <p>
               ✴ <strong>Interactive Experience: </strong>Navigate through the

@@ -39,12 +39,13 @@ function MiiverseRevivalContent() {
             </p>
             <h2>Key Features:</h2>
             <p>
-              ✴ <strong>Account Creation: </strong>Users can register with their email address 
-              and personalize their profiles with their name.
+              ✴ <strong>Account Creation: </strong>Users can register with their
+              email address and personalize their profiles with their name.
             </p>
             <p>
-              ✴ <strong>Post Customization: </strong>Users can add a "feeling" (ex. happy, 
-              sad, tired, etc.) to their posts, like in the original Miiverse.
+              ✴ <strong>Post Customization: </strong>Users can add a "feeling"
+              (ex. happy, sad, tired, etc.) to their posts, like in the original
+              Miiverse.
             </p>
             <p>
               ✴ <strong>Activity Feed: </strong>A real-time feed displaying
