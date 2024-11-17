@@ -5,8 +5,6 @@ import OtherWorkData from "../../components/OtherWorkData";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-// USE SAME FORMAT FOR 'OTHER WORK' PAGE
-
 function RedVelvetProject() {
   const [item] = useState(RedVelvetData);
   return (
@@ -46,8 +44,8 @@ function RedVelvetProject() {
               <p>
                 With this typography challenge, I focused on creating unique
                 typographic styles tailored to songs by the K-Pop group Red
-                Velvet. Each design captured the mood and theme of the track,
-                and I aimed to align typography with emotional tone.
+                Velvet. I aimed to capture the mood and theme of the tracks with
+                each design.
               </p>
               <p>
                 I was inspired by the unique typographic styles for songs by the
@@ -55,30 +53,41 @@ function RedVelvetProject() {
               </p>
               <div className="ProjectPageSubtitle">Process</div>
               <p>
-                ✴ <strong>Research & Inspiration: </strong>
+                ✴ <strong>Research & Inspiration: </strong>I started off by
+                looking into each song's lyrical and musical content. This
+                helped me with the font selection for each track.
               </p>
               <p>
-                ✴ <strong>Design Execution: </strong>
+                ✴ <strong>Design Execution: </strong>For each track, I was very
+                careful when selecting fonts and text alignment, making sure
+                that these elements matched the overall mood. I went with bold
+                and playful fonts for Red Velvet's more upbeat and quirky
+                tracks, and with softer and lighter fonts for their quieter
+                songs. I experimented with layout and spacing variations until
+                the result was something that represented the song.
               </p>
               <p>
-                ✴ <strong>Cohesion: </strong>
-              </p>
-              <p>
-                ✴{" "}
-                <strong>
-                  Presentation: All of the designs were compiled in a Figma
-                  file.
-                </strong>
+                ✴ <strong>Cohesion & Presentation: </strong>The designs were
+                compiled in a Figma file. All of the songs that appear on one
+                album are grouped together. The color schemes were chosen to
+                align with the album artwork and other promotional materials.
               </p>
               <div className="ProjectPageSubtitle">Challenges & Solutions</div>
-              <p></p>
+              <p>
+                One significant challenge was maintaining readability without
+                sacrificing aesthetic appeal. I used iteration to solve this
+                issue, making adjustments to font size and spacing to ensure
+                clarity and emotional engagement.
+              </p>
               <div className="ProjectPageSubtitle">Takeaways</div>
-              <p></p>
+              <p>
+                This project helped strengthen my typography and design skills,
+                as well as my ability to translate musical and emotional themes
+                into engaging visual designs.
+              </p>
             </div>
           </div>
         </section>
-        {/* INCLUDE BACKGROUND INFORMATION ABOUT PROJECT - CAN USE 
-        INFO FROM RESUME DESCRIPTION */}
         <RedVelvetCards item={item} />
       </div>
       <Footer />
