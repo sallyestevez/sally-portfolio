@@ -44,7 +44,7 @@ function RedVelvetProject() {
               <p>
                 With this typography challenge, I focused on creating unique
                 typographic styles tailored to songs by the K-Pop group Red
-                Velvet. I aimed to capture the mood and theme of the tracks with
+                Velvet. I aimed to capture the mood and theme of the songs with
                 each design.
               </p>
               <p>

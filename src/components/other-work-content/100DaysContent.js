@@ -49,6 +49,7 @@ function UIContent() {
             {OtherWorkData[0].date} | {OtherWorkData[0].category}
           </div>
         </div>
+        {/* rename cards - PascalCase or SCREAMING_SNAKE_CASE */}
         <div className="UIDropdown">
           <details open name="open">
             <summary>Days 1 - 10</summary>
