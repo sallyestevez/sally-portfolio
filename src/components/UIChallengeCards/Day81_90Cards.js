@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Days81_90Data from "../UIChallengeData/Days81_90Data";
+import DAY_81_90_DATA from "../UIChallengeData/Days81_90Data";
 
 function Day81_90Cards() {
-  const [item] = useState(Days81_90Data);
+  const [item] = useState(DAY_81_90_DATA);
   return (
     <>
       <div className="UIPromptsSection" id="UIPrompts">

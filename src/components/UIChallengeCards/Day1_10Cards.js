@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Days1_10Data from "../UIChallengeData/Days1_10Data";
+import DAY_1_10_DATA from "../UIChallengeData/Days1_10Data";
 
 // USE SAME FORMAT FOR 'OTHER WORK' PAGE
 
-function Day1_10Cards() {
-  const [item] = useState(Days1_10Data);
+function DAY_1_10_CARDS() {
+  const [item] = useState(DAY_1_10_DATA);
   return (
     <>
       <div className="UIPromptsSection" id="UIPrompts">
@@ -30,4 +30,4 @@ function Day1_10Cards() {
   );
 }
 
-export default Day1_10Cards;
+export default DAY_1_10_CARDS;

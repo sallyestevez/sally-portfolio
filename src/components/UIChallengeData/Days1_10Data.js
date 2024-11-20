@@ -9,7 +9,7 @@ import Day8 from "../images/100DaysofUI/Days1-20/Day 8.png";
 import Day9 from "../images/100DaysofUI/Days1-20/Day 9.png";
 import Day10 from "../images/100DaysofUI/Days1-20/Day 10.png";
 
-var Days1_10Data = [
+var DAY_1_10_DATA = [
   // Days 1-10 file link: https://www.figma.com/design/FjMHbNmOi5ed3BpDhKsBI0/100-Days-of-UI-(Days-1---10)?node-id=186-219&node-type=canvas
   {
     id: "day1",
@@ -83,4 +83,4 @@ var Days1_10Data = [
   },
 ];
 
-export default Days1_10Data;
+export default DAY_1_10_DATA;

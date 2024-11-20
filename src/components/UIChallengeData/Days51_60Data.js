@@ -9,7 +9,7 @@ import Day58 from "../images/100DaysofUI/Days41-60/Day58.png";
 import Day59 from "../images/100DaysofUI/Days41-60/Day59.png";
 import Day60 from "../images/100DaysofUI/Days41-60/Day60.png";
 
-var Days51_60Data = [
+var DAY_51_60_DATA = [
   // Days 51-60 file link: https://www.figma.com/design/tJhTehJW2t3FTZ1yRgMGZJ/100-Days-of-UI-(Days-51---60)?m=auto&t=1QE3XbR2qx1D7Jcd-1
 
   {
@@ -84,4 +84,4 @@ var Days51_60Data = [
   },
 ];
 
-export default Days51_60Data;
+export default DAY_51_60_DATA;
