@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DAY_51_60_DATA from "../UIChallengeData/Days51_60Data";
+import DAY_51_60_DATA from "../other-work-data/UIChallengeData/Days51_60Data";
 
 function Day51_60Cards() {
   const [item] = useState(DAY_51_60_DATA);

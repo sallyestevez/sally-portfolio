@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import RedVelvetCards from "../../components/RedVelvetCard";
-import RedVelvetData from "../../components/RedVelvetData";
+import RedVelvetCards from "../../components/other-work-content/RedVelvetChallenge/RedVelvetCard";
+import RedVelvetData from "../../components/other-work-data/RedVelvetData";
 import OtherWorkData from "../../components/OtherWorkData";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";

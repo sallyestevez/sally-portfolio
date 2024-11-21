@@ -1,13 +1,13 @@
-import Day1 from "../images/100DaysofUI/Days1-20/Day 1.png";
-import Day2 from "../images/100DaysofUI/Days1-20/Day 2.png";
-import Day3 from "../images/100DaysofUI/Days1-20/Day 3.png";
-import Day4 from "../images/100DaysofUI/Days1-20/Day 4.png";
-import Day5 from "../images/100DaysofUI/Days1-20/Day 5.png";
-import Day6 from "../images/100DaysofUI/Days1-20/Day 6.png";
-import Day7 from "../images/100DaysofUI/Days1-20/Day 7.png";
-import Day8 from "../images/100DaysofUI/Days1-20/Day 8.png";
-import Day9 from "../images/100DaysofUI/Days1-20/Day 9.png";
-import Day10 from "../images/100DaysofUI/Days1-20/Day 10.png";
+import Day1 from "../../images/100DaysofUI/Days1-20/Day 1.png";
+import Day2 from "../../images/100DaysofUI/Days1-20/Day 2.png";
+import Day3 from "../../images/100DaysofUI/Days1-20/Day 3.png";
+import Day4 from "../../images/100DaysofUI/Days1-20/Day 4.png";
+import Day5 from "../../images/100DaysofUI/Days1-20/Day 5.png";
+import Day6 from "../../images/100DaysofUI/Days1-20/Day 6.png";
+import Day7 from "../../images/100DaysofUI/Days1-20/Day 7.png";
+import Day8 from "../../images/100DaysofUI/Days1-20/Day 8.png";
+import Day9 from "../../images/100DaysofUI/Days1-20/Day 9.png";
+import Day10 from "../../images/100DaysofUI/Days1-20/Day 10.png";
 
 var DAY_1_10_DATA = [
   // Days 1-10 file link: https://www.figma.com/design/FjMHbNmOi5ed3BpDhKsBI0/100-Days-of-UI-(Days-1---10)?node-id=186-219&node-type=canvas

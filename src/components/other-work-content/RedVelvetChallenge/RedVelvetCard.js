@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import DAY_91_100_DATA from "../UIChallengeData/Days91_100Data";
+import RedVelvetData from "../../other-work-data/RedVelvetData";
 
-function Day91_100Cards() {
-  const [item] = useState(DAY_91_100_DATA);
+function RedVelvetCards() {
+  const [item] = useState(RedVelvetData);
   return (
     <>
       <div className="UIPromptsSection" id="UIPrompts">
@@ -10,15 +10,13 @@ function Day91_100Cards() {
           return (
             <div className="UIProject">
               <div className="UI_IMAGE">
-                <img src={Val.img} alt={`${Val.title} mockup`}></img>
+                <img src={Val.img} alt={`${Val.title} song titles`}></img>
               </div>
               <div className="UIProjectText">
                 <div className="PromptTitle">{Val.title}</div>
-                <div className="PrototypeLink">
-                  <a href={Val.prototype} className="link">
-                    <p>Link to Figma prototype</p>
-                  </a>
-                </div>
+              </div>
+              <div className="ProjectDateCategory UIPage">
+                {Val.summary} ({Val.date})
               </div>
             </div>
           );
@@ -28,4 +26,4 @@ function Day91_100Cards() {
   );
 }
 
-export default Day91_100Cards;
+export default RedVelvetCards;
