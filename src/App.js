@@ -18,6 +18,10 @@ import MiiverseRevivalProject from "./pages/project-pages/MiiverseRevivalProject
 import VisitMiraProject from "./pages/project-pages/VisitMiraProject";
 import UIProject from "./pages/other-work-pages/UIProject";
 import RedVelvetProject from "./pages/other-work-pages/RedVelvetProject";
+import WeatherSoundsProject from "./pages/other-work-pages/WeatherSoundsProject";
+import AudioVisualizerProject from "./pages/other-work-pages/AudioVisualizerProject";
+import CosmicHarmoniesProject from "./pages/other-work-pages/CosmicHarmoniesProject";
+import SunAndLOONAProject from "./pages/other-work-pages/SunAndLOONAProject";
 
 function App() {
   // goes to page based on file path
@@ -77,6 +81,22 @@ function App() {
     {
       path: "/other-work/red-velvet-typography",
       element: <RedVelvetProject />,
+    },
+    {
+      path: "/other-work/weather-sounds",
+      element: <WeatherSoundsProject />,
+    },
+    {
+      path: "/other-work/audio-visualizer",
+      element: <AudioVisualizerProject />,
+    },
+    {
+      path: "/other-work/cosmic-harmonies",
+      element: <CosmicHarmoniesProject />,
+    },
+    {
+      path: "/other-work/sun-and-LOONA",
+      element: <SunAndLOONAProject />,
     },
   ]);
 

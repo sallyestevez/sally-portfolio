@@ -1,13 +1,13 @@
-import Day81 from "../../images/100DaysofUI/Days81-100/Day82.png";
-import Day82 from "../../images/100DaysofUI/Days81-100/Day82.png";
-import Day83 from "../../images/100DaysofUI/Days81-100/Day83.png";
-import Day84 from "../../images/100DaysofUI/Days81-100/Day84.png";
-import Day85 from "../../images/100DaysofUI/Days81-100/Day85.png";
-import Day86 from "../../images/100DaysofUI/Days81-100/Day86.png";
-import Day87 from "../../images/100DaysofUI/Days81-100/Day87.png";
-import Day88 from "../../images/100DaysofUI/Days81-100/Day88.png";
-import Day89 from "../../images/100DaysofUI/Days81-100/Day89.png";
-import Day90 from "../../images/100DaysofUI/Days81-100/Day90.png";
+import Day81 from "../images/100DaysofUI/Days81-100/Day82.png";
+import Day82 from "../images/100DaysofUI/Days81-100/Day82.png";
+import Day83 from "../images/100DaysofUI/Days81-100/Day83.png";
+import Day84 from "../images/100DaysofUI/Days81-100/Day84.png";
+import Day85 from "../images/100DaysofUI/Days81-100/Day85.png";
+import Day86 from "../images/100DaysofUI/Days81-100/Day86.png";
+import Day87 from "../images/100DaysofUI/Days81-100/Day87.png";
+import Day88 from "../images/100DaysofUI/Days81-100/Day88.png";
+import Day89 from "../images/100DaysofUI/Days81-100/Day89.png";
+import Day90 from "../images/100DaysofUI/Days81-100/Day90.png";
 
 var DAY_81_90_DATA = [
   // Days 81-90 file link: https://www.figma.com/design/PiLPQ4RzfK0lyBvK56naIS/100-Days-of-UI-(Days-81---90)?m=auto&t=1QE3XbR2qx1D7Jcd-1

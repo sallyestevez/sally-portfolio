@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import DAY_61_70_DATA from "../other-work-data/UIChallengeData/Days61_70Data";
+import DAY_91_100_DATA from "../../UIChallengeData/Days91_100Data";
 
-function Day61_70Cards() {
-  const [item] = useState(DAY_61_70_DATA);
+function Day91_100Cards() {
+  const [item] = useState(DAY_91_100_DATA);
   return (
     <>
       <div className="UIPromptsSection" id="UIPrompts">
@@ -28,4 +28,4 @@ function Day61_70Cards() {
   );
 }
 
-export default Day61_70Cards;
+export default Day91_100Cards;
