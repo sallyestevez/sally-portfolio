@@ -7,7 +7,7 @@ function UIProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="PageWrapper">
         <UIContent />
       </main>
       <Footer />
