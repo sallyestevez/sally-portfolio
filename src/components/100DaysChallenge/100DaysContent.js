@@ -40,6 +40,7 @@ function UIContent() {
   return (
     <>
       <div className="PageWrapper">
+        <header className="ProjectHeader">
         <div className="ProjectHeaderText">
           <h1 className="PageTitle UIPage">{OtherWorkData[0].title}</h1>
           <div className="ProjectSummary UIPage">
@@ -49,6 +50,20 @@ function UIContent() {
             {OtherWorkData[0].date} | {OtherWorkData[0].category}
           </div>
         </div>
+        </header>
+        <section>
+          <div className="ProjectContent">
+            <div className="ProjectDiv ProjectDetails">
+              <div className="ProjectPageSubtitle">Project Details</div>
+              <p><strong>Role:</strong> UI/UX & Visual Designer</p>
+              <p><strong>Duration:</strong> December 2023 - August 2024</p>
+              <p><strong>Tools:</strong> Figma, Adobe XD</p>
+            </div>
+          <div className="ProjectDiv ProjectOverview">
+            <div className="ProjectPageSubtitle">Overview</div>
+          </div>
+          </div>
+        </section>
         <div className="UIDropdown">
           <details open name="open">
             <summary>Days 1 - 10</summary>

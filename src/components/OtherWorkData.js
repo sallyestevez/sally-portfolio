@@ -12,7 +12,7 @@ var OtherWorkData = [
     img: DaysofUICollage,
     alt: "100 Days of UI screenshot",
     summary: "A 100-day UI design challenge",
-    date: "Fall 2023 - Summer 2024",
+    date: "Winter 2023 - Summer 2024",
     category: "UI Design, UX Design",
   },
   {
