@@ -41,27 +41,84 @@ function UIContent() {
     <>
       <div className="PageWrapper">
         <header className="ProjectHeader">
-        <div className="ProjectHeaderText">
-          <h1 className="PageTitle UIPage">{OtherWorkData[0].title}</h1>
-          <div className="ProjectSummary UIPage">
-            {OtherWorkData[0].summary}
+          <div className="ProjectHeaderText">
+            <h1 className="PageTitle UIPage">{OtherWorkData[0].title}</h1>
+            <div className="ProjectSummary UIPage">
+              {OtherWorkData[0].summary}
+            </div>
+            <div className="ProjectDateCategory UIPage">
+              {OtherWorkData[0].date} | {OtherWorkData[0].category}
+            </div>
           </div>
-          <div className="ProjectDateCategory UIPage">
-            {OtherWorkData[0].date} | {OtherWorkData[0].category}
-          </div>
-        </div>
         </header>
         <section>
           <div className="ProjectContent">
             <div className="ProjectDiv ProjectDetails">
               <div className="ProjectPageSubtitle">Project Details</div>
-              <p><strong>Role:</strong> UI/UX & Visual Designer</p>
-              <p><strong>Duration:</strong> December 2023 - August 2024</p>
-              <p><strong>Tools:</strong> Figma, Adobe XD</p>
+              <p>
+                <strong>Role:</strong> UI/UX & Visual Designer
+              </p>
+              <p>
+                <strong>Duration:</strong> December 2023 - August 2024
+              </p>
+              <p>
+                <strong>Tools:</strong> Figma, Adobe XD
+              </p>
             </div>
-          <div className="ProjectDiv ProjectOverview">
-            <div className="ProjectPageSubtitle">Overview</div>
-          </div>
+            <div className="ProjectDiv ProjectOverview">
+              <div className="ProjectPageSubtitle">Overview</div>
+              <p>
+                This was a self-driven challenge aimed at improving both my
+                creative and technical UI/UX skills. I designed 100 unique user
+                interface components based on prompts, including web layouts,
+                mobile app interfaces, and graphical elements.
+              </p>
+            </div>
+            <div className="ProjectDiv Goals">
+              <div className="ProjectPageSubtitle">Goals</div>
+              <p>With this challenge, I aimed to:</p>
+              <p>✴ develop a portfolio of diverse UI elements</p>
+              <p>
+                ✴ improve skill in wireframing, prototyping, iteration, and
+                user-centered design
+              </p>
+            </div>
+            <div className="ProjectDiv Process">
+              <div className="ProjectPageSubtitle">Process</div>
+              <p>
+                For each of the 100 designs, I aimed to reach a balance of
+                usability and aesthetic appeal. After the initial designs were
+                completed, they were then improved through repeated iteration.
+                Finally, I created prototypes for many of the designs.
+              </p>
+            </div>
+            <div className="ProjectDiv ChallengesSolutions">
+              <div className="ProjectPageSubtitle">Challenges & Solutions</div>
+              <p>
+                There were times where I went through creative blocks. In order
+                to overcome this, I researched design inspirations and also
+                experimented with unfamiliar design styles.
+              </p>
+            </div>
+            <div className="ProjectDiv Outcomes">
+              <div className="ProjectPageSubtitle">Outcomes</div>
+              <p>
+                Thanks to this challenge, I was able to accomplish the
+                following:
+              </p>
+              <p>
+                ✴ I gained an advanced understanding of design consistency,
+                accessibility, and modern UI trends.
+              </p>
+              <p>
+                ✴ I created designs that demonstrate adaptability for different
+                design needs.
+              </p>
+              <p>
+                ✴ I improved my prototyping skills by creating designs with
+                interactive and user-friendly flows.
+              </p>
+            </div>
           </div>
         </section>
         <div className="UIDropdown">
