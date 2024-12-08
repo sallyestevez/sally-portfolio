@@ -4,6 +4,7 @@ import AudioVisualizer from "./images/AudioVisualizer/AudioVisualizer.png";
 import CosmicHarmonies from "./images/CosmicHarmonies/CosmicHarmonies.png";
 import SunandLOONA from "./images/SunandLOONA/SunMoon.png";
 import RedVelvetCollage from "./images/RedVelvetTypography/RedVelvetCollage.png";
+import KnitsCollage from "./images/Knits/KnitsCollage.png";
 
 var OtherWorkData = [
   {
@@ -32,15 +33,15 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Sound Design",
   },
-  // {
-  //   id: "knits",
-  //   title: "My Knits",
-  //   img: DaysofUICollage,
-  //   alt: "Photo collage of things I've knit",
-  //   summary: "I can't stop making sweaters!",
-  //   date: "whenever I'm free :)",
-  //   category: "Other Projects"
-  // },
+  {
+    id: "knits",
+    title: "My Knits",
+    img: KnitsCollage,
+    alt: "Photo collage of things I've knit",
+    summary: "I can't stop making sweaters!",
+    date: "Worked on whenever I'm free :)",
+    category: "Other Projects"
+  },
   {
     id: "weather-sounds",
     title: "WeatherSounds",

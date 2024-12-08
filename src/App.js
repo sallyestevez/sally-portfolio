@@ -22,6 +22,7 @@ import WeatherSoundsProject from "./pages/other-work-pages/WeatherSoundsProject"
 import AudioVisualizerProject from "./pages/other-work-pages/AudioVisualizerProject";
 import CosmicHarmoniesProject from "./pages/other-work-pages/CosmicHarmoniesProject";
 import SunAndLOONAProject from "./pages/other-work-pages/SunAndLOONAProject";
+import KnitsProject from "./pages/other-work-pages/KnitsProject";
 
 function App() {
   // goes to page based on file path
@@ -97,6 +98,10 @@ function App() {
     {
       path: "/other-work/sun-and-LOONA",
       element: <SunAndLOONAProject />,
+    },
+    {
+      path: "/other-work/knits",
+      element: <KnitsProject />,
     },
   ]);
 
