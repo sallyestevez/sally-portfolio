@@ -13,11 +13,12 @@ function CosmicHarmoniesContent() {
             {OtherWorkData[2].date} | {OtherWorkData[2].category}
           </div>
         </div>
-        <div className="ProjectImage--ProjectPage">
-          <img
-            src={OtherWorkData[2].img}
-            alt={`${OtherWorkData[2].title} screenshot`}
-          />
+        <div className="ProjectVideo">
+          <iframe
+            src="https://drive.google.com/file/d/1zgqjgy0fRGKiqEf3OmanJfBA5-4KFzVd/preview"
+            allow="autoplay"
+            title="WeatherSounds Video"
+          ></iframe>
         </div>
       </header>
       <section>

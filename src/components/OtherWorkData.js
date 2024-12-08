@@ -13,7 +13,7 @@ var OtherWorkData = [
     alt: "100 Days of UI screenshot",
     summary: "A 100-day UI design challenge",
     date: "Winter 2023 - Summer 2024",
-    category: "UI Design, UX Design",
+    category: "UI Design, UX Design, Visual Design",
   },
   {
     id: "red-velvet-typography",
@@ -30,7 +30,7 @@ var OtherWorkData = [
     alt: "Cosmic Harmonies Max MSP screenshot",
     summary: "An audiovisual experience inspired by space and Sonic CD",
     date: "Spring 2023",
-    category: "Creative Coding",
+    category: "Creative Coding, Sound Design",
   },
   // {
   //   id: "knits",
@@ -38,7 +38,7 @@ var OtherWorkData = [
   //   img: DaysofUICollage,
   //   alt: "Photo collage of things I've knit",
   //   summary: "I can't stop making sweaters!",
-  //   date: "Whenever I'm free :)",
+  //   date: "whenever I'm free :)",
   //   category: "Other Projects"
   // },
   {
@@ -48,7 +48,7 @@ var OtherWorkData = [
     alt: "WeatherSounds Max MSP project screenshot",
     summary: "Dynamic soundscapes based on city weather forecasts",
     date: "Spring 2023",
-    category: "Creative Coding",
+    category: "Creative Coding, Sound Design",
   },
   {
     id: "audio-visualizer",
@@ -57,7 +57,7 @@ var OtherWorkData = [
     alt: "Audio Visualizer Max MSP project screenshot",
     summary: "Audio-visual experiences in Max MSP",
     date: "Spring 2023",
-    category: "Creative Coding",
+    category: "Creative Coding, Visual Design",
   },
   {
     id: "sun-and-LOONA",

@@ -13,11 +13,12 @@ function AudioVisualizerContent() {
             {OtherWorkData[4].date} | {OtherWorkData[4].category}
           </div>
         </div>
-        <div className="ProjectImage--ProjectPage">
-          <img
-            src={OtherWorkData[4].img}
-            alt={`${OtherWorkData[4].title} screenshot`}
-          />
+        <div className="ProjectVideo">
+          <iframe
+            src="https://drive.google.com/file/d/19qRIuAqRUmKpRla6YHKvQ0pav3JBBrrp/preview"
+            allow="autoplay"
+            title="WeatherSounds Video"
+          ></iframe>
         </div>
       </header>
       <section>

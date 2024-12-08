@@ -13,11 +13,12 @@ function WeatherSoundsContent() {
             {OtherWorkData[3].date} | {OtherWorkData[3].category}
           </div>
         </div>
-        <div className="ProjectImage--ProjectPage">
-          <img
-            src={OtherWorkData[3].img}
-            alt={`${OtherWorkData[3].title} screenshot`}
-          />
+        <div className="ProjectVideo">
+          <iframe
+            src="https://drive.google.com/file/d/1vv2PRuHlyvewBpKiY-a1dJB0AJvf8tVJ/preview"
+            allow="autoplay"
+            title="WeatherSounds Video"
+          ></iframe>
         </div>
       </header>
       <section>
