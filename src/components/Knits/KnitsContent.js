@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 import OtherWorkData from "../OtherWorkData";
 import KnitsData from "./KnitsData";
 
 function KnitsContent() {
-    const [item] = useState(KnitsData);
+  const [item] = useState(KnitsData);
   return (
     <div>
       <header className="ProjectHeader">
@@ -32,7 +32,7 @@ function KnitsContent() {
               <div className="UIProjectText">
                 <div className="PromptTitle">{Val.title}</div>
                 <div className="PrototypeLink">
-                    <p>{Val.date}</p>
+                  <p>{Val.date}</p>
                 </div>
               </div>
             </div>

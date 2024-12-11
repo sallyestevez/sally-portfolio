@@ -577,6 +577,33 @@ summary {
   display: none;
 }
 
+.toTopHidden {
+  display: none;
+}
+
+.toTop {
+  display: block;
+}
+
+.toTop__text {
+  position: fixed;
+  background: #acccc5;
+  /* color: #8e7dba; */
+  color: rgba(142, 125, 186, 0.6);
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  bottom: 5%;
+  left: 90%;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+}
+
+.toTop__text:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 1660px) {
   .ProjectsSection {
     justify-content: space-around;

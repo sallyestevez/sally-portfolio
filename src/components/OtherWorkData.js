@@ -40,7 +40,7 @@ var OtherWorkData = [
     alt: "Photo collage of things I've knit",
     summary: "I can't stop making sweaters!",
     date: "Worked on whenever I'm free :)",
-    category: "Other Projects"
+    category: "Other Projects",
   },
   {
     id: "weather-sounds",

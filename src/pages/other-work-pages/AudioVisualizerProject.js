@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import AudioVisualizerContent from "../../components/AudioVisualizerContent"
+import AudioVisualizerContent from "../../components/AudioVisualizerContent";
 
 function AudioVisualizerProject() {
   return (
