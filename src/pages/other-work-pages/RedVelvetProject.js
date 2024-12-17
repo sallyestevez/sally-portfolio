@@ -4,6 +4,7 @@ import RedVelvetCards from "../../components/RedVelvetCard";
 import RedVelvetData from "../../components/RedVelvetData";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import PrevNextOtherWork from "../../components/PrevNextOtherWork";
 
 function RedVelvetProject() {
   const [item] = useState(RedVelvetData);
@@ -90,6 +91,12 @@ function RedVelvetProject() {
         </section>
         <RedVelvetCards item={item} />
       </div>
+      <PrevNextOtherWork
+        id1={OtherWorkData[0].id}
+        id2={OtherWorkData[2].id}
+        title1={OtherWorkData[0].title}
+        title2={OtherWorkData[2].title}
+      />
       <Footer />
     </>
   );

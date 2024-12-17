@@ -604,6 +604,24 @@ summary {
   transform: scale(1.1);
 }
 
+.bottomLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Ranchers", sans-serif;
+  letter-spacing: 1.5px;
+  padding: 24px;
+}
+
+.bottomLinks a {
+  color: #8e7dba;
+  text-decoration: none;
+}
+
+.bottomLinks a:hover {
+  color: #e1a1b5;
+}
+
 @media (min-width: 1660px) {
   .ProjectsSection {
     justify-content: space-around;
