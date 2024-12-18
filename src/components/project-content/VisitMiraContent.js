@@ -64,10 +64,8 @@ function VisitMiraContent() {
             <p>HTML, CSS, JavaScript</p>
 
             <h2>Special Features</h2>
-            <p>
-              Fancybox integration for high-quality images, immersive pages for
-              each of Mira's unique regions
-            </p>
+            <p>✴ Fancybox integration for high-quality images</p>
+            <p>✴ Immersive pages for each of Mira's unique regions</p>
           </div>
         </div>
       </section>

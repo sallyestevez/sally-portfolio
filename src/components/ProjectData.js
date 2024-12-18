@@ -71,7 +71,7 @@ var ProjectData = [
     title: "Visit Mira",
     img: VisitMira,
     alt: "Visit Mira homepage screenshot",
-    summary: "We're stuck on a different planet - by choice",
+    summary: "We're stuck on a different planet—by choice",
     date: "Fall 2021",
     category: "Web Development",
     link: "https://sallyestevez.github.io/JSLibrary/",

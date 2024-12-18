@@ -98,7 +98,7 @@ function KirbysCornerContent() {
               on to this list later on.
             </p>
             <p>
-              I focused on one game, and its characters, at a time. After
+              I focused on one game and its characters at a time. After
               conducting research, I wrote up the content that would appear on
               the site.
             </p>

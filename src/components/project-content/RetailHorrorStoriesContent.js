@@ -39,7 +39,7 @@ function RetailHorrorStoriesContent() {
               <strong>Duration:</strong> April - May 2023 (3 weeks)
             </p>
             <p>
-              <strong>Tools:</strong> HTML, CSS, JavaScript, JQuery, paper and
+              <strong>Tools:</strong> HTML, CSS, JavaScript, jQuery, paper and
               pencil
             </p>
           </div>
@@ -58,7 +58,7 @@ function RetailHorrorStoriesContent() {
             <p>
               I created a narrative that draws inspiration from real-life Black
               Friday horror stories, some of which came from Reddit threads. The
-              scenarios and choices within the game highlights the intensity of
+              scenarios and choices within the game highlight the intensity of
               retail work on Black Friday.
             </p>
           </div>
@@ -110,8 +110,8 @@ function RetailHorrorStoriesContent() {
           <div className="ProjectDiv ProjectProcess">
             <div className="ProjectPageSubtitle">Game Development Process</div>
             <p>
-              I began by writing out the story's branching paths and alternative
-              endings on paper. The different scenarios and paths each led to
+              I began by writing the story's branching paths and alternative
+              endings on paper. The different scenarios and paths led to
               different outcomes and unique endings for players to discover.
             </p>
             <div className="ProjectDiv ProjectImages">
@@ -135,10 +135,10 @@ function RetailHorrorStoriesContent() {
               </a>
             </div>
             <p>
-              After making some adjustments to the plot, I moved on to the
-              coding phase, implementing each story branch, choice, and outcome
-              as planned. The player choices were incorporated as interactive
-              buttons, which allows users to navigate the story by selecting
+              After making some changes to the plot, I moved on to the coding
+              phase, implementing each story branch, choice, and outcome as
+              planned. The player choices were incorporated as interactive
+              buttons, which allow users to navigate the story by selecting
               their preferred path.
             </p>
             <p>

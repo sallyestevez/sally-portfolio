@@ -43,28 +43,6 @@ function EclipseSoundscapesContent() {
               <strong>Tools:</strong> Figma, Figjam
             </p>
           </div>
-          {/* <div className="ProjectDiv ProjectInformation">
-            <div className="ProjectPageSubtitle">More Information</div>
-            <p>
-              For this project, my team and I focused on enhancing the
-              accessibility of a field researcher training page for older
-              audiences.
-            </p>
-            <p>
-              We gathered insights by conducting user interviews with
-              individuals aged 55 and older.
-            </p>
-            <p>
-              We optimized navigation, typography, and contrast ratios to create
-              a user-friendly interface that complies with WCAG guidelines.
-            </p>
-            <p>
-              We created wireframes and then used them to build a prototype in
-              Figma.
-            </p>
-          </div>
-          <h2 className="CaseStudyText">Full case study coming soon!</h2> */}
-
           <div className="ProjectDiv ProjectOverview">
             <div className="ProjectPageSubtitle">
               Eclipse Soundscapes Overview
@@ -115,8 +93,8 @@ function EclipseSoundscapesContent() {
               text; no breaks
             </p>
             <p>
-              ✴ <strong>Background: </strong>Night mode (moon icon) doesn't
-              really do anything
+              ✴ <strong>Background: </strong>Night mode (moon icon) doesn't do
+              anything
             </p>
             <p>
               ✴ <strong>Content: </strong>Zooming in makes everything much
@@ -171,7 +149,7 @@ function EclipseSoundscapesContent() {
               ✴ "I like the big print/text on the website"
             </p>
             <p className="quote">✴ "Add more color"</p>
-            <p className="quote">✴ "It's hard to get to top of page"</p>
+            <p className="quote">✴ "It's hard to get to the top of the page"</p>
             <p className="quote">
               ✴ "Navigation is too jumpy. I can't tell what comes before or
               after"
@@ -185,27 +163,27 @@ function EclipseSoundscapesContent() {
             </p>
             <p>
               ✴ <strong>10 out of 12</strong> users prefer visual learning over
-              text-based learning
+              text-based learning.
             </p>
             <p>
               ✴ <strong>12 out of 12</strong> users would benefit from
-              text-to-speech functionality
+              text-to-speech functionality.
             </p>
             <p>
               ✴ <strong>7 out of 12</strong> users prefer a lighter color scheme
-              of blue or white
+              of blue or white.
             </p>
             <p>
               ✴ <strong>7 out of 12</strong> users believe navigating the
-              website takes too much time
+              website takes too much time.
             </p>
             <p>
               ✴ <strong>6 out of 12</strong> want to see more audio/visual
-              content (images, videos, audio)
+              content (images, videos, audio).
             </p>
             <p>
               ✴ <strong>6 out of 12</strong> believe the website can be
-              organized better
+              organized better.
             </p>
             <h2>User Persona</h2>
             <p>
@@ -246,7 +224,7 @@ function EclipseSoundscapesContent() {
             <h2>Design Solutions</h2>
             <p>Our redesign solutions included:</p>
             <p>
-              ✴ <strong>New Color Palettes -</strong> Implementing a lighter,
+              ✴ <strong>New Color Palettes -</strong> Implementing a lighter and
               more inviting color scheme, as well as a dark mode
             </p>
             <div className="ProjectImages">
@@ -276,8 +254,8 @@ function EclipseSoundscapesContent() {
               </a>
             </div>
             <p>
-              ✴ <strong>Back to Top & Dark Mode Buttons -</strong> Facilitating
-              easier navigation
+              ✴ <strong>Back to Top & Dark Mode Buttons -</strong> Making
+              navigation easier
             </p>
             <div className="ProjectImages">
               <a href={BackToTopOriginal} target="_blank" rel="noreferrer">
@@ -317,19 +295,20 @@ function EclipseSoundscapesContent() {
               outlined the steps needed to move forward:
             </h2>
             <p>
-              <strong>1. User Testing - </strong>Gain user feedback on
-              prototypes
+              <strong>1. User Testing: </strong>Gain user feedback on the
+              prototype.
             </p>
             <p>
-              <strong>2. Revision - </strong>Revise prototype based on feedback
+              <strong>2. Revision: </strong>Revise the prototype based on
+              feedback.
             </p>
             <p>
-              <strong>3. Mobile Redesign - </strong>Optimize prototype for
+              <strong>3. Mobile Redesign: </strong>Optimize the prototype for
               mobile
             </p>
             <p>
-              <strong>4. Implementing - </strong>Update official site with the
-              revisions
+              <strong>4. Implementing: </strong>Update the official site with
+              the revisions.
             </p>
             <div className="ProjectPageSubtitle ActionPlan">
               Suggested Client Plan of Action
@@ -342,41 +321,41 @@ function EclipseSoundscapesContent() {
             <h2>Now</h2>
             <p>
               ✴ <strong>Enhance Navigation:</strong> Ensure navigation is
-              accessible on all parts of the page
+              accessible on all parts of the page.
             </p>
             <p>
               ✴ <strong>Text Buffer Zone:</strong> Add a buffer zone around text
-              to improve readability
+              to improve readability.
             </p>
             <h2>Next</h2>
             <p>
               ✴ <strong>Light Mode:</strong> Implement a light mode option for
-              better visual comfort
+              better visual comfort.
             </p>
             <p>
               ✴ <strong>Consistent Image Sizes:</strong> Standardize image sizes
-              throughout the size
+              throughout the site.
             </p>
             <p>
               ✴ <strong>Text Structure:</strong> Break up large sections of text
-              for improved readability
+              for improved readability.
             </p>
             <h2>Later</h2>
             <p>
               ✴ <strong>Video Guides:</strong> Record and integrate video
-              guides/walkthroughs for user support
+              guides/walkthroughs for user support.
             </p>
             <p>
               ✴ <strong>Additional Visuals:</strong> Include more visuals to
-              enrich the user experience
+              enrich the user experience.
             </p>
             <p>
-              ✴ <strong>Text-to-Speech:</strong> Add text to speech
-              functionality for accessibility
+              ✴ <strong>Text-to-Speech:</strong> Add text-to-speech
+              functionality for accessibility.
             </p>
             <p>
               ✴ <strong>Language Options:</strong> Incorporate options for
-              different languages to reach a broader audience
+              different languages to reach a broader audience.
             </p>
           </div>
         </div>

@@ -137,17 +137,17 @@ function DiscordContent() {
             <h2>User Classification</h2>
             <p>
               ✴ <strong>5 out of 5</strong> users use Discord to communicate
-              with friends
+              with friends.
             </p>
             <p>
-              ✴ <strong>5 out of 5</strong> users are not subscribed to Nitro
+              ✴ <strong>5 out of 5</strong> users are not subscribed to Nitro.
             </p>
             <p>
-              ✴ <strong>4 out of 5</strong> users dislike the 8 MB file limit
+              ✴ <strong>4 out of 5</strong> users dislike the 8 MB file limit.
             </p>
             <p>
               ✴ <strong>5 out of 5</strong> users use alternative methods to
-              share files when the upload size is too large
+              share files when the upload size is too large.
             </p>
 
             <h2>User Journey Mapping</h2>
