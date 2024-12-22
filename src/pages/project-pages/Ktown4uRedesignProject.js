@@ -12,7 +12,7 @@ function Ktown4uRedesignProject() {
       <main className="pageWrapper">
         <Ktown4uRedesignContent />
       </main>
-      <PrevNextProjects id2={ProjectData[1].id} title2={ProjectData[1].title} />
+      <PrevNextProjects id1={ProjectData[6].id} title1={ProjectData[6].title} id2={ProjectData[1].id} title2={ProjectData[1].title} />
       <Footer />
     </>
   );

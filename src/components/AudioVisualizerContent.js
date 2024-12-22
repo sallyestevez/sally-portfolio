@@ -39,7 +39,7 @@ function AudioVisualizerContent() {
             <div className="ProjectPageSubtitle">Overview</div>
             <p>
               This project explores the relationship between dance, music, and
-              visuals through an interactive audio visualizer. I was inspired by
+              visuals through an interactive audiovisualizer. I was inspired by
               high-energy songs and videos of Yoshi and Luigi dancing, and the
               system uses Max MSP to synchronize music-driven visual effects
               with user interaction.
@@ -76,8 +76,8 @@ function AudioVisualizerContent() {
             </p>
             <h2>Iteration</h2>
             <p>
-              ✴ I tested different objects for visual appeal and responiveness,
-              and ended up choosing those that best work with the music.
+              ✴ I tested different objects for visual appeal and responsiveness,
+              and ended up choosing those that work best with the music.
             </p>
           </div>
           <div className="ProjectDiv ChallengesSolutions">
@@ -85,13 +85,13 @@ function AudioVisualizerContent() {
             <h2>Technical Learning</h2>
             <p>
               ✴ I used class notes when faced with some challenges, like
-              implementing glow effects (jit.fluoride) and properly manage
+              implementing glow effects (jit.fluoride) and properly managing
               audio-visual controls (ezdac).
             </p>
             <h2>Video Initialization</h2>
             <p>
               ✴ I didn't want the same video to load every time the patch was
-              started, so I looked into 'cycle', 'random', and other related
+              started, so I looked into 'cycle,' 'random,' and other related
               objects. I decided to go with 'cycle' because it was the one that
               worked best.
             </p>

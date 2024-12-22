@@ -142,20 +142,20 @@ function EclipseSoundscapesContent() {
             </p>
             <h2>User Responses</h2>
             <p className="quote">
-              ✴ "There are too many words and information"
+              ✴ "There are too many words and information."
             </p>
-            <p className="quote">✴ "The website looks too dark"</p>
+            <p className="quote">✴ "The website looks too dark."</p>
             <p className="quote">
-              ✴ "I like the big print/text on the website"
+              ✴ "I like the big print/text on the website."
             </p>
-            <p className="quote">✴ "Add more color"</p>
-            <p className="quote">✴ "It's hard to get to the top of the page"</p>
+            <p className="quote">✴ "Add more color."</p>
+            <p className="quote">✴ "It's hard to get to the top of the page."</p>
             <p className="quote">
               ✴ "Navigation is too jumpy. I can't tell what comes before or
-              after"
+              after."
             </p>
             <p className="quote">
-              ✴ "The text is too wide. It's like reading a newspaper"
+              ✴ "The text is too wide. It's like reading a newspaper."
             </p>
             <h2>User Classification</h2>
             <p>
@@ -315,7 +315,7 @@ function EclipseSoundscapesContent() {
             </div>
             <p>
               To effectively enhance the user experience and accessibility of
-              the website, we recommend implemented the following phased
+              the website, we recommend implementing the following phased
               approach:
             </p>
             <h2>Now</h2>

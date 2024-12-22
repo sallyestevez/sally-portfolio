@@ -62,7 +62,7 @@ function WeatherSoundsContent() {
               I had an input parsing issue where user inputs were returned as
               "text (city)," breaking API calls. After trial and error, I
               debugged the text input using string manipulation, and I was able
-              to replace the 'text' and spaces with nothing (%0)
+              to replace the 'text' and spaces with nothing (%0 in Max MSP)
             </p>
           </div>
           <div className="ProjectDiv Outcomes">

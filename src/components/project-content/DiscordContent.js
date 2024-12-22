@@ -192,8 +192,8 @@ function DiscordContent() {
               solutions:
             </h2>
             <p>
-              ✴ <strong>Google Drive Integration:</strong> Allow users to send
-              files from Drive directly within Discord However, not everyone
+              ✴ <strong>Google Drive Integration:</strong> Allows users to send
+              files from Drive directly within Discord. However, not everyone
               uses Google Drive.
             </p>
             <p>

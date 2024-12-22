@@ -13,6 +13,8 @@ function UIProject() {
         <UIContent />
       </main>
       <PrevNextOtherWork
+        id1={OtherWorkData[6].id}
+        title1={OtherWorkData[6].title}
         id2={OtherWorkData[1].id}
         title2={OtherWorkData[1].title}
       />

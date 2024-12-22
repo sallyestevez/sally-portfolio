@@ -53,8 +53,8 @@ function CosmicHarmoniesContent() {
               ✴ Users input a city and date to modify soundscapes and visuals.
             </p>
             <p>
-              ✴ Astronomy data such as sun/moon positions and sunrise/moonrise
-              times impacts sound parameters.
+              ✴ Astronomy data, such as sun/moon positions and sunrise/moonrise
+              times, impact sound parameters.
             </p>
             <p>
               ✴ Users choose from a selection of tracks to customize their
@@ -69,7 +69,7 @@ function CosmicHarmoniesContent() {
             <h2>Dynamic Visual Effects</h2>
             <p>
               ✴ NASA's Astronomy Pic of the Day is combined with jit.streak,
-              jit.sprinkle, and jit.avg4 to create images that mimick twinkling
+              jit.sprinkle, and jit.avg4 to create images that mimic twinkling
               stars.
             </p>
           </div>

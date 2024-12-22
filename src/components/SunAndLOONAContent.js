@@ -14,14 +14,14 @@ function SunAndLOONAContent() {
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-          <a href="https://sun-and-loona.netlify.app/" className="link">
+          <a href="https://sun-and-loona.netlify.app/?sunMoonData=sun" className="link">
             <img
               src={OtherWorkData[6].img}
               alt={`${OtherWorkData[6].title} screenshot`}
             />
           </a>
           <br></br>
-          <a href="https://sun-and-loona.netlify.app/">
+          <a href="https://sun-and-loona.netlify.app/?sunMoonData=sun">
             <div className="ProjectLink">Visit the site!</div>
           </a>
         </div>
@@ -58,7 +58,7 @@ function SunAndLOONAContent() {
             </p>
             <h2>Song Recommendations</h2>
             <p>
-              ✴ Suggests a LOONA songs based on the current hour, featuring
+              ✴ Suggests a LOONA song based on the current hour, featuring
               album, running time, and genre information.
             </p>
           </div>

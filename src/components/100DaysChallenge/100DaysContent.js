@@ -77,10 +77,10 @@ function UIContent() {
             <div className="ProjectDiv Goals">
               <div className="ProjectPageSubtitle">Goals</div>
               <p>With this challenge, I aimed to:</p>
-              <p>✴ develop a portfolio of diverse UI elements</p>
+              <p>✴ develop a portfolio of diverse UI elements.</p>
               <p>
-                ✴ improve skill in wireframing, prototyping, iteration, and
-                user-centered design
+                ✴ improve skills in wireframing, prototyping, iteration, and
+                user-centered design.
               </p>
             </div>
             <div className="ProjectDiv Process">
@@ -95,7 +95,7 @@ function UIContent() {
             <div className="ProjectDiv ChallengesSolutions">
               <div className="ProjectPageSubtitle">Challenges & Solutions</div>
               <p>
-                There were times where I went through creative blocks. In order
+                There were times when I went through creative blocks. In order
                 to overcome this, I researched design inspirations and also
                 experimented with unfamiliar design styles.
               </p>

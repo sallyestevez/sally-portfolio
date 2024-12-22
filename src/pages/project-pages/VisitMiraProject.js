@@ -12,7 +12,7 @@ function VisitMiraProject() {
       <main className="pageWrapper">
         <VisitMiraContent />
       </main>
-      <PrevNextProjects id1={ProjectData[5].id} title1={ProjectData[5].title} />
+      <PrevNextProjects id1={ProjectData[5].id} title1={ProjectData[5].title} id2={ProjectData[0].id} title2={ProjectData[0].title}/>
       <Footer />
     </>
   );
