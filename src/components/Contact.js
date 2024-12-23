@@ -15,7 +15,7 @@ function Contact() {
           <p>GitHub ↗</p>
         </a>
         <a
-          href="https://drive.google.com/file/d/12sU3d_c3X0xYfOubHxaWudaQb4nPh4NW/view"
+          href="https://drive.google.com/file/d/1cgb7cozc0l173oZqre2ceQFuXWhO4i43/view"
           target="blank"
         >
           <p>Resume ↗</p>

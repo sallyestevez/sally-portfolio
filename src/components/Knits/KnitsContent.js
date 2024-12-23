@@ -9,18 +9,12 @@ function KnitsContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[3].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[3].summary}</div>
+          <h1 className="PageTitle">{OtherWorkData[4].title}</h1>
+          <div className="ProjectSummary">{OtherWorkData[4].summary}</div>
           <div className="ProjectDateCategory">
-            {OtherWorkData[3].date} | {OtherWorkData[3].category}
+            {OtherWorkData[4].date} | {OtherWorkData[4].category}
           </div>
         </div>
-        {/* <div className="ProjectImage--ProjectPage">
-            <img
-              src={OtherWorkData[3].img}
-              alt={`${OtherWorkData[3].title} screenshot`}
-            />
-        </div> */}
       </header>
       <div className="UIPromptsSection" id="UIPrompts">
         {item.map((Val) => {

@@ -7,6 +7,7 @@ import RedVelvetCollage from "./images/RedVelvetTypography/RedVelvetCollage.png"
 import KnitsCollage from "./images/Knits/KnitsCollage.png";
 
 var OtherWorkData = [
+  // 0
   {
     id: "100-days-of-ui",
     title: "100 Days of UI",
@@ -16,6 +17,7 @@ var OtherWorkData = [
     date: "Winter 2023 - Summer 2024",
     category: "UI Design, UX Design, Visual Design",
   },
+  // 1
   {
     id: "red-velvet-typography",
     title: "Red Velvet Song Styles",
@@ -24,6 +26,7 @@ var OtherWorkData = [
     date: "Summer 2024",
     category: "UI Design, Typography",
   },
+  // 2
   {
     id: "cosmic-harmonies",
     title: "Cosmic Harmonies: A Sonic Voyage",
@@ -33,15 +36,7 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Sound Design",
   },
-  {
-    id: "knits",
-    title: "My Knits",
-    img: KnitsCollage,
-    alt: "Photo collage of things I've knit",
-    summary: "I can't stop making sweaters!",
-    date: "Worked on whenever I'm free :)",
-    category: "Other Projects",
-  },
+  // 3
   {
     id: "weather-sounds",
     title: "WeatherSounds",
@@ -51,6 +46,17 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Sound Design",
   },
+  // 4
+  {
+    id: "knits",
+    title: "My Knits",
+    img: KnitsCollage,
+    alt: "Photo collage of things I've knit",
+    summary: "I can't stop making sweaters!",
+    date: "Worked on whenever I'm free :)",
+    category: "Other Projects",
+  },
+  // 5
   {
     id: "audio-visualizer",
     title: "Audio Visualizer",
@@ -60,6 +66,7 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Visual Design",
   },
+  // 6
   {
     id: "sun-and-LOONA",
     title: "Sun and LOONA",
