@@ -42,12 +42,12 @@ function UIContent() {
       <div className="PageWrapper">
         <header className="ProjectHeader">
           <div className="ProjectHeaderText">
-            <h1 className="PageTitle UIPage">{OtherWorkData[0].title}</h1>
+            <h1 className="PageTitle UIPage">{OtherWorkData[1].title}</h1>
             <div className="ProjectSummary UIPage">
-              {OtherWorkData[0].summary}
+              {OtherWorkData[1].summary}
             </div>
             <div className="ProjectDateCategory UIPage">
-              {OtherWorkData[0].date} | {OtherWorkData[0].category}
+              {OtherWorkData[1].date} | {OtherWorkData[1].category}
             </div>
           </div>
         </header>

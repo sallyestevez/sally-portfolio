@@ -15,7 +15,6 @@ import Projects from "./pages/Projects";
 
 // Project Pages
 import EclipseSoundscapesProject from "./pages/project-pages/EclipseSoundscapesProject";
-import Ktown4uRedesignProject from "./pages/project-pages/Ktown4uRedesignProject";
 import DiscordProject from "./pages/project-pages/DiscordProject";
 import RetailHorrorStoriesProject from "./pages/project-pages/RetailHorrorStoriesProject";
 import KirbysCornerProject from "./pages/project-pages/KirbysCornerProject";
@@ -30,6 +29,8 @@ import AudioVisualizerProject from "./pages/other-work-pages/AudioVisualizerProj
 import CosmicHarmoniesProject from "./pages/other-work-pages/CosmicHarmoniesProject";
 import SunAndLOONAProject from "./pages/other-work-pages/SunAndLOONAProject";
 import KnitsProject from "./pages/other-work-pages/KnitsProject";
+import Ktown4uRedesignProject from "./pages/other-work-pages/Ktown4uRedesignProject";
+
 
 function App() {
   // goes to page based on file path
@@ -53,11 +54,6 @@ function App() {
       // about page
       path: "/about",
       element: <AboutPage />,
-    },
-    {
-      // Ktown4u project page
-      path: "/project/ktown4u-redesign",
-      element: <Ktown4uRedesignProject />,
     },
     {
       // Eclipse Soundscapes project page
@@ -88,6 +84,11 @@ function App() {
       // Visit Mira project page
       path: "/project/visit-mira",
       element: <VisitMiraProject />,
+    },
+    {
+      // Ktown4u project page
+      path: "/other-work/ktown4u-redesign",
+      element: <Ktown4uRedesignProject />,
     },
     {
       // 100 Days of UI project page

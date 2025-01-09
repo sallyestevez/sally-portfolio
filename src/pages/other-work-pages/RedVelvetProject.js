@@ -13,12 +13,12 @@ function RedVelvetProject() {
       <Header />
       <div className="PageWrapper">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle UIPage">{OtherWorkData[1].title}</h1>
+          <h1 className="PageTitle UIPage">{OtherWorkData[2].title}</h1>
           <div className="ProjectSummary UIPage">
-            {OtherWorkData[1].summary}
+            {OtherWorkData[2].summary}
           </div>
           <div className="ProjectDateCategory UIPage">
-            {OtherWorkData[1].date} | {OtherWorkData[1].category}
+            {OtherWorkData[2].date} | {OtherWorkData[2].category}
           </div>
           <div className="ProjectImage--ProjectPage">
             <a href="https://www.figma.com/design/XOj8O6ZYMrsVKv4eGwnC73/Red-Velvet?m=auto&t=RIleRXTjjHsQrWaD-1">
@@ -92,10 +92,10 @@ function RedVelvetProject() {
         <RedVelvetCards item={item} />
       </div>
       <PrevNextOtherWork
-        id1={OtherWorkData[0].id}
-        id2={OtherWorkData[2].id}
-        title1={OtherWorkData[0].title}
-        title2={OtherWorkData[2].title}
+        id1={OtherWorkData[1].id}
+        id2={OtherWorkData[3].id}
+        title1={OtherWorkData[1].title}
+        title2={OtherWorkData[3].title}
       />
       <Footer />
     </>

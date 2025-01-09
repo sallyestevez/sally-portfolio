@@ -13,16 +13,16 @@ function DiscordContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{ProjectData[5].title}</h1>
-          <div className="ProjectSummary">{ProjectData[5].summary}</div>
+          <h1 className="PageTitle">{ProjectData[4].title}</h1>
+          <div className="ProjectSummary">{ProjectData[4].summary}</div>
           <div className="ProjectDateCategory">
-            {ProjectData[5].date} | {ProjectData[5].category}
+            {ProjectData[4].date} | {ProjectData[4].category}
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
           <img
-            src={ProjectData[5].img}
-            alt={`${ProjectData[5].title} screenshot`}
+            src={ProjectData[4].img}
+            alt={`${ProjectData[4].title} screenshot`}
           />
         </div>
       </header>

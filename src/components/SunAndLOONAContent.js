@@ -7,17 +7,17 @@ function SunAndLOONAContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[6].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[6].summary}</div>
+          <h1 className="PageTitle">{OtherWorkData[7].title}</h1>
+          <div className="ProjectSummary">{OtherWorkData[7].summary}</div>
           <div className="ProjectDateCategory">
-            {OtherWorkData[6].date} | {OtherWorkData[6].category}
+            {OtherWorkData[7].date} | {OtherWorkData[7].category}
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
           <a href="https://sun-and-loona.netlify.app/?sunMoonData=sun" className="link">
             <img
-              src={OtherWorkData[6].img}
-              alt={`${OtherWorkData[6].title} screenshot`}
+              src={OtherWorkData[7].img}
+              alt={`${OtherWorkData[7].title} screenshot`}
             />
           </a>
           <br></br>

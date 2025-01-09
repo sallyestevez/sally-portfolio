@@ -7,10 +7,10 @@ function CosmicHarmoniesContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[2].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[2].summary}</div>
+          <h1 className="PageTitle">{OtherWorkData[3].title}</h1>
+          <div className="ProjectSummary">{OtherWorkData[3].summary}</div>
           <div className="ProjectDateCategory">
-            {OtherWorkData[2].date} | {OtherWorkData[2].category}
+            {OtherWorkData[3].date} | {OtherWorkData[3].category}
           </div>
         </div>
         <div className="ProjectVideo">

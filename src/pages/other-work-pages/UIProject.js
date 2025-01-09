@@ -13,10 +13,10 @@ function UIProject() {
         <UIContent />
       </main>
       <PrevNextOtherWork
-        id1={OtherWorkData[6].id}
-        title1={OtherWorkData[6].title}
-        id2={OtherWorkData[1].id}
-        title2={OtherWorkData[1].title}
+        id1={OtherWorkData[0].id}
+        title1={OtherWorkData[0].title}
+        id2={OtherWorkData[2].id}
+        title2={OtherWorkData[2].title}
       />
       <Footer />
     </>

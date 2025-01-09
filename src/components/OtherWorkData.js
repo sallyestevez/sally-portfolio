@@ -5,28 +5,40 @@ import CosmicHarmonies from "./images/CosmicHarmonies/CosmicHarmonies.png";
 import SunandLOONA from "./images/SunandLOONA/SunMoon.png";
 import RedVelvetCollage from "./images/RedVelvetTypography/RedVelvetCollage.png";
 import KnitsCollage from "./images/Knits/KnitsCollage.png";
+import Ktown4uRedesign from "./images/Ktown4uRedesign/Ktown4uRedesign.png";
+
 
 var OtherWorkData = [
   // 0
+  {
+    id: "ktown4u-redesign",
+    title: "Ktown4u Web Redesign",
+    img: Ktown4uRedesign,
+    alt: "Ktown4u redesign screenshot",
+    summary: "Improving users' shopping experiences",
+    date: "June 2024 - Present",
+    category: "UX Design, UI Design",
+  },
+  // 1
   {
     id: "100-days-of-ui",
     title: "100 Days of UI",
     img: DaysofUICollage,
     alt: "100 Days of UI screenshot",
     summary: "A 100-day UI design challenge",
-    date: "Winter 2023 - Summer 2024",
+    date: "August 2023 - August 2024",
     category: "UI Design, UX Design, Visual Design",
   },
-  // 1
+  // 2
   {
     id: "red-velvet-typography",
     title: "Red Velvet Song Styles",
     img: RedVelvetCollage,
     summary: "A typography challenge inspired by Red Velvet's songs",
-    date: "Summer 2024",
+    date: "September 2023 - May 2024",
     category: "UI Design, Typography",
   },
-  // 2
+  // 3
   {
     id: "cosmic-harmonies",
     title: "Cosmic Harmonies: A Sonic Voyage",
@@ -36,7 +48,7 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Sound Design",
   },
-  // 3
+  // 4
   {
     id: "weather-sounds",
     title: "WeatherSounds",
@@ -46,7 +58,7 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Sound Design",
   },
-  // 4
+  // 5
   {
     id: "knits",
     title: "My Knits",
@@ -56,7 +68,7 @@ var OtherWorkData = [
     date: "Worked on whenever I'm free :)",
     category: "Other Projects",
   },
-  // 5
+  // 6
   {
     id: "audio-visualizer",
     title: "Audio Visualizer",
@@ -66,7 +78,7 @@ var OtherWorkData = [
     date: "Spring 2023",
     category: "Creative Coding, Visual Design",
   },
-  // 6
+  // 7
   {
     id: "sun-and-LOONA",
     title: "Sun and LOONA",

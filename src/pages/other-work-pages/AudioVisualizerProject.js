@@ -13,10 +13,10 @@ function AudioVisualizerProject() {
         <AudioVisualizerContent />
       </main>
       <PrevNextOtherWork
-        id1={OtherWorkData[4].id}
-        id2={OtherWorkData[6].id}
-        title1={OtherWorkData[4].title}
-        title2={OtherWorkData[6].title}
+        id1={OtherWorkData[5].id}
+        id2={OtherWorkData[7].id}
+        title1={OtherWorkData[5].title}
+        title2={OtherWorkData[7].title}
       />
       <Footer />
     </>

@@ -13,10 +13,10 @@ function MiiverseRevivalProject() {
         <MiiverseRevivalContent />
       </main>
       <PrevNextProjects
-        id1={ProjectData[3].id}
-        id2={ProjectData[5].id}
-        title1={ProjectData[3].title}
-        title2={ProjectData[5].title}
+        id1={ProjectData[2].id}
+        id2={ProjectData[4].id}
+        title1={ProjectData[2].title}
+        title2={ProjectData[4].title}
       />
       <Footer />
     </>

@@ -13,10 +13,10 @@ function CosmicHarmoniesProject() {
         <CosmicHarmoniesContent />
       </main>
       <PrevNextOtherWork
-        id1={OtherWorkData[1].id}
-        id2={OtherWorkData[3].id}
-        title1={OtherWorkData[1].title}
-        title2={OtherWorkData[3].title}
+        id1={OtherWorkData[2].id}
+        id2={OtherWorkData[4].id}
+        title1={OtherWorkData[2].title}
+        title2={OtherWorkData[4].title}
       />
       <Footer />
     </>

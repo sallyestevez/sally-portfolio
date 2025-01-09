@@ -1,4 +1,4 @@
-import Day81 from "../images/100DaysofUI/Days81-100/Day82.png";
+import Day81 from "../images/100DaysofUI/Days81-100/Day81.png";
 import Day82 from "../images/100DaysofUI/Days81-100/Day82.png";
 import Day83 from "../images/100DaysofUI/Days81-100/Day83.png";
 import Day84 from "../images/100DaysofUI/Days81-100/Day84.png";

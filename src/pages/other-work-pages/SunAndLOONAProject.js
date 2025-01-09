@@ -13,8 +13,8 @@ function SunAndLOONAProject() {
         <SunAndLOONAContent />
       </main>
       <PrevNextOtherWork
-        id1={OtherWorkData[5].id}
-        title1={OtherWorkData[5].title}
+        id1={OtherWorkData[6].id}
+        title1={OtherWorkData[6].title}
         id2={OtherWorkData[0].id}
         title2={OtherWorkData[0].title}
       />

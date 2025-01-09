@@ -6,21 +6,21 @@ function MiiverseRevivalContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{ProjectData[4].title}</h1>
-          <div className="ProjectSummary">{ProjectData[4].summary}</div>
+          <h1 className="PageTitle">{ProjectData[3].title}</h1>
+          <div className="ProjectSummary">{ProjectData[3].summary}</div>
           <div className="ProjectDateCategory">
-            {ProjectData[4].date} | {ProjectData[4].category}
+            {ProjectData[3].date} | {ProjectData[3].category}
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-          <a href={`${ProjectData[4].link}`} className="link">
+          <a href={`${ProjectData[3].link}`} className="link">
             <img
-              src={ProjectData[4].img}
-              alt={`${ProjectData[4].title} screenshot`}
+              src={ProjectData[3].img}
+              alt={`${ProjectData[3].title} screenshot`}
             />
           </a>
           <br></br>
-          <a href={`${ProjectData[4].link}`}>
+          <a href={`${ProjectData[3].link}`}>
             <div className="ProjectLink">Visit the site!</div>
           </a>
         </div>

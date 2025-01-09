@@ -6,21 +6,21 @@ function KirbysCornerContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{ProjectData[2].title}</h1>
-          <div className="ProjectSummary">{ProjectData[2].summary}</div>
+          <h1 className="PageTitle">{ProjectData[1].title}</h1>
+          <div className="ProjectSummary">{ProjectData[1].summary}</div>
           <div className="ProjectDateCategory">
-            {ProjectData[2].date} | {ProjectData[2].category}
+            {ProjectData[1].date} | {ProjectData[1].category}
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-          <a href={`${ProjectData[2].link}`} className="link">
+          <a href={`${ProjectData[1].link}`} className="link">
             <img
               src={ProjectData[2].img}
-              alt={`${ProjectData[2].title} screenshot`}
+              alt={`${ProjectData[1].title} screenshot`}
             />
           </a>
           <br></br>
-          <a href={`${ProjectData[2].link}`}>
+          <a href={`${ProjectData[1].link}`}>
             <div className="ProjectLink">Visit the site!</div>
           </a>
         </div>

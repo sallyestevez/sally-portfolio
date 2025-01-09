@@ -7,10 +7,10 @@ function AudioVisualizerContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[5].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[5].summary}</div>
+          <h1 className="PageTitle">{OtherWorkData[6].title}</h1>
+          <div className="ProjectSummary">{OtherWorkData[6].summary}</div>
           <div className="ProjectDateCategory">
-            {OtherWorkData[5].date} | {OtherWorkData[5].category}
+            {OtherWorkData[6].date} | {OtherWorkData[6].category}
           </div>
         </div>
         <div className="ProjectVideo">

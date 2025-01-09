@@ -6,24 +6,24 @@ function VisitMiraContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{ProjectData[6].title}</h1>
+          <h1 className="PageTitle">{ProjectData[5].title}</h1>
           <div className="ProjectDateCategory">
             Inspired by Xenoblade Chronicles X
           </div>
-          <div className="ProjectSummary">{ProjectData[6].summary}</div>
+          <div className="ProjectSummary">{ProjectData[5].summary}</div>
           <div className="ProjectDateCategory">
-            {ProjectData[6].date} | {ProjectData[6].category}
+            {ProjectData[5].date} | {ProjectData[5].category}
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-          <a href={`${ProjectData[6].link}`} className="link">
+          <a href={`${ProjectData[5].link}`} className="link">
             <img
-              src={ProjectData[6].img}
-              alt={`${ProjectData[6].title} screenshot`}
+              src={ProjectData[5].img}
+              alt={`${ProjectData[5].title} screenshot`}
             />
           </a>
           <br></br>
-          <a href={`${ProjectData[6].link}`}>
+          <a href={`${ProjectData[5].link}`}>
             <div className="ProjectLink">Visit the site!</div>
           </a>
         </div>

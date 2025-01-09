@@ -4,18 +4,9 @@ import KirbysCorner from "./images/KirbysCorner/KirbysCorner.png";
 import MiiverseRevival from "./images/MiiverseRevival/MiiverseRevival.png";
 import Discord from "./images/Discord/Discord.png";
 import VisitMira from "./images/VisitMira/VisitMira.png";
-import Ktown4uRedesign from "./images/Ktown4uRedesign/Ktown4uRedesign.png";
 
 var ProjectData = [
-  {
-    id: "ktown4u-redesign",
-    title: "Ktown4u Web Redesign",
-    img: Ktown4uRedesign,
-    alt: "Ktown4u redesign screenshot",
-    summary: "Improving users' shopping experiences",
-    date: "Summer 2024 - Present",
-    category: "UX Design, UI Design",
-  },
+  // 0
   {
     id: "retail-horror-stories",
     title: "Retail Horror Stories: Black Friday Edition",
@@ -26,6 +17,7 @@ var ProjectData = [
     category: "Web Development, Game Development",
     link: "https://sallyestevez.github.io/IN-Final/",
   },
+  // 1
   {
     id: "kirbys-corner",
     title: "Kirby's Corner",
@@ -36,6 +28,7 @@ var ProjectData = [
     category: "Web Development",
     link: "https://sallyestevez.github.io/kirbys-corner/",
   },
+  // 2
   {
     id: "eclipse-soundscapes",
     title: "Eclipse Soundscapes",
@@ -46,6 +39,7 @@ var ProjectData = [
     date: "Fall 2022",
     category: "UX Design, UI Design",
   },
+  // 3
   {
     id: "miiverse-revival",
     title: "Miiverse Revival",
@@ -56,6 +50,7 @@ var ProjectData = [
     category: "Web Development",
     link: "https://bespoke-seahorse-15f2e4.netlify.app/",
   },
+  // 4
   {
     id: "discord-file-compressor",
     title: "Discord File Compressor",
@@ -66,6 +61,7 @@ var ProjectData = [
     date: "Fall 2022",
     category: "UX Design",
   },
+  // 5
   {
     id: "visit-mira",
     title: "Visit Mira",
