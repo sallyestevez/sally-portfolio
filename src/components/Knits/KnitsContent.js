@@ -25,8 +25,14 @@ function KnitsContent() {
               </div>
               <div className="UIProjectText">
                 <div className="PromptTitle">{Val.title}</div>
-                <div className="PrototypeLink">
-                  <p>{Val.date}</p>
+                <div className="ProjectDateCategory">
+                  <p>
+                    {/* save without formatting (have this line on the same line - no line break) */}
+                    {Val.date} |{" "}
+                    <a href={Val.link} className="link">
+                      Pattern
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
