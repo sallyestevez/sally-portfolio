@@ -22,7 +22,8 @@ function AboutSection() {
           <a href="https://rateyourmusic.com/~memelectraheart" target="blank">
             music!
           </a>{" "}
-          video games! reading! <a href={`/other-work/knits`}>knitting!</a>) to professional opportunities. :)
+          video games! reading! <a href={`/other-work/knits`}>knitting!</a>) to
+          professional opportunities. :)
         </p>
       </div>
     </div>

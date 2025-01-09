@@ -4,8 +4,6 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectData from "../components/ProjectData";
 import Footer from "../components/Footer";
 
-// USE SAME FORMAT FOR 'OTHER WORK' PAGE
-
 function Projects() {
   const [item] = useState(ProjectData);
   return (

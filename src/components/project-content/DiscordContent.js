@@ -69,8 +69,6 @@ function DiscordContent() {
           </div>
           {/* <div className="ProjectDiv ProjectProcess">
             <div className="ProjectPageSubtitle">Process</div> */}
-          {/* <h2>Design is not a linear process! Constant iteration is needed!</h2> */}
-
           {/* Identify the Problem */}
           {/* Research and Analysis */}
           {/* Wireframing & Ideation */}

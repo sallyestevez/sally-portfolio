@@ -13,11 +13,11 @@ function Ktown4uRedesignProject() {
       <main className="pageWrapper">
         <Ktown4uRedesignContent />
       </main>
-      <PrevNextOtherWork 
-        id1={OtherWorkData[7].id} 
+      <PrevNextOtherWork
+        id1={OtherWorkData[7].id}
+        title1={OtherWorkData[7].title}
         id2={OtherWorkData[1].id}
-        title1={OtherWorkData[7].title} 
-        title2={OtherWorkData[1].title} 
+        title2={OtherWorkData[1].title}
       />
       <Footer />
     </>

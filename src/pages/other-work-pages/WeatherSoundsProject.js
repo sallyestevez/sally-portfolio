@@ -14,8 +14,8 @@ function WeatherSoundsProject() {
       </main>
       <PrevNextOtherWork
         id1={OtherWorkData[3].id}
-        id2={OtherWorkData[5].id}
         title1={OtherWorkData[3].title}
+        id2={OtherWorkData[5].id}
         title2={OtherWorkData[5].title}
       />
       <Footer />

@@ -9,8 +9,8 @@ function Ktown4uRedesignContent() {
           <h1 className="PageTitle">{OtherWorkData[0].title}</h1>
           <h2 className="ProjectBlurb">{OtherWorkData[0].summary}</h2>
           <div className="ProjectDateCategory UIPage">
-              {OtherWorkData[0].date} | {OtherWorkData[0].category}
-            </div>
+            {OtherWorkData[0].date} | {OtherWorkData[0].category}
+          </div>
         </div>
       </header>
       <section>

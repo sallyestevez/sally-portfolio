@@ -31,7 +31,6 @@ import SunAndLOONAProject from "./pages/other-work-pages/SunAndLOONAProject";
 import KnitsProject from "./pages/other-work-pages/KnitsProject";
 import Ktown4uRedesignProject from "./pages/other-work-pages/Ktown4uRedesignProject";
 
-
 function App() {
   // goes to page based on file path
   const router = createBrowserRouter([

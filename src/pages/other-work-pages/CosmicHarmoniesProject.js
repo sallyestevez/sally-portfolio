@@ -14,8 +14,8 @@ function CosmicHarmoniesProject() {
       </main>
       <PrevNextOtherWork
         id1={OtherWorkData[2].id}
-        id2={OtherWorkData[4].id}
         title1={OtherWorkData[2].title}
+        id2={OtherWorkData[4].id}
         title2={OtherWorkData[4].title}
       />
       <Footer />

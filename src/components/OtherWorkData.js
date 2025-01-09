@@ -7,7 +7,6 @@ import RedVelvetCollage from "./images/RedVelvetTypography/RedVelvetCollage.png"
 import KnitsCollage from "./images/Knits/KnitsCollage.png";
 import Ktown4uRedesign from "./images/Ktown4uRedesign/Ktown4uRedesign.png";
 
-
 var OtherWorkData = [
   // 0
   {

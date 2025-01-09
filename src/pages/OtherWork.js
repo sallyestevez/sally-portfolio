@@ -4,8 +4,6 @@ import OtherWorkCard from "../components/OtherWorkCard";
 import OtherWorkData from "../components/OtherWorkData";
 import Footer from "../components/Footer";
 
-// USE SAME FORMAT FOR 'OTHER WORK' PAGE
-
 function OtherWork() {
   const [item] = useState(OtherWorkData);
   return (

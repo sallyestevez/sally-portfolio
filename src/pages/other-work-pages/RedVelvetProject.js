@@ -54,24 +54,24 @@ function RedVelvetProject() {
               </p>
               <div className="ProjectPageSubtitle">Process</div>
               <p>
-                ✴ <strong>Research & Inspiration: </strong>I started by
-                looking into each song's lyrical and musical content. This
-                helped me with the font selection for each track.
+                ✴ <strong>Research & Inspiration: </strong>I started by looking
+                into each song's lyrical and musical content. This helped me
+                with the font selection for each track.
               </p>
               <p>
                 ✴ <strong>Design Execution: </strong>For each track, I was very
                 careful when selecting fonts and text alignment, making sure
                 that these elements matched the overall mood. I went with bold
-                and playful fonts for Red Velvet's more upbeat and quirky
-                tracks and with softer and lighter fonts for their quieter
-                songs. I experimented with layout and spacing variations until
-                the result was something that represented the song.
+                and playful fonts for Red Velvet's more upbeat and quirky tracks
+                and with softer and lighter fonts for their quieter songs. I
+                experimented with layout and spacing variations until the result
+                was something that represented the song.
               </p>
               <p>
                 ✴ <strong>Cohesion & Presentation: </strong>The designs were
                 compiled in a Figma file. All of the songs that appear on one
-                album are grouped. The color schemes were chosen to
-                align with the album artwork and other promotional materials.
+                album are grouped. The color schemes were chosen to align with
+                the album artwork and other promotional materials.
               </p>
               <div className="ProjectPageSubtitle">Challenges & Solutions</div>
               <p>
@@ -93,8 +93,8 @@ function RedVelvetProject() {
       </div>
       <PrevNextOtherWork
         id1={OtherWorkData[1].id}
-        id2={OtherWorkData[3].id}
         title1={OtherWorkData[1].title}
+        id2={OtherWorkData[3].id}
         title2={OtherWorkData[3].title}
       />
       <Footer />

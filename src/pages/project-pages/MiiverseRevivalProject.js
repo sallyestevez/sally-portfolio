@@ -14,8 +14,8 @@ function MiiverseRevivalProject() {
       </main>
       <PrevNextProjects
         id1={ProjectData[2].id}
-        id2={ProjectData[4].id}
         title1={ProjectData[2].title}
+        id2={ProjectData[4].id}
         title2={ProjectData[4].title}
       />
       <Footer />

@@ -149,7 +149,9 @@ function EclipseSoundscapesContent() {
               ✴ "I like the big print/text on the website."
             </p>
             <p className="quote">✴ "Add more color."</p>
-            <p className="quote">✴ "It's hard to get to the top of the page."</p>
+            <p className="quote">
+              ✴ "It's hard to get to the top of the page."
+            </p>
             <p className="quote">
               ✴ "Navigation is too jumpy. I can't tell what comes before or
               after."

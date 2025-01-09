@@ -71,7 +71,9 @@ function KirbysCornerContent() {
               M - <em>Must-have</em> project features
             </h2>
             <p>✴ Pages for different Kirby games</p>
-            <p>✴ General game information + info typically hidden from people</p>
+            <p>
+              ✴ General game information + info typically hidden from people
+            </p>
             <h2>
               S - <em>Should have</em> project features
             </h2>
@@ -94,7 +96,7 @@ function KirbysCornerContent() {
             <p>
               After determining the scope, I picked the Kirby games and
               characters I wanted to focus on. I started with three games and
-              three key characters from each, with the thought that I could add 
+              three key characters from each, with the thought that I could add
               to this list later on.
             </p>
             <p>
@@ -127,10 +129,10 @@ function KirbysCornerContent() {
             </div>
             <h2>Prototype 2:</h2>
             <p>
-              I began coding the website using the Figma prototype as my guide while
-              also making a few design edits. I built the home page, character
-              pages (Kirby, Haltmann, and Star Dream), a 'Games' page, a
-              'Characters' page, and pages for three games.
+              I began coding the website using the Figma prototype as my guide
+              while also making a few design edits. I built the home page,
+              character pages (Kirby, Haltmann, and Star Dream), a 'Games' page,
+              a 'Characters' page, and pages for three games.
             </p>
             <p>
               After another round of peer feedback, the main suggestion was to

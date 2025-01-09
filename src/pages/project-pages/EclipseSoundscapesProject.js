@@ -14,8 +14,8 @@ function EclipseSoundscapesProject() {
       </main>
       <PrevNextProjects
         id1={ProjectData[1].id}
-        id2={ProjectData[3].id}
         title1={ProjectData[1].title}
+        id2={ProjectData[3].id}
         title2={ProjectData[3].title}
       />
       <Footer />

@@ -14,8 +14,8 @@ function RetailHorrorStoriesProject() {
       </main>
       <PrevNextProjects
         id1={ProjectData[5].id}
-        id2={ProjectData[1].id}
         title1={ProjectData[5].title}
+        id2={ProjectData[1].id}
         title2={ProjectData[1].title}
       />
       <Footer />

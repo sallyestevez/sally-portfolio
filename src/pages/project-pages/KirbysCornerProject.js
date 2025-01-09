@@ -14,8 +14,8 @@ function KirbysCornerProject() {
       </main>
       <PrevNextProjects
         id1={ProjectData[0].id}
-        id2={ProjectData[2].id}
         title1={ProjectData[0].title}
+        id2={ProjectData[2].id}
         title2={ProjectData[2].title}
       />
       <Footer />

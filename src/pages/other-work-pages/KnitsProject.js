@@ -14,8 +14,8 @@ function KnitsProject() {
       </main>
       <PrevNextOtherWork
         id1={OtherWorkData[4].id}
-        id2={OtherWorkData[6].id}
         title1={OtherWorkData[4].title}
+        id2={OtherWorkData[6].id}
         title2={OtherWorkData[6].title}
       />
       <Footer />

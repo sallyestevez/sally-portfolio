@@ -14,7 +14,10 @@ function SunAndLOONAContent() {
           </div>
         </div>
         <div className="ProjectImage--ProjectPage">
-          <a href="https://sun-and-loona.netlify.app/?sunMoonData=sun" className="link">
+          <a
+            href="https://sun-and-loona.netlify.app/?sunMoonData=sun"
+            className="link"
+          >
             <img
               src={OtherWorkData[7].img}
               alt={`${OtherWorkData[7].title} screenshot`}
