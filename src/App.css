@@ -449,11 +449,11 @@ body {
 }
 
 .link a {
-  color: black;
+  color: #2a233d;
   display: flex;
   gap: 100px;
   justify-content: space-between;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .link a:hover {
@@ -501,7 +501,7 @@ summary {
   padding-top: 8px;
 }
 
-.UIPromptsSection {
+.UIPromptsSection, .KnitsSection {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -512,18 +512,26 @@ summary {
   width: auto;
 }
 
-.UIPromptsSection a {
-  color: black;
+.UIPromptsSection a, .KnitsSection a {
   display: flex;
   gap: 100px;
   justify-content: space-between;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-.UIPromptsSection a:hover {
+.UIPromptsSection a {
+  color: #2a233d;
+}
+
+.KnitsSection a {
+  color: #8e7dba;
+}
+
+.UIPromptsSection a:hover, .KnitsSection a:hover {
   color: #e1a1b5;
   text-decoration: underline;
 }
+
 
 .UIProject {
   background-color: rgba(246, 229, 234, 50%);

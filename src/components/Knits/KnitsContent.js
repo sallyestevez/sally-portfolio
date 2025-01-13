@@ -9,14 +9,14 @@ function KnitsContent() {
     <div>
       <header className="ProjectHeader">
         <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[4].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[4].summary}</div>
+          <h1 className="PageTitle">{OtherWorkData[5].title}</h1>
+          <div className="ProjectSummary">{OtherWorkData[5].summary}</div>
           <div className="ProjectDateCategory">
-            {OtherWorkData[4].date} | {OtherWorkData[4].category}
+            {OtherWorkData[5].date} | {OtherWorkData[5].category}
           </div>
         </div>
       </header>
-      <div className="UIPromptsSection" id="UIPrompts">
+      <div className="KnitsSection">
         {item.map((Val) => {
           return (
             <div className="UIProject">
@@ -24,15 +24,11 @@ function KnitsContent() {
                 <img src={Val.img} alt={`${Val.title}`}></img>
               </div>
               <div className="UIProjectText">
-                <div className="PromptTitle">{Val.title}</div>
+                <div className="PromptTitle"><a href={Val.link} className="link">
+                {Val.title}
+                    </a></div>
                 <div className="ProjectDateCategory">
-                  <p>
-                    {/* save without formatting (have this line on the same line - no line break) */}
-                    {Val.date} |{" "}
-                    <a href={Val.link} className="link">
-                      Pattern
-                    </a>
-                  </p>
+                    {Val.date}
                 </div>
               </div>
             </div>
