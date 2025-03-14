@@ -9,7 +9,7 @@ function AudioVisualizerProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <AudioVisualizerContent />
       </main>
       <PrevNextOtherWork

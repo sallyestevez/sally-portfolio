@@ -9,8 +9,8 @@ function Projects() {
   return (
     <>
       <Header />
-      <div className="PageWrapper">
-        <h1 className="PageTitle PageHeader">Projects</h1>
+      <div className="page-wrapper">
+        <h1 className="page-title">Projects</h1>
         <ProjectCard item={item} />
       </div>
       <Footer />

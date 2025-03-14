@@ -10,7 +10,7 @@ function Ktown4uRedesignProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <Ktown4uRedesignContent />
       </main>
       <PrevNextOtherWork

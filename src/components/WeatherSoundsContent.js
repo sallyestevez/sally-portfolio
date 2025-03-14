@@ -4,16 +4,16 @@ import OtherWorkData from "./OtherWorkData";
 
 function WeatherSoundsContent() {
   return (
-    <div>
-      <header className="ProjectHeader">
-        <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[4].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[4].summary}</div>
-          <div className="ProjectDateCategory">
+    <div className="project-wrapper">
+      <header className="project-header">
+        <div className="header-text">
+          <h1 className="page-title">{OtherWorkData[4].title}</h1>
+          <div className="project-summary">{OtherWorkData[4].summary}</div>
+          <div className="project-date-category">
             {OtherWorkData[4].date} | {OtherWorkData[4].category}
           </div>
         </div>
-        <div className="ProjectVideo">
+        <div className="video-div">
           <iframe
             src="https://drive.google.com/file/d/1vv2PRuHlyvewBpKiY-a1dJB0AJvf8tVJ/preview"
             allow="autoplay"
@@ -22,9 +22,9 @@ function WeatherSoundsContent() {
         </div>
       </header>
       <section>
-        <div className="ProjectContent">
-          <div className="ProjectDiv ProjectDetails">
-            <div className="ProjectPageSubtitle">Project Details</div>
+        <div className="project-content">
+          <div className="project-div">
+            <div className="page-subtitle">Project Details</div>
             <p>
               <strong>Role:</strong> Creative Technologist & Sound Designer
             </p>
@@ -35,8 +35,8 @@ function WeatherSoundsContent() {
               <strong>Tools:</strong> Max MSP
             </p>
           </div>
-          <div className="ProjectDiv KeyFeatures">
-            <div className="ProjectPageSubtitle">Key Features</div>
+          <div className="project-div">
+            <div className="page-subtitle">Key Features</div>
             <p>
               <strong>✴ OpenWeatherMap API Integration: </strong>Fetches
               real-time weather data to influence soundscapes, which will affect
@@ -56,8 +56,8 @@ function WeatherSoundsContent() {
               audio plugins to adjust filters, pitch, and echo.
             </p>
           </div>
-          <div className="ProjectDiv ChallengesSolutions">
-            <div className="ProjectPageSubtitle">Challenges & Solutions</div>
+          <div className="project-div">
+            <div className="page-subtitle">Challenges & Solutions</div>
             <p>
               I had an input parsing issue where user inputs were returned as
               "text (city)," breaking API calls. After trial and error, I
@@ -65,8 +65,8 @@ function WeatherSoundsContent() {
               to replace the 'text' and spaces with nothing (%0 in Max MSP)
             </p>
           </div>
-          <div className="ProjectDiv Outcomes">
-            <div className="ProjectPageSubtitle">Outcomes</div>
+          <div className="project-div">
+            <div className="page-subtitle">Outcomes</div>
             <p>
               ✴ I designed an engaging user experience that merged weather data
               and sound design.

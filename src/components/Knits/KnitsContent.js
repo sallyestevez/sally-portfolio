@@ -6,30 +6,30 @@ import KnitsData from "./KnitsData";
 function KnitsContent() {
   const [item] = useState(KnitsData);
   return (
-    <div>
-      <header className="ProjectHeader">
-        <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{OtherWorkData[5].title}</h1>
-          <div className="ProjectSummary">{OtherWorkData[5].summary}</div>
-          <div className="ProjectDateCategory">
+    <div className="project-wrapper">
+      <header className="project-header">
+        <div className="header-text">
+          <h1 className="page-title">{OtherWorkData[5].title}</h1>
+          <div className="project-summary">{OtherWorkData[5].summary}</div>
+          <div className="project-date-category">
             {OtherWorkData[5].date} | {OtherWorkData[5].category}
           </div>
         </div>
       </header>
-      <div className="KnitsSection">
+      <div className="creative-project-section" id="knits-project">
         {item.map((Val) => {
           return (
-            <div className="UIProject">
-              <div className="UI_IMAGE">
+            <div className="creative-project">
+              <div className="creative-project-image">
                 <img src={Val.img} alt={`${Val.title}`}></img>
               </div>
-              <div className="UIProjectText">
-                <div className="PromptTitle"><a href={Val.link} className="link">
-                {Val.title}
-                    </a></div>
-                <div className="ProjectDateCategory">
-                    {Val.date}
+              <div className="creative-project-text">
+                <div className="prompt-title">
+                  <a href={Val.link} className="link">
+                    {Val.title}
+                  </a>
                 </div>
+                <div className="project-date-category">{Val.date}</div>
               </div>
             </div>
           );

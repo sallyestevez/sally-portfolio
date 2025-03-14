@@ -5,16 +5,16 @@ function Day71_80Cards() {
   const [item] = useState(DAY_71_80_DATA);
   return (
     <>
-      <div className="UIPromptsSection" id="UIPrompts">
+      <div className="creative-project-section" id="ui-project">
         {item.map((Val) => {
           return (
-            <div className="UIProject">
-              <div className="UI_IMAGE">
+            <div className="creative-project">
+              <div className="creative-project-image">
                 <img src={Val.img} alt={`${Val.title} mockup`}></img>
               </div>
-              <div className="UIProjectText">
-                <div className="PromptTitle">{Val.title}</div>
-                <div className="PrototypeLink">
+              <div className="creative-project-text">
+                <div className="prompt-title">{Val.title}</div>
+                <div className="prototype-link">
                   <a href={Val.prototype} className="link">
                     <p>Link to Figma prototype</p>
                   </a>

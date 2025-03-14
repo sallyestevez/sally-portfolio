@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Header />
-      <main className="PageWrapper">
+      <main className="page-wrapper">
         <SallyIntro />
       </main>
       <Footer />

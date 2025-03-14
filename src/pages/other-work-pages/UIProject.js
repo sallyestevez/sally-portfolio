@@ -9,7 +9,7 @@ function UIProject() {
   return (
     <>
       <Header />
-      <main className="PageWrapper">
+      <main className="page-wrapper">
         <UIContent />
       </main>
       <PrevNextOtherWork

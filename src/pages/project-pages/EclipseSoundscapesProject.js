@@ -9,7 +9,7 @@ function EclipseSoundscapesProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <EclipseSoundscapesContent />
       </main>
       <PrevNextProjects

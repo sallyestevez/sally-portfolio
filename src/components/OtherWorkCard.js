@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 function OtherWorkCard({ item }) {
   return (
     <>
-      <div className="ProjectsSection" id="projects">
+      <div className="projects-section" id="other-work">
         {item.map((Val) => {
           return (
-            <div className="Project">
-              <div className="ProjectImage">
+            <div className="project">
+              <div className="project-image">
                 <Link
                   to={`/other-work/${Val.id}`}
                   onClick={() => window.scrollTo(0, 0)}
@@ -16,15 +16,15 @@ function OtherWorkCard({ item }) {
                   <img src={Val.img} alt={`${Val.title} screenshot`} />
                 </Link>
               </div>
-              <div className="ProjectText">
+              <div className="project-text">
                 <Link
                   to={`/other-work/${Val.id}`}
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <div className="ProjectTitle">{Val.title}</div>
+                  <div className="project-title">{Val.title}</div>
                 </Link>
-                <div className="ProjectSummary">{Val.summary}</div>
-                <div className="ProjectDateCategory">
+                <div className="project-summary">{Val.summary}</div>
+                <div className="project-date-category">
                   <p>
                     {Val.date} | {Val.category}
                   </p>

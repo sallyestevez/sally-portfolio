@@ -4,28 +4,28 @@ import explore from "./images/explore.png";
 
 function SallyIntro() {
   return (
-    <div className="PageWrapper">
-      <div className="SallyTitleCSS">
-        <div className="SallyTitleText">
+    <div className="page-wrapper">
+      <div className="intro-title-div">
+        <div className="intro-title-heading">
           <h1>
             Sally Estevez is a UI/UX designer & front-end developer based in NYC
             ✴
           </h1>
         </div>
       </div>
-      <div className="IntroSpacing1"></div>
-      <div class="rotatingImageDiv">
-        <div class="">
+      <div className="intro-spacing"></div>
+      <div className="rotating-image-div">
+        <div>
           <NavLink to="/projects">
             <img
-              class="rotatingImage"
+              class="rotating-image"
               src={explore}
               alt="rotating explore pic"
             ></img>
           </NavLink>
         </div>
       </div>
-      <div className="IntroSpacing2"></div>
+      <div className="intro-spacing"></div>
     </div>
   );
 }

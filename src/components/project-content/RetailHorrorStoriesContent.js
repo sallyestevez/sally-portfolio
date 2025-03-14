@@ -3,35 +3,38 @@ import ProjectData from "../ProjectData";
 import CYOAWriting1 from "../images/RetailHorrorStories/CYOAWriting1.PNG";
 import CYOAWriting2 from "../images/RetailHorrorStories/CYOAWriting2.PNG";
 import CYOAWriting3 from "../images/RetailHorrorStories/CYOAWriting3.PNG";
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 function RetailHorrorStoriesContent() {
   return (
-    <div>
-      <header className="ProjectHeader">
-        <div className="ProjectHeaderText">
-          <h1 className="PageTitle">{ProjectData[0].title}</h1>
-          <div className="ProjectSummary">{ProjectData[0].summary}</div>
-          <div className="ProjectDateCategory">
+    <div className="project-wrapper">
+      <header className="project-header">
+        <div className="header-text">
+          <h1 className="page-title">{ProjectData[0].title}</h1>
+          <div className="project-summary">{ProjectData[0].summary}</div>
+          <div className="project-date-category">
             {ProjectData[0].date} | {ProjectData[0].category}
           </div>
         </div>
-        <div className="ProjectImage--ProjectPage">
+        <div className="project-page-image">
           <a href={`${ProjectData[0].link}`} className="link">
             <img
               src={ProjectData[0].img}
               alt={`${ProjectData[0].title} screenshot`}
+              loading="lazy"
             />
           </a>
           <br></br>
-          <a href={`${ProjectData[0].link}`}>
-            <div className="ProjectLink">Visit the site!</div>
-          </a>
+          <div className="project-link">
+            <a href={`${ProjectData[0].link}`}>Visit the site!</a>
+          </div>
         </div>
       </header>
       <section>
-        <div className="ProjectContent">
-          <div className="ProjectDiv ProjectDetails">
-            <div className="ProjectPageSubtitle">Project Details</div>
+        <div className="project-content">
+          <div className="project-div">
+            <div className="page-subtitle">Project Details</div>
             <p>
               <strong>Role:</strong> Game Designer & Developer
             </p>
@@ -43,8 +46,8 @@ function RetailHorrorStoriesContent() {
               pencil
             </p>
           </div>
-          <div className="ProjectDiv ProjectOverview">
-            <div className="ProjectPageSubtitle">What is it?</div>
+          <div className="project-div">
+            <div className="page-subtitle">What is it?</div>
             <p>
               This is a choose-your-own-adventure game where players take on the
               role of a new Walmart employee working during the chaos of Black
@@ -53,8 +56,8 @@ function RetailHorrorStoriesContent() {
               the busiest shopping days of the year.
             </p>
           </div>
-          <div className="ProjectDiv ProjectOverview">
-            <div className="ProjectPageSubtitle">Narrative Design</div>
+          <div className="project-div">
+            <div className="page-subtitle">Narrative Design</div>
             <p>
               I created a narrative that draws inspiration from real-life Black
               Friday horror stories, some of which came from Reddit threads. The
@@ -62,9 +65,9 @@ function RetailHorrorStoriesContent() {
               retail work on Black Friday.
             </p>
           </div>
-          <div className="ProjectDiv ProjectInspirations">
-            <div className="ProjectPageSubtitle">Inspirations</div>
-            <h2>Key sources of inspiration for this project included:</h2>
+          <div className="project-div">
+            <div className="page-subtitle">Inspirations</div>
+            <p>Key sources of inspiration for this project included:</p>
             <p>
               ✴{" "}
               <strong>
@@ -80,7 +83,7 @@ function RetailHorrorStoriesContent() {
               has never had a real job before. They are starting a job at the
               biggest, busiest store in town on the busiest day of the year."
             </p>
-            <p>
+            <p className="project-link">
               ✴{" "}
               <strong>
                 <a href="https://www.reddit.com/r/AskReddit/comments/1re0rl/retail_employees_of_reddit_what_are_your_black/">
@@ -107,50 +110,68 @@ function RetailHorrorStoriesContent() {
               shared by retail workers.
             </p>
           </div>
-          <div className="ProjectDiv ProjectProcess">
-            <div className="ProjectPageSubtitle">Game Development Process</div>
+          <div className="project-div ProjectProcess">
+            <div className="page-subtitle">Game Development Process</div>
             <p>
               I began by writing the story's branching paths and alternative
               endings on paper. The different scenarios and paths led to
               different outcomes and unique endings for players to discover.
             </p>
-            <div className="ProjectDiv ProjectImages">
-              <a href={CYOAWriting1} target="_blank" rel="noreferrer">
+            <div className="project-div project-page-image">
+              <a
+                href={CYOAWriting1}
+                data-fancybox
+                data-caption="Story mapping 1"
+              >
                 <img
                   src={CYOAWriting1}
                   alt={`Retail Horror Stories mapping 1`}
                 />
               </a>
-              <a href={CYOAWriting2} target="_blank" rel="noreferrer">
+              <a
+                href={CYOAWriting2}
+                data-fancybox
+                data-caption="Story mapping 2"
+              >
                 <img
                   src={CYOAWriting2}
                   alt={`Retail Horror Stories mapping 2`}
                 />
               </a>
-              <a href={CYOAWriting3} target="_blank" rel="noreferrer">
+              <a
+                href={CYOAWriting3}
+                data-fancybox
+                data-caption="Story mapping 3"
+              >
                 <img
                   src={CYOAWriting3}
                   alt={`Retail Horror Stories mapping 3`}
                 />
               </a>
             </div>
-            <p>
-              After making some changes to the plot, I moved on to the coding
-              phase, implementing each story branch, choice, and outcome as
-              planned. The player choices were incorporated as interactive
-              buttons, which allow users to navigate the story by selecting
-              their preferred path.
-            </p>
-            <p>
-              To enhance the gaming experience, I incorporated music from
-              Persona 4, since a superstore like Walmart is a key element in
-              both my game and Persona 4!
-            </p>
+            <div className="project-subsection">
+              <p>
+                After making some changes to the plot, I moved on to the coding
+                phase, implementing each story branch, choice, and outcome as
+                planned. The player choices were incorporated as interactive
+                buttons, which allow users to navigate the story by selecting
+                their preferred path.
+              </p>
+            </div>
+            <div className="project-subsection">
+              <p>
+                To enhance the gaming experience, I incorporated music from
+                Persona 4, since a superstore like Walmart is a key element in
+                both my game and Persona 4!
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </div>
   );
 }
+
+Fancybox.bind("[data-fancybox]", {});
 
 export default RetailHorrorStoriesContent;

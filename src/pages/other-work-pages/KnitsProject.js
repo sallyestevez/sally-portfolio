@@ -9,7 +9,7 @@ function KnitsProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <KnitsContent />
       </main>
       <PrevNextOtherWork

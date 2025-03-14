@@ -5,17 +5,17 @@ function RedVelvetCards() {
   const [item] = useState(RedVelvetData);
   return (
     <>
-      <div className="UIPromptsSection" id="UIPrompts">
+      <div className="creative-project-section" id="red-velvet-project">
         {item.map((Val) => {
           return (
-            <div className="UIProject">
-              <div className="UI_IMAGE">
+            <div className="creative-project">
+              <div className="creative-project-image">
                 <img src={Val.img} alt={`${Val.title} song titles`}></img>
               </div>
-              <div className="UIProjectText">
-                <div className="PromptTitle">{Val.title}</div>
+              <div className="creative-project-text">
+                <div className="prompt-title">{Val.title}</div>
               </div>
-              <div className="ProjectDateCategory UIPage">
+              <div className="project-date-category">
                 {Val.summary} ({Val.date})
               </div>
             </div>

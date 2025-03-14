@@ -9,7 +9,7 @@ function DiscordProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <DiscordContent />
       </main>
       <PrevNextProjects

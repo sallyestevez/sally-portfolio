@@ -2,9 +2,9 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="AboutDiv">
-      <div className="AboutText">
-        <h1 className="PageTitleAbout">About</h1>
+    <div className="about-div">
+      <div className="about-text">
+        <h1 className="page-title-about">About</h1>
         <p>Hey, I'm Sally!</p>
         <p>I'm a product designer and front-end developer based in NYC.</p>
         <p>

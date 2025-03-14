@@ -9,7 +9,7 @@ function VisitMiraProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <VisitMiraContent />
       </main>
       <PrevNextProjects

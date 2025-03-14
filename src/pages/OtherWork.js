@@ -9,8 +9,8 @@ function OtherWork() {
   return (
     <>
       <Header />
-      <div className="PageWrapper">
-        <h1 className="PageTitle PageHeader">Other Work</h1>
+      <div className="page-wrapper">
+        <h1 className="page-title">Other Work</h1>
         <OtherWorkCard item={item} />
       </div>
       <Footer />

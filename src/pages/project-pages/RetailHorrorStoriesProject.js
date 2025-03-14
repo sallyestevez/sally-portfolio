@@ -9,7 +9,7 @@ function RetailHorrorStoriesProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <RetailHorrorStoriesContent />
       </main>
       <PrevNextProjects

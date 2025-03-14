@@ -9,7 +9,7 @@ function WeatherSoundsProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <WeatherSoundsContent />
       </main>
       <PrevNextOtherWork

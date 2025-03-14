@@ -2,9 +2,9 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="AboutDiv">
-      <div className="AboutText">
-        <h1 className="PageTitleAbout">Contact</h1>
+    <div className="about-div">
+      <div className="about-text">
+        <h1 className="page-title-about">Contact</h1>
         <a href="mailto:sme418@nyu.edu">
           <p>sme418@nyu.edu</p>
         </a>

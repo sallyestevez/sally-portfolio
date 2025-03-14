@@ -9,7 +9,7 @@ function CosmicHarmoniesProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <CosmicHarmoniesContent />
       </main>
       <PrevNextOtherWork

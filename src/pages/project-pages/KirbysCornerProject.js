@@ -9,7 +9,7 @@ function KirbysCornerProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <KirbysCornerContent />
       </main>
       <PrevNextProjects

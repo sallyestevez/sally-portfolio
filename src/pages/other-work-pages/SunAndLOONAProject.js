@@ -9,7 +9,7 @@ function SunAndLOONAProject() {
   return (
     <>
       <Header />
-      <main className="pageWrapper">
+      <main className="page-wrapper">
         <SunAndLOONAContent />
       </main>
       <PrevNextOtherWork

@@ -7,7 +7,7 @@ function AboutPage() {
   return (
     <>
       <Header />
-      <div className="PageWrapper">
+      <div className="page-wrapper">
         <AboutSection />
         <Contact />
         <Footer />
