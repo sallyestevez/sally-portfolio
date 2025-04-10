@@ -15,7 +15,7 @@ var ProjectData = [
     summary: `A "Choose Your Own Adventure" game inspired by real retail workers' experiences`,
     date: "Spring 2023",
     category: "Web Development, Game Development",
-    link: "https://sallyestevez.github.io/IN-Final/",
+    link: "https://sallyestevez.github.io/retail-horror-stories/",
   },
   // 1
   {
