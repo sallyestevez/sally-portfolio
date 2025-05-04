@@ -5,8 +5,8 @@ function Contact() {
     <div className="about-div">
       <div className="about-text">
         <h1 className="page-title-about">Contact</h1>
-        <a href="mailto:sme418@nyu.edu">
-          <p>sme418@nyu.edu</p>
+        <a href="mailto:sallyestevez318@gmail.com">
+          <p>sallyestevez318@gmail.com</p>
         </a>
         <a href="https://www.linkedin.com/in/sally-estevez/" target="blank">
           <p>LinkedIn ↗</p>
