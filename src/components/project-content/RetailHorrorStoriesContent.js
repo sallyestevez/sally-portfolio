@@ -3,6 +3,8 @@ import ProjectData from "../ProjectData";
 import CYOAWriting1 from "../images/RetailHorrorStories/CYOAWriting1.PNG";
 import CYOAWriting2 from "../images/RetailHorrorStories/CYOAWriting2.PNG";
 import CYOAWriting3 from "../images/RetailHorrorStories/CYOAWriting3.PNG";
+import Before from "../images/RetailHorrorStories/RetailHorrorStories_Before.png";
+import After from "../images/RetailHorrorStories/RetailHorrorStories_After.png";
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
@@ -39,7 +41,8 @@ function RetailHorrorStoriesContent() {
               <strong>Role:</strong> Game Designer & Developer
             </p>
             <p>
-              <strong>Duration:</strong> April - May 2023 (3 weeks)
+              <strong>Duration:</strong> April - May 2023, April 2025 (4 weeks
+              total)
             </p>
             <p>
               <strong>Tools:</strong> HTML, CSS, JavaScript, jQuery, paper and
@@ -164,6 +167,45 @@ function RetailHorrorStoriesContent() {
                 Persona 4, since a superstore like Walmart is a key element in
                 both my game and Persona 4!
               </p>
+            </div>
+            <div className="project-div ProjectProcess">
+              <div className="page-subtitle">Redesign</div>
+              <div className="project-subsection">
+                <p>
+                  I decided to update the game's appearance because it was time
+                  for a change. I changed the font, added more backgrounds (from
+                  three to nine), and changed the design of the selection
+                  buttons. The game is now also fully responsive and can be
+                  played on all screen sizes.
+                </p>
+              </div>
+              <div className="project-subsection">
+                <p>
+                  This is what the game looked like before the redesign (in
+                  2023).
+                </p>
+              </div>
+              <div className="project-div project-page-image">
+                <a href={Before} data-fancybox data-caption="Before (2023)">
+                  <img
+                    src={Before}
+                    alt={`Retail Horror Stories - Before (2023)`}
+                  />
+                </a>
+              </div>
+              <div className="project-subsection">
+                <p>
+                  This is what the game looks like after the redesign (in 2025).
+                </p>
+              </div>
+              <div className="project-div project-page-image">
+                <a href={After} data-fancybox data-caption="After (2025)">
+                  <img
+                    src={After}
+                    alt={`Retail Horror Stories - After (2025)`}
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>

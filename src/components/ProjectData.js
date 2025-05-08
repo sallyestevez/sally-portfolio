@@ -13,7 +13,7 @@ var ProjectData = [
     img: RetailHorrorStories,
     alt: "Retail Horror Stories screenshot",
     summary: `A "Choose Your Own Adventure" game inspired by real retail workers' experiences`,
-    date: "Spring 2023",
+    date: "Spring 2023, Spring 2025",
     category: "Web Development, Game Development",
     link: "https://sallyestevez.github.io/retail-horror-stories/",
   },
