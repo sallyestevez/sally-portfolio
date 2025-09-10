@@ -133,11 +133,17 @@ body {
   justify-content: center;
 }
 
-@keyframes rotate {
-  0% {
+@media (prefers-reduced-motion: no-preference) {
+  .explore-pic {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
@@ -821,6 +827,7 @@ body {
   }
 
   .nav-elements {
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgb(246, 229, 234, 50%);
     height: calc(100vh - 60px);

@@ -1,11 +1,12 @@
 import React from "react";
 
 // import { useEffect, useState } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 // Styling & Components
 import "./App.css";
 import ScrollButton from "./components/ToTop";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Main Pages
 import AboutPage from "./pages/AboutPage";
@@ -31,100 +32,136 @@ import SunAndLOONAProject from "./pages/other-work-pages/SunAndLOONAProject";
 import KnitsProject from "./pages/other-work-pages/KnitsProject";
 import Ktown4uRedesignProject from "./pages/other-work-pages/Ktown4uRedesignProject";
 
+// Error Page
+import NotFound from "./components/NotFound";
+
+// Layout component for scroll-to-top
+function Layout() {
+  return (
+    <>
+      <ScrollToTop />
+      <Outlet />
+    </>
+  );
+}
+
 function App() {
   // goes to page based on file path
-  const router = createBrowserRouter([
+  const router = createBrowserRouter(
+    [
+      {
+        element: <Layout />, // Wrap all routes in Layout
+        children: [
+          {
+            // home page (root)
+            path: "/",
+            element: <Home />,
+            errorElement: <NotFound />,
+          },
+          {
+            // home page (index)
+            path: "/index",
+            element: <Home />,
+            errorElement: <NotFound />,
+          },
+          {
+            // projects page
+            path: "/projects",
+            element: <Projects />,
+          },
+          {
+            // other work page
+            path: "/other_work",
+            element: <OtherWork />,
+          },
+          {
+            // about page
+            path: "/about",
+            element: <AboutPage />,
+          },
+          {
+            // Eclipse Soundscapes project page
+            path: "/projects/eclipse-soundscapes",
+            element: <EclipseSoundscapesProject />,
+          },
+          {
+            // Discord project page
+            path: "/projects/discord-file-compressor",
+            element: <DiscordProject />,
+          },
+          {
+            // Retail Horror Stories project page
+            path: "/projects/retail-horror-stories",
+            element: <RetailHorrorStoriesProject />,
+          },
+          {
+            // Kirby's Corner project page
+            path: "/projects/kirbys-corner",
+            element: <KirbysCornerProject />,
+          },
+          {
+            // Miiverse Revival project page
+            path: "/projects/miiverse-revival",
+            element: <MiiverseRevivalProject />,
+          },
+          {
+            // Visit Mira project page
+            path: "/projects/visit-mira",
+            element: <VisitMiraProject />,
+          },
+          {
+            // Ktown4u project page
+            path: "/other-work/ktown4u-redesign",
+            element: <Ktown4uRedesignProject />,
+          },
+          {
+            // 100 Days of UI project page
+            path: "/other-work/100-days-of-ui",
+            element: <UIProject />,
+          },
+          {
+            // Red Velvet typography project page
+            path: "/other-work/red-velvet-typography",
+            element: <RedVelvetProject />,
+          },
+          {
+            // WeatherSounds project page
+            path: "/other-work/weather-sounds",
+            element: <WeatherSoundsProject />,
+          },
+          {
+            // Audio Visualizer project page
+            path: "/other-work/audio-visualizer",
+            element: <AudioVisualizerProject />,
+          },
+          {
+            // Cosmic Harmonies project page
+            path: "/other-work/cosmic-harmonies",
+            element: <CosmicHarmoniesProject />,
+          },
+          {
+            // Sun and LOONA project page
+            path: "/other-work/sun-and-LOONA",
+            element: <SunAndLOONAProject />,
+          },
+          {
+            // Knitting projects page
+            path: "/other-work/knits",
+            element: <KnitsProject />,
+          },
+          {
+            // Catch-all 404 route
+            path: "*",
+            element: <NotFound />,
+            errorElement: <NotFound />,
+          },
+        ],
+      },
+    ],
     {
-      // home page
-      path: "/",
-      element: <Home />,
-    },
-    {
-      // projects page
-      path: "/projects",
-      element: <Projects />,
-    },
-    {
-      // other work page
-      path: "/other_work",
-      element: <OtherWork />,
-    },
-    {
-      // about page
-      path: "/about",
-      element: <AboutPage />,
-    },
-    {
-      // Eclipse Soundscapes project page
-      path: "/project/eclipse-soundscapes",
-      element: <EclipseSoundscapesProject />,
-    },
-    {
-      // Discord project page
-      path: "/project/discord-file-compressor",
-      element: <DiscordProject />,
-    },
-    {
-      // Retail Horror Stories project page
-      path: "/project/retail-horror-stories",
-      element: <RetailHorrorStoriesProject />,
-    },
-    {
-      // Kirby's Corner project page
-      path: "/project/kirbys-corner",
-      element: <KirbysCornerProject />,
-    },
-    {
-      // Miiverse Revival project page
-      path: "/project/miiverse-revival",
-      element: <MiiverseRevivalProject />,
-    },
-    {
-      // Visit Mira project page
-      path: "/project/visit-mira",
-      element: <VisitMiraProject />,
-    },
-    {
-      // Ktown4u project page
-      path: "/other-work/ktown4u-redesign",
-      element: <Ktown4uRedesignProject />,
-    },
-    {
-      // 100 Days of UI project page
-      path: "/other-work/100-days-of-ui",
-      element: <UIProject />,
-    },
-    {
-      // Red Velvet typography project page
-      path: "/other-work/red-velvet-typography",
-      element: <RedVelvetProject />,
-    },
-    {
-      // WeatherSounds project page
-      path: "/other-work/weather-sounds",
-      element: <WeatherSoundsProject />,
-    },
-    {
-      // Audio Visualizer project page
-      path: "/other-work/audio-visualizer",
-      element: <AudioVisualizerProject />,
-    },
-    {
-      // Cosmic Harmonies project page
-      path: "/other-work/cosmic-harmonies",
-      element: <CosmicHarmoniesProject />,
-    },
-    {
-      // Sun and LOONA project page
-      path: "/other-work/sun-and-LOONA",
-      element: <SunAndLOONAProject />,
-    },
-    {
-      // Knitting projects page
-      path: "/other-work/knits",
-      element: <KnitsProject />,
-    },
-  ]);
+      basename: "/sally-portfolio",
+    }
+  );
 
   return (
     <div className="App">

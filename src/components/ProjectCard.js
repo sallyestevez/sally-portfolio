@@ -10,7 +10,7 @@ function ProjectCard({ item }) {
             <div className="project">
               <div className="project-image">
                 <Link
-                  to={`/project/${Val.id}`}
+                  to={`/projects/${Val.id}`}
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <img src={Val.img} alt={`${Val.title} screenshot`} />
@@ -18,7 +18,7 @@ function ProjectCard({ item }) {
               </div>
               <div className="project-text">
                 <Link
-                  to={`/project/${Val.id}`}
+                  to={`/projects/${Val.id}`}
                   onClick={() => window.scrollTo(0, 0)}
                 >
                   <div className="project-title">{Val.title}</div>

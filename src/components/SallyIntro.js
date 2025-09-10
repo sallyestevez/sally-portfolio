@@ -18,8 +18,8 @@ function SallyIntro() {
         <div>
           <NavLink to="/projects">
             <img
-              class="rotating-image"
               src={explore}
+              className="explore-pic"
               alt="rotating explore pic"
             ></img>
           </NavLink>

@@ -3,7 +3,7 @@ import RetailHorrorStories from "./images/RetailHorrorStories/RetailHorrorStorie
 import KirbysCorner from "./images/KirbysCorner/KirbysCorner.png";
 import MiiverseRevival from "./images/MiiverseRevival/MiiverseRevival.png";
 import Discord from "./images/Discord/Discord.png";
-import VisitMira from "./images/VisitMira/VisitMira.png";
+import VisitMira from "./images/VisitMira/VisitMiraNew.png";
 
 var ProjectData = [
   // 0
@@ -68,9 +68,9 @@ var ProjectData = [
     img: VisitMira,
     alt: "Visit Mira homepage screenshot",
     summary: "We're stuck on a different planet—by choice",
-    date: "Fall 2021",
+    date: "Fall 2021, Spring - Summer 2025",
     category: "Web Development",
-    link: "https://sallyestevez.github.io/JSLibrary/",
+    link: "https://sallyestevez.github.io/visit-mira/",
   },
   // {
   //   id: "",
