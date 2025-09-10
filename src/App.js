@@ -159,7 +159,7 @@ function App() {
       },
     ],
     {
-      basename: "/sally-portfolio",
+      basename: "/",
     }
   );
 
