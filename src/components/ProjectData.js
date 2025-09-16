@@ -3,7 +3,7 @@ import RetailHorrorStories from "./images/RetailHorrorStories/RetailHorrorStorie
 import KirbysCorner from "./images/KirbysCorner/KirbysCorner.png";
 import MiiverseRevival from "./images/MiiverseRevival/MiiverseRevival.png";
 import Discord from "./images/Discord/Discord.png";
-import VisitMira from "./images/VisitMira/VisitMiraNew.png";
+import VisitMira from "./images/VisitMira/NewHome.png";
 
 var ProjectData = [
   // 0

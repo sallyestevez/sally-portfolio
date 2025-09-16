@@ -288,14 +288,11 @@ body {
   font-style: normal;
   font-weight: 600;
   letter-spacing: 1.5px;
+  padding-bottom: 4px;
 }
 
 .page-title {
   padding-bottom: 16px;
-}
-
-.prompt-title {
-  padding-bottom: 4px;
 }
 
 .project-subsection {
@@ -320,7 +317,8 @@ body {
   border-radius: 4px;
 }
 
-.eclipse-soundscapes-image {
+.eclipse-soundscapes-image,
+.visit-mira-image {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -328,13 +326,24 @@ body {
   margin: 16px 0;
 }
 
-.eclipse-soundscapes-image img {
+.visit-mira-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.eclipse-soundscapes-image img,
+.visit-mira-image img {
   border-radius: 4px;
   max-width: 75%;
   height: auto;
 }
 
-.eclipse-soundscapes-image img:hover {
+.eclipse-soundscapes-image img:hover,
+.visit-mira-image img:hover {
   filter: brightness(0.75);
 }
 
