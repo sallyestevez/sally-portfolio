@@ -31,26 +31,26 @@ function VisitMiraContent() {
     <div className="project-wrapper">
       <header className="project-header">
         <div className="header-text">
-          <h1 className="page-title">{ProjectData[5].title}</h1>
+          <h1 className="page-title">{ProjectData[0].title}</h1>
           <div className="project-date-category">
             Inspired by Xenoblade Chronicles X
           </div>
-          <div className="project-summary">{ProjectData[5].summary}</div>
+          <div className="project-summary">{ProjectData[0].summary}</div>
           <div className="project-date-category">
-            {ProjectData[5].date} | {ProjectData[5].category}
+            {ProjectData[0].date} | {ProjectData[0].category}
           </div>
         </div>
         <div className="project-page-image">
-          <a href={`${ProjectData[5].link}`} className="link">
+          <a href={`${ProjectData[0].link}`} className="link">
             <img
-              src={ProjectData[5].img}
-              alt={`${ProjectData[5].title} screenshot`}
+              src={ProjectData[0].img}
+              alt={`${ProjectData[0].title} screenshot`}
               loading="lazy"
             />
           </a>
           <br></br>
           <div className="project-link">
-            <a href={`${ProjectData[5].link}`}>Visit the site!</a>
+            <a href={`${ProjectData[0].link}`}>Visit the site!</a>
           </div>
         </div>
       </header>
@@ -59,7 +59,7 @@ function VisitMiraContent() {
           <div className="project-div">
             <div className="page-subtitle">Project Details</div>
             <p>
-              <strong>Role:</strong> UX Designer & Web Developer
+              <strong>Role:</strong> Product Designer & Web Developer
             </p>
             <p>
               <strong>Team:</strong> Myself, Sammy Estevez

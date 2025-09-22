@@ -17,10 +17,10 @@ function EclipseSoundscapesContent() {
     <div className="project-wrapper">
       <header className="project-header">
         <div className="header-text">
-          <h1 className="page-title">{ProjectData[2].title}</h1>
-          <h2 className="project-summary">{ProjectData[2].summary}</h2>
+          <h1 className="page-title">{ProjectData[3].title}</h1>
+          <h2 className="project-summary">{ProjectData[3].summary}</h2>
           <div className="project-date-category">
-            {ProjectData[2].date} | {ProjectData[2].category}
+            {ProjectData[3].date} | {ProjectData[3].category}
           </div>
         </div>
       </header>

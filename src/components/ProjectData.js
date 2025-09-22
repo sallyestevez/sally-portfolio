@@ -8,6 +8,26 @@ import VisitMira from "./images/VisitMira/NewHome.png";
 var ProjectData = [
   // 0
   {
+    id: "visit-mira",
+    title: "Visit Mira",
+    img: VisitMira,
+    alt: "Visit Mira homepage screenshot",
+    summary: "We're stuck on a different planet—by choice",
+    date: "Fall 2021, Spring - Summer 2025",
+    category: "Product Design, Web Development",
+    link: "https://sallyestevez.github.io/visit-mira/",
+  },
+  // 1
+  // {
+  //   id: "pupil-app-redesign",
+  //   title: "Pupil App Redesign",
+  //   img: "",
+  //   alt: "",
+  //   summary: "Helping high school students connect with college mentors",
+  // date: "July 2024 - July 2025",
+  //   category: "Product Design, UX Design",
+  // },
+  {
     id: "retail-horror-stories",
     title: "Retail Horror Stories: Black Friday Edition",
     img: RetailHorrorStories,
@@ -17,7 +37,7 @@ var ProjectData = [
     category: "Web Development, Game Development",
     link: "https://sallyestevez.github.io/retail-horror-stories/",
   },
-  // 1
+  // 2
   {
     id: "kirbys-corner",
     title: "Kirby's Corner",
@@ -28,7 +48,7 @@ var ProjectData = [
     category: "Web Development",
     link: "https://sallyestevez.github.io/kirbys-corner/",
   },
-  // 2
+  // 3
   {
     id: "eclipse-soundscapes",
     title: "Eclipse Soundscapes",
@@ -39,7 +59,7 @@ var ProjectData = [
     date: "Fall 2022",
     category: "UX Design, UI Design",
   },
-  // 3
+  // 4
   {
     id: "miiverse-revival",
     title: "Miiverse Revival",
@@ -50,7 +70,7 @@ var ProjectData = [
     category: "Web Development",
     link: "https://bespoke-seahorse-15f2e4.netlify.app/",
   },
-  // 4
+  // 5
   {
     id: "discord-file-compressor",
     title: "Discord File Compressor",
@@ -61,24 +81,6 @@ var ProjectData = [
     date: "Fall 2022",
     category: "UX Design",
   },
-  // 5
-  {
-    id: "visit-mira",
-    title: "Visit Mira",
-    img: VisitMira,
-    alt: "Visit Mira homepage screenshot",
-    summary: "We're stuck on a different planet—by choice",
-    date: "Fall 2021, Spring - Summer 2025",
-    category: "Web Development",
-    link: "https://sallyestevez.github.io/visit-mira/",
-  },
-  // {
-  //   id: "",
-  //   title: "",
-  //   img: "",
-  //   summary: "",
-  //   category: "",
-  // },
   // {
   //   id: "",
   //   title: "",

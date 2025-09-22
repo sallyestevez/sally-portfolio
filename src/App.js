@@ -34,6 +34,7 @@ import Ktown4uRedesignProject from "./pages/other-work-pages/Ktown4uRedesignProj
 
 // Error Page
 import NotFound from "./components/NotFound";
+import PupilRedesignProject from "./pages/project-pages/PupilRedesignProject";
 
 // Layout component for scroll-to-top
 function Layout() {
@@ -108,6 +109,11 @@ function App() {
             // Visit Mira project page
             path: "/projects/visit-mira",
             element: <VisitMiraProject />,
+          },
+          {
+            // Pupil Redesign project page
+            path: "/projects/pupil-redesign",
+            element: <PupilRedesignProject />,
           },
           {
             // Ktown4u project page

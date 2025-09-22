@@ -13,23 +13,23 @@ function RetailHorrorStoriesContent() {
     <div className="project-wrapper">
       <header className="project-header">
         <div className="header-text">
-          <h1 className="page-title">{ProjectData[0].title}</h1>
-          <div className="project-summary">{ProjectData[0].summary}</div>
+          <h1 className="page-title">{ProjectData[1].title}</h1>
+          <div className="project-summary">{ProjectData[1].summary}</div>
           <div className="project-date-category">
-            {ProjectData[0].date} | {ProjectData[0].category}
+            {ProjectData[1].date} | {ProjectData[1].category}
           </div>
         </div>
         <div className="project-page-image">
-          <a href={`${ProjectData[0].link}`} className="link">
+          <a href={`${ProjectData[1].link}`} className="link">
             <img
-              src={ProjectData[0].img}
-              alt={`${ProjectData[0].title} screenshot`}
+              src={ProjectData[1].img}
+              alt={`${ProjectData[1].title} screenshot`}
               loading="lazy"
             />
           </a>
           <br></br>
           <div className="project-link">
-            <a href={`${ProjectData[0].link}`}>Visit the site!</a>
+            <a href={`${ProjectData[1].link}`}>Visit the site!</a>
           </div>
         </div>
       </header>

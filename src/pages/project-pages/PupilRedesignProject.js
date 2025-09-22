@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import RetailHorrorStoriesContent from "../../components/project-content/RetailHorrorStoriesContent";
+import PupilRedesignContent from "../../components/project-content/PupilRedesignContent";
 import ProjectData from "../../components/ProjectData";
 import PrevNextProjects from "../../components/PrevNextProjects";
 
-function RetailHorrorStoriesProject() {
+function PupilRedesignProject() {
   return (
     <>
       <Header />
       <main className="page-wrapper">
-        <RetailHorrorStoriesContent />
+        <PupilRedesignContent />
       </main>
       <PrevNextProjects
         id1={ProjectData[0].id}
@@ -23,4 +23,4 @@ function RetailHorrorStoriesProject() {
   );
 }
 
-export default RetailHorrorStoriesProject;
+export default PupilRedesignProject;
