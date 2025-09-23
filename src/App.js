@@ -112,7 +112,7 @@ function App() {
           },
           {
             // Pupil Redesign project page
-            path: "/projects/pupil-redesign",
+            path: "/projects/pupil-app-redesign",
             element: <PupilRedesignProject />,
           },
           {

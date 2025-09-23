@@ -4,6 +4,7 @@ import KirbysCorner from "./images/KirbysCorner/KirbysCorner.png";
 import MiiverseRevival from "./images/MiiverseRevival/MiiverseRevival.png";
 import Discord from "./images/Discord/Discord.png";
 import VisitMira from "./images/VisitMira/NewHome.png";
+import PupilRedesign from "./images/PupilRedesign/PupilRedesign.png";
 
 var ProjectData = [
   // 0
@@ -18,15 +19,16 @@ var ProjectData = [
     link: "https://sallyestevez.github.io/visit-mira/",
   },
   // 1
-  // {
-  //   id: "pupil-app-redesign",
-  //   title: "Pupil App Redesign",
-  //   img: "",
-  //   alt: "",
-  //   summary: "Helping high school students connect with college mentors",
-  // date: "July 2024 - July 2025",
-  //   category: "Product Design, UX Design",
-  // },
+  {
+    id: "pupil-app-redesign",
+    title: "Pupil App Redesign",
+    img: PupilRedesign,
+    alt: "Pupil app redesigned mockups",
+    summary: "Helping high school students connect with college mentors",
+    date: "July 2024 - July 2025",
+    category: "Product Design, UX Design",
+  },
+  // 2
   {
     id: "retail-horror-stories",
     title: "Retail Horror Stories: Black Friday Edition",
@@ -37,7 +39,7 @@ var ProjectData = [
     category: "Web Development, Game Development",
     link: "https://sallyestevez.github.io/retail-horror-stories/",
   },
-  // 2
+  // 3
   {
     id: "kirbys-corner",
     title: "Kirby's Corner",
@@ -48,7 +50,7 @@ var ProjectData = [
     category: "Web Development",
     link: "https://sallyestevez.github.io/kirbys-corner/",
   },
-  // 3
+  // 4
   {
     id: "eclipse-soundscapes",
     title: "Eclipse Soundscapes",
@@ -59,7 +61,7 @@ var ProjectData = [
     date: "Fall 2022",
     category: "UX Design, UI Design",
   },
-  // 4
+  // 5
   {
     id: "miiverse-revival",
     title: "Miiverse Revival",
@@ -70,7 +72,7 @@ var ProjectData = [
     category: "Web Development",
     link: "https://bespoke-seahorse-15f2e4.netlify.app/",
   },
-  // 5
+  // 6
   {
     id: "discord-file-compressor",
     title: "Discord File Compressor",

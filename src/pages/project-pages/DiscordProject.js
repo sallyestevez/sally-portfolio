@@ -13,8 +13,8 @@ function DiscordProject() {
         <DiscordContent />
       </main>
       <PrevNextProjects
-        id1={ProjectData[4].id}
-        title1={ProjectData[4].title}
+        id1={ProjectData[5].id}
+        title1={ProjectData[5].title}
         id2={ProjectData[0].id}
         title2={ProjectData[0].title}
       />

@@ -13,10 +13,10 @@ function RetailHorrorStoriesProject() {
         <RetailHorrorStoriesContent />
       </main>
       <PrevNextProjects
-        id1={ProjectData[0].id}
-        title1={ProjectData[0].title}
-        id2={ProjectData[2].id}
-        title2={ProjectData[2].title}
+        id1={ProjectData[1].id}
+        title1={ProjectData[1].title}
+        id2={ProjectData[3].id}
+        title2={ProjectData[3].title}
       />
       <Footer />
     </>

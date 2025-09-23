@@ -1,7 +1,18 @@
 import React from "react";
 import ProjectData from "../ProjectData";
-// import ContinentHiFiMobile4x from "../images/VisitMira/HiFiContinentMobile4x.png";
-// import ContinentHiFiWeb4x from "../images/VisitMira/HiFiContinentWeb4x.png";
+import DesignSystemColors from "../images/PupilRedesign/DesignSystemColors.png";
+import DesignSystemSpacing from "../images/PupilRedesign/DesignSystemSpacing.png";
+import DesignSystemTypography from "../images/PupilRedesign/DesignSystemTypography.png";
+import HeroMockups from "../images/PupilRedesign/HeroMockups.png";
+import InstitutionAbout from "../images/PupilRedesign/InstitutionAbout.png";
+import M2MIteration from "../images/PupilRedesign/M2MIteration.png";
+import M2MTutorial from "../images/PupilRedesign/M2MTutorial.gif";
+import OldvNewFeed from "../images/PupilRedesign/OldvNewFeed.png";
+import RedesignedScreens from "../images/PupilRedesign/RedesignedScreens.png";
+import UserSettingsIA from "../images/PupilRedesign/UserSettingsIA.png";
+
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 function PupilRedesignContent() {
   return (
@@ -15,13 +26,11 @@ function PupilRedesignContent() {
           </div>
         </div>
         <div className="project-page-image">
-          <a href={`${ProjectData[1].link}`} className="link">
-            <img
-              src={ProjectData[1].img}
-              alt={`${ProjectData[1].title} screenshot`}
-              loading="lazy"
-            />
-          </a>
+          <img
+            src={ProjectData[1].img}
+            alt={`${ProjectData[1].title} screenshot`}
+            loading="lazy"
+          />
           <br></br>
         </div>
       </header>
@@ -64,32 +73,22 @@ function PupilRedesignContent() {
               <p>✴ Institutions couldn't showcase opportunities.</p>
             </div>
             <div className="project-subsection">
-              {/* image placeholder: side-by-side screenshots of the old vs. new homepage */}
-              {/* <div className="pupil-image pupil-section">
+              <div className="pupil-image">
                 <a
-                  href={ContinentHiFiMobile4x}
+                  href={OldvNewFeed}
                   data-fancybox
-                  data-caption="Hi-Fi - Cauldros Continent Screen (Mobile)"
+                  data-caption="Feed Screen: Before vs. After"
                 >
                   <img
-                    src={ContinentHiFiMobile4x}
-                    alt={`Hi-Fi - Cauldros Continent Screen (Mobile)`}
+                    src={OldvNewFeed}
+                    alt={`Feed Screen: Before vs. After`}
                     loading="lazy"
                   />
                 </a>
-                <a
-                  href={ContinentHiFiWeb4x}
-                  data-fancybox
-                  data-caption="Hi-Fi - Cauldros Continent Screen (Web)"
-                >
-                  <img
-                    src={ContinentHiFiWeb4x}
-                    alt={`Hi-Fi - Cauldros Continent Screen (Web)`}
-                    loading="lazy"
-                  />
-                </a>
-              </div> */}
-              {/* class names - visit-mira-image visit-mira-section */}
+                <p>
+                  <strong>Feed Screens: Before vs. After</strong>
+                </p>
+              </div>
             </div>
           </div>
           <div className="project-div">
@@ -103,7 +102,26 @@ function PupilRedesignContent() {
                 familiar apps like Instagram and TikTok to align with user
                 expectations.
               </p>
-              {/* image placeholder: flowchart of revised information architecture */}
+            </div>
+            <div className="project-subsection">
+              <div className="pupil-image">
+                <a
+                  href={UserSettingsIA}
+                  data-fancybox
+                  data-caption="Information Architecture: Messaging Details & Feedback"
+                >
+                  <img
+                    src={UserSettingsIA}
+                    alt={`Information Architecture: Messaging Details & Feedback`}
+                    loading="lazy"
+                  />
+                </a>
+                <p>
+                  <strong>
+                    Information Architecture: Messaging Details & Feedback
+                  </strong>
+                </p>
+              </div>
             </div>
             <div className="project-subsection">
               <h2>Wireframing & Iteration</h2>
@@ -115,7 +133,24 @@ function PupilRedesignContent() {
               <p>✴ Mentor/mentee matching</p>
               <p>✴ Messaging experience</p>
               <p>✴ User settings</p>
-              {/* image placeholder: progression from lo-fi -> mid-fi -> hi-fi */}
+            </div>
+            <div className="project-subsection">
+              <div className="pupil-image">
+                <a
+                  href={M2MIteration}
+                  data-fancybox
+                  data-caption="Mentor Profile Iteration"
+                >
+                  <img
+                    src={M2MIteration}
+                    alt={`Mentor Profile Iteration`}
+                    loading="lazy"
+                  />
+                </a>
+                <p>
+                  <strong>Mentor Profile Iteration</strong>
+                </p>
+              </div>
             </div>
             <div className="project-subsection">
               <h2>Updating the Design System</h2>
@@ -128,7 +163,48 @@ function PupilRedesignContent() {
                 ✴ Created and updated reusable components (headers, buttons,
                 popups)
                 <p>These changes created consistency across all app flows.</p>
-                {/* image placeholder: Figma component library screen */}
+              </p>
+            </div>
+            <div className="project-subsection">
+              <div className="pupil-image pupil-section">
+                <a
+                  href={DesignSystemColors}
+                  data-fancybox
+                  data-caption="Design System (Colors)"
+                >
+                  <img
+                    src={DesignSystemColors}
+                    alt={`Design System (Colors)`}
+                    loading="lazy"
+                  />
+                </a>
+                <a
+                  href={DesignSystemSpacing}
+                  data-fancybox
+                  data-caption="Design System (Spacing)"
+                >
+                  <img
+                    src={DesignSystemSpacing}
+                    alt={`Design System (Spacing)`}
+                    loading="lazy"
+                  />
+                </a>
+                <a
+                  href={DesignSystemTypography}
+                  data-fancybox
+                  data-caption="Design System (Typography)"
+                >
+                  <img
+                    src={DesignSystemTypography}
+                    alt={`Design System (Typography)`}
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+              <p className="pupil-section">
+                <strong>
+                  Design System Snapshots (Colors, Spacing, & Typography)
+                </strong>
               </p>
             </div>
             <div className="project-subsection">
@@ -140,8 +216,25 @@ function PupilRedesignContent() {
               <p>✴ Message hold-down menus</p>
               <p>✴ Feed filters</p>
               <p>✴ Institution pages displaying majors and deadlines</p>
-              {/* image placeholder: animated prototype demo gif */}
             </div>
+            <div className="project-subsection">
+              <div className="pupil-image pupil-section">
+                <a
+                  href={M2MTutorial}
+                  data-fancybox
+                  data-caption="M2M (Mentor 2 Mentee) Tutorial"
+                >
+                  <img
+                    src={M2MTutorial}
+                    alt={`M2M (Mentor 2 Mentee) Tutorial`}
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+            </div>
+            <p className="pupil-section">
+              <strong>M2M (Mentor 2 Mentee) Tutorial</strong>
+            </p>
           </div>
           <div className="project-div">
             <div className="page-subtitle">Solution</div>
@@ -151,7 +244,29 @@ function PupilRedesignContent() {
             <p>✴ A dynamic feed to engage with mentors and institutions</p>
             <p>✴ Institution pages featuring majors, mentors, and deadlines</p>
             <p>✴ An updated design system to support future updates</p>
-            {/* image placeholder: redesigned screens -> onboarding, messaging, institution page, feed */}
+            <div className="project-subsection">
+              <div className="pupil-image">
+                <a
+                  href={RedesignedScreens}
+                  data-fancybox
+                  data-caption="Redesigned Screens (Mentor Profile, Feed, Institution
+                    Profile, Messaging)"
+                >
+                  <img
+                    src={RedesignedScreens}
+                    alt={`Redesigned Screens (Mentor Profile, Feed, Institution
+                    Profile, Messaging)`}
+                    loading="lazy"
+                  />
+                </a>
+                <p>
+                  <strong>
+                    Redesigned Screens (Mentor Profile, Feed, Institution
+                    Profile, Messaging)
+                  </strong>
+                </p>
+              </div>
+            </div>
           </div>
           <div className="project-div">
             <div className="page-subtitle">Impact</div>
@@ -160,12 +275,30 @@ function PupilRedesignContent() {
             <p>✴ Mentors gained more control over availability</p>
             <p>✴ Institutions were able to clearly highlight opportunities</p>
             <p>
-              {" "}
-              The design system laid the foundation for future web and campaign
-              interactions
+              ✴ The design system laid the foundation for future web and
+              campaign interactions
             </p>
             {/* image placeholder: stat cards or mock metrics, e.g. 30% faster mentor matching */}
+            <div className="project-subsection">
+              <div className="pupil-image">
+                <a
+                  href={InstitutionAbout}
+                  data-fancybox
+                  data-caption="Redesigned Institution Screens"
+                >
+                  <img
+                    src={InstitutionAbout}
+                    alt={`Redesigned Institution Screens`}
+                    loading="lazy"
+                  />
+                </a>
+                <p>
+                  <strong>Redesigned Institution Screens</strong>
+                </p>
+              </div>
+            </div>
           </div>
+
           <div className="project-div">
             <div className="page-subtitle">Reflection</div>
             <p>
@@ -174,11 +307,34 @@ function PupilRedesignContent() {
               iteration, I created an app experience that feels modern,
               consistent, and intuitive for all stakeholders.
             </p>
+            <div className="project-subsection">
+              <div className="pupil-image">
+                <a
+                  href={HeroMockups}
+                  data-fancybox
+                  data-caption="Mentor Profile Screens"
+                >
+                  <img
+                    src={HeroMockups}
+                    alt={`Mentor Profile Screens`}
+                    loading="lazy"
+                  />
+                </a>
+                <p>
+                  <strong>Mentor Profile Screens</strong>
+                </p>
+              </div>
+            </div>
+            {/* [image placeholder: closing full-screen mockup] */}
           </div>
         </div>
       </section>
     </div>
   );
 }
+
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
 
 export default PupilRedesignContent;

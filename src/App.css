@@ -318,7 +318,8 @@ body {
 }
 
 .eclipse-soundscapes-image,
-.visit-mira-image {
+.visit-mira-image,
+.pupil-image {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -326,7 +327,8 @@ body {
   margin: 16px 0;
 }
 
-.visit-mira-section {
+.visit-mira-section,
+.pupil-section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -336,14 +338,16 @@ body {
 }
 
 .eclipse-soundscapes-image img,
-.visit-mira-image img {
+.visit-mira-image img,
+.pupil-image img {
   border-radius: 4px;
   max-width: 75%;
   height: auto;
 }
 
 .eclipse-soundscapes-image img:hover,
-.visit-mira-image img:hover {
+.visit-mira-image img:hover,
+.pupil-image img:hover {
   filter: brightness(0.75);
 }
 
