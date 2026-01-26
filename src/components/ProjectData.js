@@ -48,7 +48,7 @@ var ProjectData = [
     summary: "An interactive fanpage dedicated to the Kirby universe",
     date: "Spring 2023",
     category: "Web Development",
-    link: "https://sallyestevez.github.io/kirbys-corner/",
+    link: "https://sallyestevez.github.io/kirbyscorner/",
   },
   // 4
   {
